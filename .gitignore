@@ -1,0 +1,19 @@
+# WorkBuddy internal files
+.workbuddy/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large generated outputs (optional, remove if you want these tracked)
+# water_mark_out/
+# top75_selected/
