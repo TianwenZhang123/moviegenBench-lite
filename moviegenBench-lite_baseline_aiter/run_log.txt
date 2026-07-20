@@ -1,0 +1,738 @@
+2026-07-20 01:53:56,084 [INFO] 日志将保存到: /mnt/workspace/xixihaha/P-Flow/outputs/moviegenBench-lite_baseline_aiter/run_log.txt
+2026-07-20 01:53:56,104 [INFO] GPU 0:  (191.7 GB)
+2026-07-20 01:53:56,104 [INFO]   Pinned to GPU 0
+2026-07-20 01:53:56,120 [INFO] [P-Flow] sample=7, flags=baseline
+2026-07-20 01:53:57,082 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 01:53:57,082 [INFO]   iter 1/1: The video depicts a close-up view of a cup filled with dark ...
+2026-07-20 01:53:57,082 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 01:53:57,083 [INFO] Loading Wan (t2v) from: /mnt/workspace/Wan2.1-T2V-14B-Diffusers
+2026-07-20 01:54:01,228 [INFO] import [module_aiter_enum] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_aiter_enum.so
+2026-07-20 01:54:07,518 [INFO]   Model loaded: 164.6GB free / 205.8GB total
+2026-07-20 01:54:07,520 [INFO]   GPU 0: 37.9GB allocated, 38.0GB reserved
+2026-07-20 01:54:07,525 [INFO]   [Memory] VAE decode patched with DiT CPU offload
+2026-07-20 01:54:11,166 [INFO] import [module_fmha_v3_fwd] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_fmha_v3_fwd.so
+2026-07-20 01:54:11,167 [WARNING] type hints mismatch, override to --> fmha_v3_fwd(q: torch.Tensor, k: torch.Tensor, v: torch.Tensor, dropout_p: float | typing.SupportsIndex, softmax_scale: float | typing.SupportsIndex, is_causal: bool, window_size_left: int | typing.SupportsIndex, window_size_right: int | typing.SupportsIndex, return_softmax_lse: bool, return_dropout_randval: bool, how_v3_bf16_cvt: int | typing.SupportsIndex, out: Optional[torch.Tensor] = None, bias: Optional[torch.Tensor] = None, alibi_slopes: Optional[torch.Tensor] = None, gen: Optional[torch.Generator] = None) -> List[torch.Tensor]
+2026-07-20 02:14:50,134 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 02:14:56,848 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 02:14:57,603 [INFO] [P-Flow] Done in 1261.5s → outputs/moviegenBench-lite_baseline_aiter/sample_7/7.mp4
+2026-07-20 02:14:57,603 [INFO]   [SAMPLE SUMMARY] sample_id=7
+2026-07-20 02:14:57,603 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a close-up view of a cup filled with dark liquid, likely coffee or tea, with two small toy sailboats floating on its surface. The sailboats have white sails and wooden hulls, and they appear to be miniature models. The liquid in the cup is smooth, with some ripples around the boats, suggesting a gentle movement. The lighting highlights the reflective surface of the liquid, creating subtle reflections of the boats. The background is slightly blurred, focusing attention on the cup and the boats. The overall scene has a serene and whimsical feel, as if the boats are sailing on a miniature sea within the cup.
+2026-07-20 02:14:57,603 [INFO]   [SAMPLE SUMMARY] caption_length=630 chars, word_count=108
+2026-07-20 02:14:57,603 [INFO]   [SAMPLE SUMMARY] elapsed=1261.5s, output=outputs/moviegenBench-lite_baseline_aiter/sample_7/7.mp4
+2026-07-20 02:14:57,820 [INFO] [P-Flow] sample=17, flags=baseline
+2026-07-20 02:14:59,551 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 02:14:59,551 [INFO]   iter 1/1: The video depicts a white SUV driving on a dusty, unpaved ro...
+2026-07-20 02:14:59,551 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 02:17:51,317 [INFO] 日志将保存到: /mnt/workspace/xixihaha/P-Flow/outputs/moviegenBench-lite_baseline_aiter/run_log.txt
+2026-07-20 02:17:51,322 [INFO] GPU 0:  (191.7 GB)
+2026-07-20 02:17:51,322 [INFO]   Pinned to GPU 0
+2026-07-20 02:17:51,359 [INFO] [P-Flow] sample=17, flags=baseline
+2026-07-20 02:17:53,733 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 02:17:53,734 [INFO]   iter 1/1: The video depicts a white SUV driving on a dusty, unpaved ro...
+2026-07-20 02:17:53,734 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 02:17:53,736 [INFO] Loading Wan (t2v) from: /mnt/workspace/Wan2.1-T2V-14B-Diffusers
+2026-07-20 02:20:24,965 [INFO] 日志将保存到: /mnt/workspace/xixihaha/P-Flow/outputs/moviegenBench-lite_baseline_aiter/run_log.txt
+2026-07-20 02:20:24,967 [INFO] GPU 0:  (191.7 GB)
+2026-07-20 02:20:24,968 [INFO]   Pinned to GPU 0
+2026-07-20 02:20:24,981 [INFO] [P-Flow] sample=17, flags=baseline
+2026-07-20 02:20:26,112 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 02:20:26,112 [INFO]   iter 1/1: The video depicts a white SUV driving on a dusty, unpaved ro...
+2026-07-20 02:20:26,112 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 02:20:26,114 [INFO] Loading Wan (t2v) from: /mnt/workspace/Wan2.1-T2V-14B-Diffusers
+2026-07-20 02:20:34,635 [INFO] import [module_aiter_enum] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_aiter_enum.so
+2026-07-20 02:24:15,366 [INFO]   Model loaded: 164.6GB free / 205.8GB total
+2026-07-20 02:24:15,368 [INFO]   GPU 0: 37.9GB allocated, 38.0GB reserved
+2026-07-20 02:24:15,368 [INFO]   [Memory] VAE decode patched with DiT CPU offload
+2026-07-20 02:24:24,824 [INFO] import [module_fmha_v3_fwd] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_fmha_v3_fwd.so
+2026-07-20 02:24:24,825 [WARNING] type hints mismatch, override to --> fmha_v3_fwd(q: torch.Tensor, k: torch.Tensor, v: torch.Tensor, dropout_p: float | typing.SupportsIndex, softmax_scale: float | typing.SupportsIndex, is_causal: bool, window_size_left: int | typing.SupportsIndex, window_size_right: int | typing.SupportsIndex, return_softmax_lse: bool, return_dropout_randval: bool, how_v3_bf16_cvt: int | typing.SupportsIndex, out: Optional[torch.Tensor] = None, bias: Optional[torch.Tensor] = None, alibi_slopes: Optional[torch.Tensor] = None, gen: Optional[torch.Generator] = None) -> List[torch.Tensor]
+2026-07-20 02:45:03,817 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 02:48:00,746 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 02:48:01,693 [INFO] [P-Flow] Done in 1656.7s → outputs/moviegenBench-lite_baseline_aiter/sample_17/17.mp4
+2026-07-20 02:48:01,693 [INFO]   [SAMPLE SUMMARY] sample_id=17
+2026-07-20 02:48:01,698 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a white SUV driving on a dusty, unpaved road through a forested area. The vehicle is equipped with roof racks carrying luggage or gear, suggesting it might be on a journey or adventure. As the SUV moves forward, it kicks up a cloud of dust behind it, indicating the dryness of the terrain and the speed at which it is traveling. The surrounding environment features tall pine trees and a scenic view of distant mountains under a clear blue sky. The overall atmosphere conveys a sense of exploration and outdoor adventure.
+2026-07-20 02:48:01,702 [INFO]   [SAMPLE SUMMARY] caption_length=539 chars, word_count=94
+2026-07-20 02:48:01,707 [INFO]   [SAMPLE SUMMARY] elapsed=1656.7s, output=outputs/moviegenBench-lite_baseline_aiter/sample_17/17.mp4
+2026-07-20 02:48:01,944 [INFO] [P-Flow] sample=32, flags=baseline
+2026-07-20 02:48:03,186 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 02:48:03,186 [INFO]   iter 1/1: The video features two adorable golden retriever puppies pla...
+2026-07-20 02:48:03,186 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 02:51:05,552 [INFO] 日志将保存到: /mnt/workspace/xixihaha/P-Flow/outputs/moviegenBench-lite_baseline_aiter/run_log.txt
+2026-07-20 02:51:05,555 [INFO] GPU 0:  (191.7 GB)
+2026-07-20 02:51:05,565 [INFO]   Pinned to GPU 0
+2026-07-20 02:51:05,595 [INFO] [P-Flow] sample=32, flags=baseline
+2026-07-20 02:51:06,652 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 02:51:06,653 [INFO]   iter 1/1: The video features two adorable golden retriever puppies pla...
+2026-07-20 02:51:06,653 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 02:51:06,657 [INFO] Loading Wan (t2v) from: /mnt/workspace/Wan2.1-T2V-14B-Diffusers
+2026-07-20 02:51:10,613 [INFO] import [module_aiter_enum] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_aiter_enum.so
+2026-07-20 02:51:23,872 [INFO]   Model loaded: 116.4GB free / 205.8GB total
+2026-07-20 02:51:23,873 [INFO]   GPU 0: 37.9GB allocated, 38.0GB reserved
+2026-07-20 02:51:23,876 [INFO]   [Memory] VAE decode patched with DiT CPU offload
+2026-07-20 02:51:28,825 [INFO] import [module_fmha_v3_fwd] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_fmha_v3_fwd.so
+2026-07-20 02:51:28,826 [WARNING] type hints mismatch, override to --> fmha_v3_fwd(q: torch.Tensor, k: torch.Tensor, v: torch.Tensor, dropout_p: float | typing.SupportsIndex, softmax_scale: float | typing.SupportsIndex, is_causal: bool, window_size_left: int | typing.SupportsIndex, window_size_right: int | typing.SupportsIndex, return_softmax_lse: bool, return_dropout_randval: bool, how_v3_bf16_cvt: int | typing.SupportsIndex, out: Optional[torch.Tensor] = None, bias: Optional[torch.Tensor] = None, alibi_slopes: Optional[torch.Tensor] = None, gen: Optional[torch.Generator] = None) -> List[torch.Tensor]
+2026-07-20 03:25:15,786 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 03:25:42,795 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 03:25:43,555 [INFO] [P-Flow] Done in 2261.6s → outputs/moviegenBench-lite_baseline_aiter/sample_32/32.mp4
+2026-07-20 03:25:43,555 [INFO]   [SAMPLE SUMMARY] sample_id=32
+2026-07-20 03:25:43,560 [INFO]   [SAMPLE SUMMARY] full_caption=The video features two adorable golden retriever puppies playing joyfully in a snowy landscape. The scene is set during what appears to be late afternoon, as indicated by the warm, soft light casting long shadows on the snow. The puppies are covered in fluffy, golden fur and are energetically moving through the snow, their paws kicking up small clouds of snow as they play. Their tails are wagging, and their expressions convey a sense of excitement and happiness. The background shows a serene winter setting with snow-covered ground and bare trees, adding to the picturesque and cozy atmosphere of the video.
+2026-07-20 03:25:43,564 [INFO]   [SAMPLE SUMMARY] caption_length=612 chars, word_count=101
+2026-07-20 03:25:43,568 [INFO]   [SAMPLE SUMMARY] elapsed=2261.6s, output=outputs/moviegenBench-lite_baseline_aiter/sample_32/32.mp4
+2026-07-20 03:25:43,795 [INFO] [P-Flow] sample=33, flags=baseline
+2026-07-20 03:25:44,989 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 03:25:44,989 [INFO]   iter 1/1: The video features a person running against a plain, light-c...
+2026-07-20 03:25:44,989 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 03:31:34,319 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 03:32:01,499 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 03:32:02,308 [INFO] [P-Flow] Done in 2456.7s → outputs/moviegenBench-lite_baseline_aiter/sample_32/32.mp4
+2026-07-20 03:32:02,308 [INFO]   [SAMPLE SUMMARY] sample_id=32
+2026-07-20 03:32:02,313 [INFO]   [SAMPLE SUMMARY] full_caption=The video features two adorable golden retriever puppies playing joyfully in a snowy landscape. The scene is set during what appears to be late afternoon, as indicated by the warm, soft light casting long shadows on the snow. The puppies are covered in fluffy, golden fur and are energetically moving through the snow, their paws kicking up small clouds of snow as they play. Their tails are wagging, and their expressions convey a sense of excitement and happiness. The background shows a serene winter setting with snow-covered ground and bare trees, adding to the picturesque and cozy atmosphere of the video.
+2026-07-20 03:32:02,317 [INFO]   [SAMPLE SUMMARY] caption_length=612 chars, word_count=101
+2026-07-20 03:32:02,321 [INFO]   [SAMPLE SUMMARY] elapsed=2456.7s, output=outputs/moviegenBench-lite_baseline_aiter/sample_32/32.mp4
+2026-07-20 03:32:02,514 [INFO] [P-Flow] sample=33, flags=baseline
+2026-07-20 03:32:03,518 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 03:32:03,519 [INFO]   iter 1/1: The video features a person running against a plain, light-c...
+2026-07-20 03:32:03,519 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 03:43:38,148 [INFO] 日志将保存到: /mnt/workspace/xixihaha/P-Flow/outputs/moviegenBench-lite_baseline_aiter/run_log.txt
+2026-07-20 03:43:38,153 [INFO] GPU 0:  (191.7 GB)
+2026-07-20 03:43:38,153 [INFO]   Pinned to GPU 0
+2026-07-20 03:43:38,191 [INFO] [P-Flow] sample=33, flags=baseline
+2026-07-20 03:43:39,731 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 03:43:39,732 [INFO]   iter 1/1: The video features a person running against a plain, light-c...
+2026-07-20 03:43:39,732 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 03:43:39,735 [INFO] Loading Wan (t2v) from: /mnt/workspace/Wan2.1-T2V-14B-Diffusers
+2026-07-20 03:43:48,816 [INFO] import [module_aiter_enum] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_aiter_enum.so
+2026-07-20 03:46:58,646 [INFO]   Model loaded: 164.6GB free / 205.8GB total
+2026-07-20 03:46:58,647 [INFO]   GPU 0: 37.9GB allocated, 38.0GB reserved
+2026-07-20 03:46:58,651 [INFO]   [Memory] VAE decode patched with DiT CPU offload
+2026-07-20 03:47:08,481 [INFO] import [module_fmha_v3_fwd] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_fmha_v3_fwd.so
+2026-07-20 03:47:08,482 [WARNING] type hints mismatch, override to --> fmha_v3_fwd(q: torch.Tensor, k: torch.Tensor, v: torch.Tensor, dropout_p: float | typing.SupportsIndex, softmax_scale: float | typing.SupportsIndex, is_causal: bool, window_size_left: int | typing.SupportsIndex, window_size_right: int | typing.SupportsIndex, return_softmax_lse: bool, return_dropout_randval: bool, how_v3_bf16_cvt: int | typing.SupportsIndex, out: Optional[torch.Tensor] = None, bias: Optional[torch.Tensor] = None, alibi_slopes: Optional[torch.Tensor] = None, gen: Optional[torch.Generator] = None) -> List[torch.Tensor]
+2026-07-20 04:07:45,503 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 04:10:42,032 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 04:10:42,797 [INFO] [P-Flow] Done in 1624.6s → outputs/moviegenBench-lite_baseline_aiter/sample_33/33.mp4
+2026-07-20 04:10:42,798 [INFO]   [SAMPLE SUMMARY] sample_id=33
+2026-07-20 04:10:42,800 [INFO]   [SAMPLE SUMMARY] full_caption=The video features a person running against a plain, light-colored background. The individual is wearing a white tank top and black shorts, which highlight their athletic build. The lighting is soft and even, casting minimal shadows and emphasizing the runner's movement. The person appears to be jogging at a steady pace, with their arms swinging naturally as they run. The overall atmosphere of the video is focused on the physical activity and the simplicity of the setting.
+2026-07-20 04:10:42,803 [INFO]   [SAMPLE SUMMARY] caption_length=477 chars, word_count=77
+2026-07-20 04:10:42,807 [INFO]   [SAMPLE SUMMARY] elapsed=1624.6s, output=outputs/moviegenBench-lite_baseline_aiter/sample_33/33.mp4
+2026-07-20 04:10:42,997 [INFO] [P-Flow] sample=34, flags=baseline
+2026-07-20 04:10:44,584 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 04:10:44,585 [INFO]   iter 1/1: The video shows four playful puppies running and interacting...
+2026-07-20 04:10:44,585 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 04:31:21,342 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 04:31:27,825 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 04:31:28,762 [INFO] [P-Flow] Done in 1245.8s → outputs/moviegenBench-lite_baseline_aiter/sample_34/34.mp4
+2026-07-20 04:31:28,762 [INFO]   [SAMPLE SUMMARY] sample_id=34
+2026-07-20 04:31:28,765 [INFO]   [SAMPLE SUMMARY] full_caption=The video shows four playful puppies running and interacting on a gravel road. The setting is an open, grassy area with rolling hills in the background under a clear blue sky. The puppies appear to be of a similar breed, possibly huskies or a similar Arctic dog type, with white fur and some gray markings. They are energetically moving around each other, sometimes chasing one another and playfully biting at each other's tails and paws. The scene captures their lively and joyful behavior as they explore their surroundings.
+2026-07-20 04:31:28,767 [INFO]   [SAMPLE SUMMARY] caption_length=526 chars, word_count=88
+2026-07-20 04:31:28,773 [INFO]   [SAMPLE SUMMARY] elapsed=1245.8s, output=outputs/moviegenBench-lite_baseline_aiter/sample_34/34.mp4
+2026-07-20 04:31:29,017 [INFO] [P-Flow] sample=46, flags=baseline
+2026-07-20 04:31:30,191 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 04:31:30,191 [INFO]   iter 1/1: The video depicts a dramatic volcanic eruption set against a...
+2026-07-20 04:31:30,191 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 04:52:06,869 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 04:52:13,389 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 04:52:14,187 [INFO] [P-Flow] Done in 1245.2s → outputs/moviegenBench-lite_baseline_aiter/sample_46/46.mp4
+2026-07-20 04:52:14,187 [INFO]   [SAMPLE SUMMARY] sample_id=46
+2026-07-20 04:52:14,187 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a dramatic volcanic eruption set against a backdrop of lush green mountains and a body of water. The sequence begins with a large plume of dark smoke and ash rising into the sky, accompanied by bright blue lightning bolts that strike through the cloud. As the frames progress, the cloud of smoke becomes denser and more voluminous, expanding upwards and outwards. The surrounding landscape is bathed in a dim light, suggesting either early morning or late evening, adding to the ominous atmosphere of the scene. The ocean in the background remains calm, contrasting sharply with the intense activity of the volcano. The overall mood of the video is one of natural power and awe-inspiring force.
+2026-07-20 04:52:14,191 [INFO]   [SAMPLE SUMMARY] caption_length=712 chars, word_count=118
+2026-07-20 04:52:14,198 [INFO]   [SAMPLE SUMMARY] elapsed=1245.2s, output=outputs/moviegenBench-lite_baseline_aiter/sample_46/46.mp4
+2026-07-20 04:52:14,432 [INFO] [P-Flow] sample=70, flags=baseline
+2026-07-20 04:52:15,604 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 04:52:15,604 [INFO]   iter 1/1: The video features a person standing inside what appears to ...
+2026-07-20 04:52:15,604 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 05:12:52,597 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 05:12:59,082 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 05:12:59,861 [INFO] [P-Flow] Done in 1245.4s → outputs/moviegenBench-lite_baseline_aiter/sample_70/70.mp4
+2026-07-20 05:12:59,861 [INFO]   [SAMPLE SUMMARY] sample_id=70
+2026-07-20 05:12:59,865 [INFO]   [SAMPLE SUMMARY] full_caption=The video features a person standing inside what appears to be a train or subway car, as indicated by the blurred background and the window through which the scene is captured. The individual is wearing a white blouse and has long dark hair. The lighting suggests it might be evening or night, with artificial lights illuminating the interior of the vehicle. The background outside the window shows a cityscape with various lights and signs, indicating an urban environment. The overall atmosphere of the video conveys a sense of movement and travel, with the blurred motion of the background suggesting that the train is in motion.
+2026-07-20 05:12:59,871 [INFO]   [SAMPLE SUMMARY] caption_length=632 chars, word_count=105
+2026-07-20 05:12:59,875 [INFO]   [SAMPLE SUMMARY] elapsed=1245.4s, output=outputs/moviegenBench-lite_baseline_aiter/sample_70/70.mp4
+2026-07-20 05:13:00,128 [INFO] [P-Flow] sample=73, flags=baseline
+2026-07-20 05:13:01,554 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 05:13:01,554 [INFO]   iter 1/1: The video depicts an expansive, empty warehouse with high ce...
+2026-07-20 05:13:01,554 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 05:33:38,294 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 05:33:44,766 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 05:33:45,725 [INFO] [P-Flow] Done in 1245.6s → outputs/moviegenBench-lite_baseline_aiter/sample_73/73.mp4
+2026-07-20 05:33:45,725 [INFO]   [SAMPLE SUMMARY] sample_id=73
+2026-07-20 05:33:45,729 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts an expansive, empty warehouse with high ceilings and large windows allowing natural light to flood in. The floor is clean and marked with yellow lines, suggesting it might be used for storage or industrial purposes. As the camera moves forward, the focus shifts from the empty space to a vibrant, lush garden that gradually fills the center of the frame. The garden is teeming with a variety of green plants, flowers, and foliage, creating a stark contrast against the industrial backdrop. The plants appear healthy and well-maintained, adding a touch of nature and tranquility to the otherwise stark environment. The transition from the barren warehouse to the thriving garden symbolizes growth, transformation, or the potential for nature to reclaim even the most urban spaces.
+2026-07-20 05:33:45,733 [INFO]   [SAMPLE SUMMARY] caption_length=797 chars, word_count=127
+2026-07-20 05:33:45,737 [INFO]   [SAMPLE SUMMARY] elapsed=1245.6s, output=outputs/moviegenBench-lite_baseline_aiter/sample_73/73.mp4
+2026-07-20 05:33:45,933 [INFO] [P-Flow] sample=74, flags=baseline
+2026-07-20 05:33:47,048 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 05:33:47,048 [INFO]   iter 1/1: The video appears to depict a vibrant and lively scene, poss...
+2026-07-20 05:33:47,048 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 05:54:23,672 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 05:54:30,135 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 05:54:30,970 [INFO] [P-Flow] Done in 1245.0s → outputs/moviegenBench-lite_baseline_aiter/sample_74/74.mp4
+2026-07-20 05:54:30,970 [INFO]   [SAMPLE SUMMARY] sample_id=74
+2026-07-20 05:54:30,970 [INFO]   [SAMPLE SUMMARY] full_caption=The video appears to depict a vibrant and lively scene, possibly at a festive or celebratory event. The first frame shows a blurred image of what seems to be a street or alleyway adorned with red lanterns, suggesting a cultural or traditional setting, perhaps during a festival like Chinese New Year. The colorful lights and bokeh effect create a warm and festive atmosphere.
+
+In the subsequent frames, the focus shifts to a close-up of a flame, which is likely from a torch or firework. The flame is dynamic and vivid, with bright orange and yellow hues, indicating movement and intensity. The background remains out of focus, emphasizing the flame as the central element. This suggests that the video might be capturing a moment of excitement or celebration, possibly involving fire performances or fireworks.
+
+Overall, the video conveys a sense of energy and festivity through its use of light, color, and motion.
+2026-07-20 05:54:30,974 [INFO]   [SAMPLE SUMMARY] caption_length=916 chars, word_count=151
+2026-07-20 05:54:31,001 [INFO]   [SAMPLE SUMMARY] elapsed=1245.0s, output=outputs/moviegenBench-lite_baseline_aiter/sample_74/74.mp4
+2026-07-20 05:54:31,205 [INFO] [P-Flow] sample=81, flags=baseline
+2026-07-20 05:54:32,347 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 05:54:32,347 [INFO]   iter 1/1: The video depicts the interior of a moving train or subway c...
+2026-07-20 05:54:32,348 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 06:15:09,105 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 06:15:15,630 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 06:15:16,462 [INFO] [P-Flow] Done in 1245.3s → outputs/moviegenBench-lite_baseline_aiter/sample_81/81.mp4
+2026-07-20 06:15:16,462 [INFO]   [SAMPLE SUMMARY] sample_id=81
+2026-07-20 06:15:16,466 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts the interior of a moving train or subway car. The seats are dark-colored, and there are metal handrails along the sides. Through the windows, the outside scenery is blurred due to the motion of the train, indicating that it is in transit. The lighting inside the train appears natural, likely coming from the windows, and gives the scene a slightly muted tone. There are a few passengers visible, including one person sitting towards the back of the car. The overall atmosphere suggests a typical commute with a focus on the movement and the environment within the train.
+2026-07-20 06:15:16,486 [INFO]   [SAMPLE SUMMARY] caption_length=589 chars, word_count=100
+2026-07-20 06:15:16,490 [INFO]   [SAMPLE SUMMARY] elapsed=1245.3s, output=outputs/moviegenBench-lite_baseline_aiter/sample_81/81.mp4
+2026-07-20 06:15:16,682 [INFO] [P-Flow] sample=85, flags=baseline
+2026-07-20 06:15:17,970 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 06:15:17,971 [INFO]   iter 1/1: The video appears to be a first-person perspective sequence,...
+2026-07-20 06:15:17,971 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 06:35:54,377 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 06:36:00,840 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 06:36:01,729 [INFO] [P-Flow] Done in 1245.0s → outputs/moviegenBench-lite_baseline_aiter/sample_85/85.mp4
+2026-07-20 06:36:01,729 [INFO]   [SAMPLE SUMMARY] sample_id=85
+2026-07-20 06:36:01,729 [INFO]   [SAMPLE SUMMARY] full_caption=The video appears to be a first-person perspective sequence, likely from a video game or simulation. The scenes transition through various environments:
+
+1. **Initial Scene**: The video begins with a dimly lit room where a person is typing on a keyboard. The lighting is low, and the focus is on the hands and the keyboard, suggesting a setting that could be a home office or a quiet workspace.
+
+2. **Transition to a Doorway**: The scene shifts to a doorway, where the person seems to be exiting a building. The lighting changes to a warmer tone, indicating a different time of day or a change in environment. The person's hand is visible as they open the door, and the camera follows them outside.
+
+3. **Outdoor Scene**: The person steps out into what looks like a residential area during daylight hours. The surroundings include a house with siding, a porch, and some greenery. The person walks quickly, and the camera movement suggests urgency or haste. The outdoor environment is well-lit, contrasting with the previous indoor scene.
+
+4. **Final Scene**: The video ends with the person running down a grassy path, possibly in a suburban neighborhood. The motion blur indicates rapid movement, and the background shows houses and trees, reinforcing the suburban setting. The person continues running towards an open area, possibly a driveway or street, with the camera following their movement closely.
+
+Overall, the video captures a sequence of actions that suggest a narrative of someone moving from an indoor space to an outdoor environment, possibly in a hurry or escaping something.
+2026-07-20 06:36:01,735 [INFO]   [SAMPLE SUMMARY] caption_length=1590 chars, word_count=260
+2026-07-20 06:36:01,739 [INFO]   [SAMPLE SUMMARY] elapsed=1245.0s, output=outputs/moviegenBench-lite_baseline_aiter/sample_85/85.mp4
+2026-07-20 06:36:01,988 [INFO] [P-Flow] sample=88, flags=baseline
+2026-07-20 06:36:03,354 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 06:36:03,354 [INFO]   iter 1/1: The video depicts a narrow alleyway between old, weathered b...
+2026-07-20 06:36:03,354 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 06:56:39,902 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 06:56:46,369 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 06:56:47,355 [INFO] [P-Flow] Done in 1245.4s → outputs/moviegenBench-lite_baseline_aiter/sample_88/88.mp4
+2026-07-20 06:56:47,355 [INFO]   [SAMPLE SUMMARY] sample_id=88
+2026-07-20 06:56:47,362 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a narrow alleyway between old, weathered buildings under a stormy sky. The scene is chaotic and intense, with large waves of water crashing through the alley, creating a sense of urgency and danger. The water appears dirty and turbulent, suggesting it might be a flood or a sudden surge of water. Debris, including pieces of wood and other objects, is scattered along the sides of the alley, adding to the disarray. The sky is filled with dark, ominous clouds, enhancing the dramatic and foreboding atmosphere of the scene. The overall mood is one of destruction and the overwhelming power of nature.
+2026-07-20 06:56:47,378 [INFO]   [SAMPLE SUMMARY] caption_length=618 chars, word_count=104
+2026-07-20 06:56:47,382 [INFO]   [SAMPLE SUMMARY] elapsed=1245.4s, output=outputs/moviegenBench-lite_baseline_aiter/sample_88/88.mp4
+2026-07-20 06:56:47,573 [INFO] [P-Flow] sample=99, flags=baseline
+2026-07-20 06:56:48,865 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 06:56:48,865 [INFO]   iter 1/1: The video depicts a striking and surreal scene set in an urb...
+2026-07-20 06:56:48,865 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 07:17:25,490 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 07:17:31,997 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 07:17:32,916 [INFO] [P-Flow] Done in 1245.3s → outputs/moviegenBench-lite_baseline_aiter/sample_99/99.mp4
+2026-07-20 07:17:32,916 [INFO]   [SAMPLE SUMMARY] sample_id=99
+2026-07-20 07:17:32,916 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a striking and surreal scene set in an urban environment, likely a city with tall skyscrapers. The central figure is a person dressed entirely in black, including a long cloak that drapes over their head, creating an eerie and mysterious silhouette. The person's face is obscured by the cloak, adding to the enigmatic atmosphere.
+
+As the camera pans around the figure, it captures the towering buildings surrounding them, which appear to be modern high-rise structures with reflective glass facades. The sky above is clear with a few scattered clouds, suggesting a bright day. The overall mood of the video is both dramatic and contemplative, with the figure standing out starkly against the backdrop of the cityscape. The lighting emphasizes the contrast between the dark figure and the bright, sunlit sky, enhancing the visual impact of the scene.
+2026-07-20 07:17:32,920 [INFO]   [SAMPLE SUMMARY] caption_length=867 chars, word_count=140
+2026-07-20 07:17:32,936 [INFO]   [SAMPLE SUMMARY] elapsed=1245.3s, output=outputs/moviegenBench-lite_baseline_aiter/sample_99/99.mp4
+2026-07-20 07:17:33,131 [INFO] [P-Flow] sample=111, flags=baseline
+2026-07-20 07:17:34,861 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 07:17:34,861 [INFO]   iter 1/1: The video captures an aerial view of a lush, dense forest te...
+2026-07-20 07:17:34,862 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 07:38:11,498 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 07:38:18,012 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 07:38:18,898 [INFO] [P-Flow] Done in 1245.8s → outputs/moviegenBench-lite_baseline_aiter/sample_111/111.mp4
+2026-07-20 07:38:18,898 [INFO]   [SAMPLE SUMMARY] sample_id=111
+2026-07-20 07:38:18,902 [INFO]   [SAMPLE SUMMARY] full_caption=The video captures an aerial view of a lush, dense forest teeming with greenery. The sunlight filters through the canopy, casting dappled shadows on the ground below and creating a vibrant interplay of light and dark. At the center of the frames, a drone is seen flying low over the treetops. The drone appears to be equipped with a camera or sensor, suggesting it might be used for surveillance, mapping, or capturing aerial footage. The surrounding environment is rich with various types of trees, including palm trees, indicating a tropical or subtropical setting. The overall atmosphere is serene and natural, emphasizing the beauty and complexity of the forest ecosystem.
+2026-07-20 07:38:18,905 [INFO]   [SAMPLE SUMMARY] caption_length=676 chars, word_count=109
+2026-07-20 07:38:18,924 [INFO]   [SAMPLE SUMMARY] elapsed=1245.8s, output=outputs/moviegenBench-lite_baseline_aiter/sample_111/111.mp4
+2026-07-20 07:38:19,165 [INFO] [P-Flow] sample=113, flags=baseline
+2026-07-20 07:38:20,574 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 07:38:20,575 [INFO]   iter 1/1: The video depicts an aerial view of a dramatic scene where a...
+2026-07-20 07:38:20,575 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 07:58:57,150 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 07:59:03,666 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 07:59:04,656 [INFO] [P-Flow] Done in 1245.5s → outputs/moviegenBench-lite_baseline_aiter/sample_113/113.mp4
+2026-07-20 07:59:04,657 [INFO]   [SAMPLE SUMMARY] sample_id=113
+2026-07-20 07:59:04,660 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts an aerial view of a dramatic scene where a large, fiery ring is emerging from the ocean. The ring appears to be composed of intense flames and glowing embers, creating a striking contrast against the dark blue water surrounding it. The waves around the ring are turbulent, with white foam forming as they crash against the fiery boundary. The overall effect is one of intense heat and energy, as if something powerful is erupting or being born from the depths of the sea. The scene is both mesmerizing and awe-inspiring, capturing a moment of raw natural power.
+2026-07-20 07:59:04,660 [INFO]   [SAMPLE SUMMARY] caption_length=579 chars, word_count=100
+2026-07-20 07:59:04,671 [INFO]   [SAMPLE SUMMARY] elapsed=1245.5s, output=outputs/moviegenBench-lite_baseline_aiter/sample_113/113.mp4
+2026-07-20 07:59:04,882 [INFO] [P-Flow] sample=120, flags=baseline
+2026-07-20 07:59:05,987 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 07:59:05,987 [INFO]   iter 1/1: The video depicts a small, animated pig walking down a narro...
+2026-07-20 07:59:05,987 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 08:19:42,737 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 08:19:49,196 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 08:19:50,039 [INFO] [P-Flow] Done in 1245.2s → outputs/moviegenBench-lite_baseline_aiter/sample_120/120.mp4
+2026-07-20 08:19:50,039 [INFO]   [SAMPLE SUMMARY] sample_id=120
+2026-07-20 08:19:50,039 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a small, animated pig walking down a narrow alleyway at night. The alley is illuminated by colorful neon lights from signs and street lamps, creating a vibrant and somewhat surreal atmosphere. The pig appears to be moving forward with purpose, its ears perked up as it navigates the path. The surroundings include parked bicycles on one side and various objects like bins and crates on the other, adding to the urban setting. The overall scene has a playful and whimsical feel, enhanced by the pig's exaggerated features and the dynamic lighting effects.
+2026-07-20 08:19:50,045 [INFO]   [SAMPLE SUMMARY] caption_length=572 chars, word_count=95
+2026-07-20 08:19:50,049 [INFO]   [SAMPLE SUMMARY] elapsed=1245.2s, output=outputs/moviegenBench-lite_baseline_aiter/sample_120/120.mp4
+2026-07-20 08:19:50,246 [INFO] [P-Flow] sample=135, flags=baseline
+2026-07-20 08:19:51,546 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 08:19:51,546 [INFO]   iter 1/1: The video depicts a dramatic and intense scene set in a dark...
+2026-07-20 08:19:51,546 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 08:40:28,264 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 08:40:34,736 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 08:40:35,583 [INFO] [P-Flow] Done in 1245.3s → outputs/moviegenBench-lite_baseline_aiter/sample_135/135.mp4
+2026-07-20 08:40:35,583 [INFO]   [SAMPLE SUMMARY] sample_id=135
+2026-07-20 08:40:35,583 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a dramatic and intense scene set in a dark, cavernous environment. The setting is illuminated by flickering flames on either side of a large, menacing creature that resembles a dragon or a giant beast with glowing red eyes and sharp teeth. The creature's massive claws are visible, adding to the ominous atmosphere.
+
+In the foreground, three armored figures walk towards the creature. They appear to be warriors or adventurers, dressed in dark, medieval-style armor, suggesting a fantasy or historical context. Their posture and the way they carry themselves indicate determination and readiness for battle.
+
+As the camera moves forward, more figures can be seen in the background, also clad in similar armor, standing near the entrance of the cave. The overall mood of the video is tense and foreboding, hinting at an impending confrontation or challenge. The lighting and shadows play a significant role in creating a sense of depth and drama, emphasizing the scale of the creature and the bravery of the approaching figures.
+2026-07-20 08:40:35,587 [INFO]   [SAMPLE SUMMARY] caption_length=1045 chars, word_count=168
+2026-07-20 08:40:35,606 [INFO]   [SAMPLE SUMMARY] elapsed=1245.3s, output=outputs/moviegenBench-lite_baseline_aiter/sample_135/135.mp4
+2026-07-20 08:40:35,845 [INFO] [P-Flow] sample=146, flags=baseline
+2026-07-20 08:40:37,281 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 08:40:37,281 [INFO]   iter 1/1: The video depicts a serene outdoor scene featuring a black c...
+2026-07-20 08:40:37,281 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 09:01:14,129 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 09:01:20,612 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 09:01:21,551 [INFO] [P-Flow] Done in 1245.7s → outputs/moviegenBench-lite_baseline_aiter/sample_146/146.mp4
+2026-07-20 09:01:21,552 [INFO]   [SAMPLE SUMMARY] sample_id=146
+2026-07-20 09:01:21,552 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a serene outdoor scene featuring a black cat and a mouse in a grassy field under a bright, partly cloudy sky. The cat is initially seen walking across the field with its tail raised, appearing to be in pursuit of the mouse. As the sequence progresses, the cat stops and sits on the ground, facing the camera with a focused expression. The mouse is seen running away from the cat, heading towards a small hole in the ground. The setting is peaceful, with green grass dotted with white flowers, suggesting a sunny day. The overall mood of the video is calm and natural, capturing a moment of interaction between the two animals in their environment.
+2026-07-20 09:01:21,555 [INFO]   [SAMPLE SUMMARY] caption_length=665 chars, word_count=118
+2026-07-20 09:01:21,560 [INFO]   [SAMPLE SUMMARY] elapsed=1245.7s, output=outputs/moviegenBench-lite_baseline_aiter/sample_146/146.mp4
+2026-07-20 09:01:21,778 [INFO] [P-Flow] sample=156, flags=baseline
+2026-07-20 09:01:23,309 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 09:01:23,309 [INFO]   iter 1/1: The video depicts two individuals performing a synchronized ...
+2026-07-20 09:01:23,309 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 09:21:59,767 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 09:22:06,236 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 09:22:07,067 [INFO] [P-Flow] Done in 1245.3s → outputs/moviegenBench-lite_baseline_aiter/sample_156/156.mp4
+2026-07-20 09:22:07,067 [INFO]   [SAMPLE SUMMARY] sample_id=156
+2026-07-20 09:22:07,071 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts two individuals performing a synchronized underwater routine in a swimming pool. They are wearing black swim trunks and appear to be executing a series of coordinated movements, including arm gestures and body positions that suggest a dance or artistic performance. The lighting is dim, with reflections on the water's surface creating a serene atmosphere. The background shows an empty spectator area with rows of yellow seats, indicating that this might be a practice session or a performance without an audience. The overall scene conveys a sense of grace and precision in their movements.
+2026-07-20 09:22:07,078 [INFO]   [SAMPLE SUMMARY] caption_length=610 chars, word_count=96
+2026-07-20 09:22:07,082 [INFO]   [SAMPLE SUMMARY] elapsed=1245.3s, output=outputs/moviegenBench-lite_baseline_aiter/sample_156/156.mp4
+2026-07-20 09:22:07,296 [INFO] [P-Flow] sample=159, flags=baseline
+2026-07-20 09:22:09,068 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 09:22:09,068 [INFO]   iter 1/1: The video depicts a dramatic and unusual scene where a yello...
+2026-07-20 09:22:09,068 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 09:42:45,544 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 09:42:52,025 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 09:42:53,091 [INFO] [P-Flow] Done in 1245.8s → outputs/moviegenBench-lite_baseline_aiter/sample_159/159.mp4
+2026-07-20 09:42:53,092 [INFO]   [SAMPLE SUMMARY] sample_id=159
+2026-07-20 09:42:53,105 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a dramatic and unusual scene where a yellow school bus is precariously perched on the edge of a steep cliff, seemingly defying gravity. The bus appears to be tilted at an angle, with its front end hanging over the cliff's edge and its rear end elevated above the road below. The surrounding environment is lush with greenery, including trees and bushes, and the sky is partly cloudy, suggesting a bright day. The road is visible at the bottom of the cliff, curving away from the scene. The overall atmosphere is one of tension and danger, as the bus seems to be in a precarious position that could lead to a catastrophic fall.
+2026-07-20 09:42:53,108 [INFO]   [SAMPLE SUMMARY] caption_length=644 chars, word_count=115
+2026-07-20 09:42:53,117 [INFO]   [SAMPLE SUMMARY] elapsed=1245.8s, output=outputs/moviegenBench-lite_baseline_aiter/sample_159/159.mp4
+2026-07-20 09:42:53,320 [INFO] [P-Flow] sample=168, flags=baseline
+2026-07-20 09:42:54,506 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 09:42:54,506 [INFO]   iter 1/1: The video captures a moment during a marathon or running eve...
+2026-07-20 09:42:54,506 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 10:03:31,248 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 10:03:37,763 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 10:03:38,636 [INFO] [P-Flow] Done in 1245.3s → outputs/moviegenBench-lite_baseline_aiter/sample_168/168.mp4
+2026-07-20 10:03:38,636 [INFO]   [SAMPLE SUMMARY] sample_id=168
+2026-07-20 10:03:38,636 [INFO]   [SAMPLE SUMMARY] full_caption=The video captures a moment during a marathon or running event. A runner, wearing a black tank top and shorts with a race bib that reads "19030," is crossing the finish line. The scene is set outdoors under a partly cloudy sky, with spectators lining both sides of the finish line cheering and clapping. The crowd appears enthusiastic, with some people raising their arms in celebration. Banners and flags from sponsors such as "ICONS" and "OPPEL" are visible along the finish line. The atmosphere is energetic and celebratory, highlighting the excitement of the event.
+2026-07-20 10:03:38,641 [INFO]   [SAMPLE SUMMARY] caption_length=569 chars, word_count=94
+2026-07-20 10:03:38,650 [INFO]   [SAMPLE SUMMARY] elapsed=1245.3s, output=outputs/moviegenBench-lite_baseline_aiter/sample_168/168.mp4
+2026-07-20 10:03:38,891 [INFO] [P-Flow] sample=178, flags=baseline
+2026-07-20 10:03:40,334 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 10:03:40,334 [INFO]   iter 1/1: The video features a ferret running across a wooden floor, l...
+2026-07-20 10:03:40,334 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 10:24:17,359 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 10:24:23,830 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 10:24:24,597 [INFO] [P-Flow] Done in 1245.7s → outputs/moviegenBench-lite_baseline_aiter/sample_178/178.mp4
+2026-07-20 10:24:24,597 [INFO]   [SAMPLE SUMMARY] sample_id=178
+2026-07-20 10:24:24,597 [INFO]   [SAMPLE SUMMARY] full_caption=The video features a ferret running across a wooden floor, likely indoors. The ferret has a distinctive black and white coat with a bushy tail. In the background, there is a small dog, possibly a pug, which appears to be in motion as well, though it is slightly blurred due to its movement. The setting includes some toys scattered on the floor, such as a red plush toy and a yellow ball. The lighting suggests natural light coming from a nearby window, casting shadows of the animals on the floor. The overall atmosphere is playful and dynamic, capturing the energetic nature of both the ferret and the dog.
+2026-07-20 10:24:24,601 [INFO]   [SAMPLE SUMMARY] caption_length=608 chars, word_count=108
+2026-07-20 10:24:24,605 [INFO]   [SAMPLE SUMMARY] elapsed=1245.7s, output=outputs/moviegenBench-lite_baseline_aiter/sample_178/178.mp4
+2026-07-20 10:24:24,806 [INFO] [P-Flow] sample=244, flags=baseline
+2026-07-20 10:24:26,048 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 10:24:26,048 [INFO]   iter 1/1: The video features a close-up of an individual's face, focus...
+2026-07-20 10:24:26,048 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 10:45:02,899 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 10:45:09,365 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 10:45:10,176 [INFO] [P-Flow] Done in 1245.4s → outputs/moviegenBench-lite_baseline_aiter/sample_244/244.mp4
+2026-07-20 10:45:10,177 [INFO]   [SAMPLE SUMMARY] sample_id=244
+2026-07-20 10:45:10,181 [INFO]   [SAMPLE SUMMARY] full_caption=The video features a close-up of an individual's face, focusing on their eyes and part of their nose and mouth. The lighting is dramatic, with a warm, reddish hue illuminating the person's skin, creating a strong contrast against the darker background. The background appears to be out of focus, with horizontal lines suggesting a possible digital or technological theme. The person's eyes are wide open, and they seem to be looking directly at the camera, giving the impression of intense focus or concentration. The overall mood of the video is intense and somewhat mysterious due to the lighting and the direct gaze of the subject.
+2026-07-20 10:45:10,185 [INFO]   [SAMPLE SUMMARY] caption_length=634 chars, word_count=105
+2026-07-20 10:45:10,189 [INFO]   [SAMPLE SUMMARY] elapsed=1245.4s, output=outputs/moviegenBench-lite_baseline_aiter/sample_244/244.mp4
+2026-07-20 10:45:10,384 [INFO] [P-Flow] sample=278, flags=baseline
+2026-07-20 10:45:11,504 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 10:45:11,504 [INFO]   iter 1/1: The video features a white rabbit against a dark, starry nig...
+2026-07-20 10:45:11,504 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 11:05:48,598 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 11:05:55,066 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 11:05:55,838 [INFO] [P-Flow] Done in 1245.4s → outputs/moviegenBench-lite_baseline_aiter/sample_278/278.mp4
+2026-07-20 11:05:55,838 [INFO]   [SAMPLE SUMMARY] sample_id=278
+2026-07-20 11:05:55,838 [INFO]   [SAMPLE SUMMARY] full_caption=The video features a white rabbit against a dark, starry night sky with a full moon prominently displayed. The rabbit is positioned in the foreground, facing slightly to the right of the frame. It appears to be looking up at the moon, which is illuminated and casts a soft glow on the rabbit's fur. The background is a deep blue, suggesting it is nighttime, and there are small white specks scattered across the sky, resembling stars or falling snowflakes. The overall atmosphere is serene and whimsical, evoking a sense of wonder and tranquility.
+2026-07-20 11:05:55,842 [INFO]   [SAMPLE SUMMARY] caption_length=547 chars, word_count=93
+2026-07-20 11:05:55,866 [INFO]   [SAMPLE SUMMARY] elapsed=1245.4s, output=outputs/moviegenBench-lite_baseline_aiter/sample_278/278.mp4
+2026-07-20 11:05:56,135 [INFO] [P-Flow] sample=280, flags=baseline
+2026-07-20 11:05:57,732 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 11:05:57,732 [INFO]   iter 1/1: The video depicts two individuals walking down a city street...
+2026-07-20 11:05:57,732 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 11:26:35,407 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 11:26:41,888 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 11:26:42,937 [INFO] [P-Flow] Done in 1246.8s → outputs/moviegenBench-lite_baseline_aiter/sample_280/280.mp4
+2026-07-20 11:26:42,937 [INFO]   [SAMPLE SUMMARY] sample_id=280
+2026-07-20 11:26:42,941 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts two individuals walking down a city street on a sunny day. The person on the left is wearing a blue shirt and jeans, while the person on the right is dressed in a yellow dress. They are walking side by side, with their backs to the camera, heading towards the horizon. The street is lined with tall buildings featuring various storefronts, including one with a sign that reads "Siegel." The sky is clear with a few scattered clouds, and the overall atmosphere suggests a calm and pleasant urban environment. As they walk, the perspective shifts slightly, giving a sense of movement and depth as if the viewer is following them down the street.
+2026-07-20 11:26:42,948 [INFO]   [SAMPLE SUMMARY] caption_length=661 chars, word_count=116
+2026-07-20 11:26:42,952 [INFO]   [SAMPLE SUMMARY] elapsed=1246.8s, output=outputs/moviegenBench-lite_baseline_aiter/sample_280/280.mp4
+2026-07-20 11:26:43,196 [INFO] [P-Flow] sample=283, flags=baseline
+2026-07-20 11:26:44,445 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 11:26:44,445 [INFO]   iter 1/1: The video depicts an indoor basketball court with a polished...
+2026-07-20 11:26:44,445 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 11:32:55,681 [INFO] 日志将保存到: /mnt/workspace/xixihaha/P-Flow/outputs/moviegenBench-lite_baseline_aiter/run_log.txt
+2026-07-20 11:32:55,687 [INFO] GPU 0:  (191.7 GB)
+2026-07-20 11:32:55,691 [INFO]   Pinned to GPU 0
+2026-07-20 11:32:55,844 [INFO] [P-Flow] sample=283, flags=baseline
+2026-07-20 11:32:57,343 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 11:32:57,343 [INFO]   iter 1/1: The video depicts an indoor basketball court with a polished...
+2026-07-20 11:32:57,343 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 11:32:57,345 [INFO] Loading Wan (t2v) from: /mnt/workspace/Wan2.1-T2V-14B-Diffusers
+2026-07-20 11:33:06,702 [INFO] import [module_aiter_enum] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_aiter_enum.so
+2026-07-20 11:36:35,299 [INFO]   Model loaded: 164.6GB free / 205.8GB total
+2026-07-20 11:36:35,301 [INFO]   GPU 0: 37.9GB allocated, 38.0GB reserved
+2026-07-20 11:36:35,301 [INFO]   [Memory] VAE decode patched with DiT CPU offload
+2026-07-20 11:36:44,871 [INFO] import [module_fmha_v3_fwd] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_fmha_v3_fwd.so
+2026-07-20 11:36:44,872 [WARNING] type hints mismatch, override to --> fmha_v3_fwd(q: torch.Tensor, k: torch.Tensor, v: torch.Tensor, dropout_p: float | typing.SupportsIndex, softmax_scale: float | typing.SupportsIndex, is_causal: bool, window_size_left: int | typing.SupportsIndex, window_size_right: int | typing.SupportsIndex, return_softmax_lse: bool, return_dropout_randval: bool, how_v3_bf16_cvt: int | typing.SupportsIndex, out: Optional[torch.Tensor] = None, bias: Optional[torch.Tensor] = None, alibi_slopes: Optional[torch.Tensor] = None, gen: Optional[torch.Generator] = None) -> List[torch.Tensor]
+2026-07-20 11:57:24,059 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 12:00:20,788 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 12:00:21,621 [INFO] [P-Flow] Done in 1645.8s → outputs/moviegenBench-lite_baseline_aiter/sample_283/283.mp4
+2026-07-20 12:00:21,621 [INFO]   [SAMPLE SUMMARY] sample_id=283
+2026-07-20 12:00:21,622 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts an indoor basketball court with a polished wooden floor and two basketball hoops mounted on the walls at either end of the court. The walls are painted white, and there is a blue section near the bottom where bleachers are located. The scoreboard above one hoop shows a score of 11-7 with a time remaining of 1:10. In the foreground, multiple basketballs are shown in motion, bouncing across the court. The camera angle is low to the ground, capturing the balls as they roll and bounce, creating a dynamic and energetic scene. The lighting is bright, typical of an indoor sports facility, and the overall atmosphere suggests a practice or casual game setting.
+2026-07-20 12:00:21,636 [INFO]   [SAMPLE SUMMARY] caption_length=677 chars, word_count=116
+2026-07-20 12:00:21,642 [INFO]   [SAMPLE SUMMARY] elapsed=1645.8s, output=outputs/moviegenBench-lite_baseline_aiter/sample_283/283.mp4
+2026-07-20 12:00:21,881 [INFO] [P-Flow] sample=294, flags=baseline
+2026-07-20 12:00:23,030 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 12:00:23,030 [INFO]   iter 1/1: The video features a young girl performing a dance routine i...
+2026-07-20 12:00:23,030 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 12:21:00,412 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 12:21:06,922 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 12:21:07,711 [INFO] [P-Flow] Done in 1245.8s → outputs/moviegenBench-lite_baseline_aiter/sample_294/294.mp4
+2026-07-20 12:21:07,712 [INFO]   [SAMPLE SUMMARY] sample_id=294
+2026-07-20 12:21:07,716 [INFO]   [SAMPLE SUMMARY] full_caption=The video features a young girl performing a dance routine in a simple, indoor setting with a plain background. She is wearing a bright yellow T-shirt and white pants, which contrast with her dark hair. The lighting is soft and even, highlighting her movements without creating harsh shadows.
+
+Throughout the sequence, she exhibits various dance moves, including arm gestures, leg movements, and spins. Her expressions convey enthusiasm and joy as she dances. The background remains static, ensuring that the focus stays on her dynamic performance. The overall atmosphere of the video is lively and energetic, capturing the essence of youthful dance and movement.
+2026-07-20 12:21:07,720 [INFO]   [SAMPLE SUMMARY] caption_length=663 chars, word_count=103
+2026-07-20 12:21:07,724 [INFO]   [SAMPLE SUMMARY] elapsed=1245.8s, output=outputs/moviegenBench-lite_baseline_aiter/sample_294/294.mp4
+2026-07-20 12:21:07,939 [INFO] [P-Flow] sample=297, flags=baseline
+2026-07-20 12:21:09,188 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 12:21:09,188 [INFO]   iter 1/1: The video features a character with a striking, otherworldly...
+2026-07-20 12:21:09,188 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 12:41:46,119 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 12:41:52,619 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 12:41:53,491 [INFO] [P-Flow] Done in 1245.5s → outputs/moviegenBench-lite_baseline_aiter/sample_297/297.mp4
+2026-07-20 12:41:53,491 [INFO]   [SAMPLE SUMMARY] sample_id=297
+2026-07-20 12:41:53,491 [INFO]   [SAMPLE SUMMARY] full_caption=The video features a character with a striking, otherworldly appearance, set against an urban backdrop that appears to be a dimly lit parking garage or alleyway. The character is clad in a sleek, black, form-fitting suit with metallic accents and a flowing cape. Their head is adorned with a helmet that has a menacing, purple hue and features sharp, pointed ears and glowing red eyes, giving them a fierce and intimidating look.
+
+The character's movements are dynamic and purposeful, suggesting they are either running or preparing for action. The environment around them is bathed in cool blue and purple lighting, which enhances the futuristic and somewhat dystopian atmosphere of the scene. The character's posture and the way they carry themselves convey confidence and readiness, as if they are on a mission or about to engage in some form of confrontation. The overall aesthetic is reminiscent of science fiction or fantasy genres, with elements of high-tech armor and a mysterious, powerful presence.
+2026-07-20 12:41:53,495 [INFO]   [SAMPLE SUMMARY] caption_length=1008 chars, word_count=161
+2026-07-20 12:41:53,499 [INFO]   [SAMPLE SUMMARY] elapsed=1245.5s, output=outputs/moviegenBench-lite_baseline_aiter/sample_297/297.mp4
+2026-07-20 12:41:53,720 [INFO] [P-Flow] sample=340, flags=baseline
+2026-07-20 12:41:54,921 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 12:41:54,921 [INFO]   iter 1/1: The video features a close-up of a person's face, focusing o...
+2026-07-20 12:41:54,921 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 13:02:32,314 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 13:02:38,826 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 13:02:39,566 [INFO] [P-Flow] Done in 1245.8s → outputs/moviegenBench-lite_baseline_aiter/sample_340/340.mp4
+2026-07-20 13:02:39,566 [INFO]   [SAMPLE SUMMARY] sample_id=340
+2026-07-20 13:02:39,570 [INFO]   [SAMPLE SUMMARY] full_caption=The video features a close-up of a person's face, focusing on their facial expressions and movements. The lighting is warm and dramatic, casting shadows that accentuate the contours of the face. The individual appears to be speaking or reacting to something, as indicated by the changing positions of their mouth and the slight movement of their head. The background is blurred, drawing attention to the subject's face. The overall tone of the video suggests an intense or emotional moment.
+2026-07-20 13:02:39,574 [INFO]   [SAMPLE SUMMARY] caption_length=490 chars, word_count=79
+2026-07-20 13:02:39,578 [INFO]   [SAMPLE SUMMARY] elapsed=1245.8s, output=outputs/moviegenBench-lite_baseline_aiter/sample_340/340.mp4
+2026-07-20 13:02:39,803 [INFO] [P-Flow] sample=341, flags=baseline
+2026-07-20 13:02:41,145 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 13:02:41,145 [INFO]   iter 1/1: The video depicts a scene of two cars, one silver and one bl...
+2026-07-20 13:02:41,145 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 13:23:18,542 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 13:23:25,057 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 13:23:25,922 [INFO] [P-Flow] Done in 1246.1s → outputs/moviegenBench-lite_baseline_aiter/sample_341/341.mp4
+2026-07-20 13:23:25,922 [INFO]   [SAMPLE SUMMARY] sample_id=341
+2026-07-20 13:23:25,925 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a scene of two cars, one silver and one black, driving side by side on an urban street. The setting appears to be a city with tall buildings and traffic lights visible in the background. The cars are moving at a moderate speed, and the camera captures them from a side angle as they pass by. The environment suggests a typical day in a busy city area, with other vehicles and pedestrians in the distance. The lighting is natural daylight, indicating it might be midday or early afternoon. The overall atmosphere conveys a sense of everyday urban life.
+2026-07-20 13:23:25,928 [INFO]   [SAMPLE SUMMARY] caption_length=569 chars, word_count=101
+2026-07-20 13:23:25,932 [INFO]   [SAMPLE SUMMARY] elapsed=1246.1s, output=outputs/moviegenBench-lite_baseline_aiter/sample_341/341.mp4
+2026-07-20 13:23:26,175 [INFO] [P-Flow] sample=344, flags=baseline
+2026-07-20 13:23:27,349 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 13:23:27,349 [INFO]   iter 1/1: The video depicts a dramatic and intense scene of an asteroi...
+2026-07-20 13:23:27,349 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 13:44:04,268 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 13:44:10,777 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 13:44:11,636 [INFO] [P-Flow] Done in 1245.5s → outputs/moviegenBench-lite_baseline_aiter/sample_344/344.mp4
+2026-07-20 13:44:11,636 [INFO]   [SAMPLE SUMMARY] sample_id=344
+2026-07-20 13:44:11,640 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a dramatic and intense scene of an asteroid approaching Earth. The first frame shows the asteroid in space, with a fiery trail behind it, indicating that it is moving at high speed and possibly on a collision course with the planet. The Earth is visible in the background, with its surface partially illuminated by sunlight, suggesting either sunrise or sunset.
+
+In the second frame, the camera zooms in closer to the asteroid, providing a more detailed view of its rough, textured surface. The fiery trail continues to be prominent, emphasizing the asteroid's rapid movement and the potential danger it poses.
+
+The third frame captures the moment of impact as the asteroid collides with Earth. A massive explosion occurs upon contact, with bright flames and smoke billowing out from the point of impact. The Earth's atmosphere is visibly disrupted, and the scene conveys a sense of catastrophic destruction. The dark background of space contrasts sharply with the bright fire, highlighting the intensity of the event.
+2026-07-20 13:44:11,645 [INFO]   [SAMPLE SUMMARY] caption_length=1036 chars, word_count=167
+2026-07-20 13:44:11,649 [INFO]   [SAMPLE SUMMARY] elapsed=1245.5s, output=outputs/moviegenBench-lite_baseline_aiter/sample_344/344.mp4
+2026-07-20 13:44:11,888 [INFO] [P-Flow] sample=347, flags=baseline
+2026-07-20 13:44:12,992 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 13:44:12,993 [INFO]   iter 1/1: The video captures a serene outdoor scene featuring a glass ...
+2026-07-20 13:44:12,993 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 14:04:49,834 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 14:04:56,339 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 14:04:57,017 [INFO] [P-Flow] Done in 1245.1s → outputs/moviegenBench-lite_baseline_aiter/sample_347/347.mp4
+2026-07-20 14:04:57,018 [INFO]   [SAMPLE SUMMARY] sample_id=347
+2026-07-20 14:04:57,022 [INFO]   [SAMPLE SUMMARY] full_caption=The video captures a serene outdoor scene featuring a glass window or door with a clear reflection of the sky and clouds. Initially, the reflection shows a bright blue sky with scattered white clouds. As the video progresses, a bird appears to fly into the frame from the right side, seemingly drawn by the reflection. The bird's wings are spread wide as it approaches the glass, creating an illusion that it is flying through the reflection. The bird then lands on the glass surface, and its reflection becomes more prominent against the sky backdrop. The overall atmosphere is calm and peaceful, with the natural light enhancing the clarity of the scene.
+2026-07-20 14:04:57,026 [INFO]   [SAMPLE SUMMARY] caption_length=656 chars, word_count=111
+2026-07-20 14:04:57,031 [INFO]   [SAMPLE SUMMARY] elapsed=1245.1s, output=outputs/moviegenBench-lite_baseline_aiter/sample_347/347.mp4
+2026-07-20 14:04:57,259 [INFO] [P-Flow] sample=353, flags=baseline
+2026-07-20 14:04:58,579 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 14:04:58,580 [INFO]   iter 1/1: The video depicts a dynamic and visually striking scene of w...
+2026-07-20 14:04:58,580 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 14:25:35,671 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 14:25:42,171 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 14:25:43,128 [INFO] [P-Flow] Done in 1245.9s → outputs/moviegenBench-lite_baseline_aiter/sample_353/353.mp4
+2026-07-20 14:25:43,128 [INFO]   [SAMPLE SUMMARY] sample_id=353
+2026-07-20 14:25:43,128 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a dynamic and visually striking scene of water splashing around a spherical object. The object appears to be a transparent or translucent sphere, possibly made of glass or plastic, with a vibrant blue tint. As the sphere moves through the water, it creates a dramatic splash effect, with water droplets and ripples spreading outward in all directions. The background is a plain white, which enhances the contrast and makes the blue sphere and the splashing water stand out prominently. The movement of the sphere and the water around it gives a sense of motion and energy, capturing the fluid dynamics of the interaction between the sphere and the surrounding water.
+2026-07-20 14:25:43,135 [INFO]   [SAMPLE SUMMARY] caption_length=684 chars, word_count=113
+2026-07-20 14:25:43,154 [INFO]   [SAMPLE SUMMARY] elapsed=1245.9s, output=outputs/moviegenBench-lite_baseline_aiter/sample_353/353.mp4
+2026-07-20 14:25:43,394 [INFO] [P-Flow] sample=361, flags=baseline
+2026-07-20 14:25:44,888 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 14:25:44,888 [INFO]   iter 1/1: The video shows a sleek, white speedboat with black accents ...
+2026-07-20 14:25:44,888 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 14:46:21,762 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 14:46:28,273 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 14:46:29,249 [INFO] [P-Flow] Done in 1245.8s → outputs/moviegenBench-lite_baseline_aiter/sample_361/361.mp4
+2026-07-20 14:46:29,249 [INFO]   [SAMPLE SUMMARY] sample_id=361
+2026-07-20 14:46:29,249 [INFO]   [SAMPLE SUMMARY] full_caption=The video shows a sleek, white speedboat with black accents gliding across a calm body of water. The boat is moving at a high speed, creating a wake behind it that forms a curved trail of white foam on the water's surface. Inside the boat, several people are seated, some wearing life jackets, and they appear to be enjoying the ride. The background features a lush, green forested shoreline under a clear sky, suggesting a serene and picturesque setting. The overall atmosphere conveys a sense of adventure and leisure.
+2026-07-20 14:46:29,253 [INFO]   [SAMPLE SUMMARY] caption_length=520 chars, word_count=89
+2026-07-20 14:46:29,293 [INFO]   [SAMPLE SUMMARY] elapsed=1245.8s, output=outputs/moviegenBench-lite_baseline_aiter/sample_361/361.mp4
+2026-07-20 14:46:29,507 [INFO] [P-Flow] sample=402, flags=baseline
+2026-07-20 14:46:31,224 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 14:46:31,225 [INFO]   iter 1/1: The video features a series of animated scenes set against a...
+2026-07-20 14:46:31,225 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 15:07:08,418 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 15:07:14,931 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 15:07:15,722 [INFO] [P-Flow] Done in 1246.2s → outputs/moviegenBench-lite_baseline_aiter/sample_402/402.mp4
+2026-07-20 15:07:15,722 [INFO]   [SAMPLE SUMMARY] sample_id=402
+2026-07-20 15:07:15,726 [INFO]   [SAMPLE SUMMARY] full_caption=The video features a series of animated scenes set against a backdrop of ancient ruins under a bright blue sky with scattered clouds. The ruins appear to be made of stone and have a classical architectural style, with columns and broken walls. In the foreground, there are two adorable puppies, one with light brown fur and the other with white fur, both wearing harnesses. They are seen exploring the ruins, moving from one part of the structure to another. The puppies exhibit playful behavior, with one of them even jumping onto a ledge. The overall atmosphere is whimsical and charming, blending historical elements with a touch of lightheartedness.
+2026-07-20 15:07:15,730 [INFO]   [SAMPLE SUMMARY] caption_length=653 chars, word_count=108
+2026-07-20 15:07:15,736 [INFO]   [SAMPLE SUMMARY] elapsed=1246.2s, output=outputs/moviegenBench-lite_baseline_aiter/sample_402/402.mp4
+2026-07-20 15:07:15,957 [INFO] [P-Flow] sample=406, flags=baseline
+2026-07-20 15:07:17,280 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 15:07:17,280 [INFO]   iter 1/1: The video features a series of frames showcasing a mannequin...
+2026-07-20 15:07:17,280 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 15:27:54,394 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 15:28:00,903 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 15:28:01,743 [INFO] [P-Flow] Done in 1245.8s → outputs/moviegenBench-lite_baseline_aiter/sample_406/406.mp4
+2026-07-20 15:28:01,743 [INFO]   [SAMPLE SUMMARY] sample_id=406
+2026-07-20 15:28:01,743 [INFO]   [SAMPLE SUMMARY] full_caption=The video features a series of frames showcasing a mannequin dressed in a vibrant and eclectic outfit, set against a black background. The mannequin is positioned in various dynamic poses, with its arms outstretched and its body slightly tilted, giving the impression of movement or dance. The outfit consists of multiple layers and pieces of clothing, including a red polka-dotted top, a plaid skirt, and a variety of colorful fabrics draped over the mannequin's form. The fabrics feature different patterns and colors, such as yellow, white, pink, and purple, creating a visually striking and playful ensemble. The overall aesthetic suggests a creative and artistic presentation, possibly for fashion or performance art.
+2026-07-20 15:28:01,748 [INFO]   [SAMPLE SUMMARY] caption_length=722 chars, word_count=111
+2026-07-20 15:28:01,752 [INFO]   [SAMPLE SUMMARY] elapsed=1245.8s, output=outputs/moviegenBench-lite_baseline_aiter/sample_406/406.mp4
+2026-07-20 15:28:01,979 [INFO] [P-Flow] sample=409, flags=baseline
+2026-07-20 15:28:03,289 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 15:28:03,289 [INFO]   iter 1/1: The video features an underwater scene with a vibrant blue b...
+2026-07-20 15:28:03,289 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 15:48:40,301 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 15:48:46,807 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 15:48:47,612 [INFO] [P-Flow] Done in 1245.6s → outputs/moviegenBench-lite_baseline_aiter/sample_409/409.mp4
+2026-07-20 15:48:47,612 [INFO]   [SAMPLE SUMMARY] sample_id=409
+2026-07-20 15:48:47,612 [INFO]   [SAMPLE SUMMARY] full_caption=The video features an underwater scene with a vibrant blue background, likely representing the ocean. At the center of the frame is a large, bright green flower with broad petals. An octopus is perched on the flower, its body and tentacles clearly visible. The octopus appears to be interacting with the flower, possibly using it as a resting or hiding spot. The lighting highlights the details of both the octopus and the flower, creating a striking contrast against the deep blue water. The overall atmosphere is serene and otherworldly, blending elements of marine life with a fantastical floral element.
+2026-07-20 15:48:47,615 [INFO]   [SAMPLE SUMMARY] caption_length=607 chars, word_count=99
+2026-07-20 15:48:47,619 [INFO]   [SAMPLE SUMMARY] elapsed=1245.6s, output=outputs/moviegenBench-lite_baseline_aiter/sample_409/409.mp4
+2026-07-20 15:48:47,868 [INFO] [P-Flow] sample=419, flags=baseline
+2026-07-20 15:48:49,042 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 15:48:49,042 [INFO]   iter 1/1: The video depicts a dramatic and dynamic scene where a glass...
+2026-07-20 15:48:49,043 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 16:09:26,185 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 16:09:32,685 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 16:09:33,489 [INFO] [P-Flow] Done in 1245.6s → outputs/moviegenBench-lite_baseline_aiter/sample_419/419.mp4
+2026-07-20 16:09:33,489 [INFO]   [SAMPLE SUMMARY] sample_id=419
+2026-07-20 16:09:33,489 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a dramatic and dynamic scene where a glass bowl is being shattered. Initially, the bowl appears intact but is shown from an angle that highlights its circular shape and transparency. As the sequence progresses, the bowl begins to shatter dramatically, with pieces of glass flying outward in all directions. The shattering is captured in slow motion, emphasizing the force and the resulting debris. The background is a neutral gray, which contrasts sharply with the clear glass and the scattered shards, making the action stand out vividly. The overall effect is one of intense energy and sudden destruction.
+2026-07-20 16:09:33,494 [INFO]   [SAMPLE SUMMARY] caption_length=625 chars, word_count=100
+2026-07-20 16:09:33,498 [INFO]   [SAMPLE SUMMARY] elapsed=1245.6s, output=outputs/moviegenBench-lite_baseline_aiter/sample_419/419.mp4
+2026-07-20 16:09:33,727 [INFO] [P-Flow] sample=431, flags=baseline
+2026-07-20 16:09:35,111 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 16:09:35,112 [INFO]   iter 1/1: The video shows a first-person perspective of someone walkin...
+2026-07-20 16:09:35,112 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 16:30:12,035 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 16:30:18,530 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 16:30:19,478 [INFO] [P-Flow] Done in 1245.8s → outputs/moviegenBench-lite_baseline_aiter/sample_431/431.mp4
+2026-07-20 16:30:19,478 [INFO]   [SAMPLE SUMMARY] sample_id=431
+2026-07-20 16:30:19,478 [INFO]   [SAMPLE SUMMARY] full_caption=The video shows a first-person perspective of someone walking up a carpeted staircase. The person is wearing blue sneakers and dark shorts. The staircase has a beige carpet with dark wooden edges, and the walls on either side are painted a light color. The railing on the right side of the staircase is metallic with an ornate design. As the person ascends, the camera angle shifts slightly to show more of the staircase and the wall behind it. The lighting appears to be natural, coming from a source outside the frame, possibly a window. The overall atmosphere is calm and steady, with no other people or significant movement visible in the scene.
+2026-07-20 16:30:19,483 [INFO]   [SAMPLE SUMMARY] caption_length=649 chars, word_count=112
+2026-07-20 16:30:19,487 [INFO]   [SAMPLE SUMMARY] elapsed=1245.8s, output=outputs/moviegenBench-lite_baseline_aiter/sample_431/431.mp4
+2026-07-20 16:30:19,704 [INFO] [P-Flow] sample=466, flags=baseline
+2026-07-20 16:30:20,843 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 16:30:20,844 [INFO]   iter 1/1: The video shows a close-up of a syringe being inserted into ...
+2026-07-20 16:30:20,844 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 16:50:57,661 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 16:51:04,163 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 16:51:04,847 [INFO] [P-Flow] Done in 1245.1s → outputs/moviegenBench-lite_baseline_aiter/sample_466/466.mp4
+2026-07-20 16:51:04,847 [INFO]   [SAMPLE SUMMARY] sample_id=466
+2026-07-20 16:51:04,848 [INFO]   [SAMPLE SUMMARY] full_caption=The video shows a close-up of a syringe being inserted into a clear glass tube filled with liquid. The syringe is green and has a needle that is partially submerged in the liquid. As the syringe is pushed down, it appears to be drawing or injecting liquid from/to the tube. Bubbles can be seen forming at the bottom of the tube as the liquid level changes. The background is plain white, which helps to focus attention on the action within the tube. The overall scene suggests a scientific or medical experiment involving the transfer of liquid.
+2026-07-20 16:51:04,851 [INFO]   [SAMPLE SUMMARY] caption_length=545 chars, word_count=96
+2026-07-20 16:51:04,856 [INFO]   [SAMPLE SUMMARY] elapsed=1245.1s, output=outputs/moviegenBench-lite_baseline_aiter/sample_466/466.mp4
+2026-07-20 16:51:05,138 [INFO] [P-Flow] sample=491, flags=baseline
+2026-07-20 16:51:06,267 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 16:51:06,267 [INFO]   iter 1/1: The video depicts a futuristic cityscape at night, illuminat...
+2026-07-20 16:51:06,267 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 17:11:43,150 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 17:11:49,650 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 17:11:50,494 [INFO] [P-Flow] Done in 1245.4s → outputs/moviegenBench-lite_baseline_aiter/sample_491/491.mp4
+2026-07-20 17:11:50,494 [INFO]   [SAMPLE SUMMARY] sample_id=491
+2026-07-20 17:11:50,500 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a futuristic cityscape at night, illuminated by vibrant neon lights in shades of blue, pink, and purple. The scene is dominated by towering skyscrapers with intricate lighting patterns that give them a digital, almost cyberpunk aesthetic. At the center of the image, there is a hovering vehicle, resembling a flying car or a futuristic aircraft, with a sleek design and glowing blue lights. The vehicle hovers above the buildings, suggesting advanced technology and a future where transportation is not limited to the ground. The overall atmosphere is one of high-tech urbanism, blending elements of science fiction with a modern, high-energy city environment.
+2026-07-20 17:11:50,504 [INFO]   [SAMPLE SUMMARY] caption_length=678 chars, word_count=105
+2026-07-20 17:11:50,521 [INFO]   [SAMPLE SUMMARY] elapsed=1245.4s, output=outputs/moviegenBench-lite_baseline_aiter/sample_491/491.mp4
+2026-07-20 17:11:50,777 [INFO] [P-Flow] sample=556, flags=baseline
+2026-07-20 17:11:52,464 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 17:11:52,464 [INFO]   iter 1/1: The video features a creative and surreal scene where a famo...
+2026-07-20 17:11:52,464 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 17:32:29,306 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 17:32:35,821 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 17:32:36,651 [INFO] [P-Flow] Done in 1245.9s → outputs/moviegenBench-lite_baseline_aiter/sample_556/556.mp4
+2026-07-20 17:32:36,651 [INFO]   [SAMPLE SUMMARY] sample_id=556
+2026-07-20 17:32:36,654 [INFO]   [SAMPLE SUMMARY] full_caption=The video features a creative and surreal scene where a famous painting of a woman, reminiscent of Leonardo da Vinci's "Mona Lisa," is superimposed onto a snowy landscape. The background depicts a serene winter park with snow-covered trees, benches, and a clear blue sky. Snowflakes gently fall around the painting, enhancing the wintry atmosphere.
+
+In the foreground, there is an animated character dressed in traditional winter attire, holding a plate with food, seemingly interacting with the snowy environment. The character appears to be engaged in a playful or whimsical activity, adding a dynamic element to the otherwise still and tranquil setting. The overall composition blends historical art with modern, animated elements, creating a unique and imaginative visual narrative.
+2026-07-20 17:32:36,657 [INFO]   [SAMPLE SUMMARY] caption_length=786 chars, word_count=118
+2026-07-20 17:32:36,718 [INFO]   [SAMPLE SUMMARY] elapsed=1245.9s, output=outputs/moviegenBench-lite_baseline_aiter/sample_556/556.mp4
+2026-07-20 17:32:36,954 [INFO] [P-Flow] sample=557, flags=baseline
+2026-07-20 17:32:38,627 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 17:32:38,628 [INFO]   iter 1/1: The video depicts two individuals running joyfully through a...
+2026-07-20 17:32:38,628 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 17:53:15,521 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 17:53:21,989 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 17:53:22,913 [INFO] [P-Flow] Done in 1246.0s → outputs/moviegenBench-lite_baseline_aiter/sample_557/557.mp4
+2026-07-20 17:53:22,913 [INFO]   [SAMPLE SUMMARY] sample_id=557
+2026-07-20 17:53:22,913 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts two individuals running joyfully through a narrow alleyway during a rainstorm. The person on the left is wearing a teal t-shirt and denim shorts, while the person on the right is dressed in a red dress. They appear to be barefoot, and their hair is being blown by the wind as they run. The alley is lined with various objects such as trash bins, closed shutters, and some hanging wires. The ground is wet from the rain, and water splashes around them as they move quickly. The atmosphere suggests a playful and carefree moment amidst the rain.
+2026-07-20 17:53:22,917 [INFO]   [SAMPLE SUMMARY] caption_length=561 chars, word_count=100
+2026-07-20 17:53:22,921 [INFO]   [SAMPLE SUMMARY] elapsed=1246.0s, output=outputs/moviegenBench-lite_baseline_aiter/sample_557/557.mp4
+2026-07-20 17:53:23,178 [INFO] [P-Flow] sample=569, flags=baseline
+2026-07-20 17:53:24,641 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 17:53:24,641 [INFO]   iter 1/1: The video features an animated bear dressed as a superhero, ...
+2026-07-20 17:53:24,641 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 18:14:01,833 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 18:14:08,300 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 18:14:09,373 [INFO] [P-Flow] Done in 1246.2s → outputs/moviegenBench-lite_baseline_aiter/sample_569/569.mp4
+2026-07-20 18:14:09,374 [INFO]   [SAMPLE SUMMARY] sample_id=569
+2026-07-20 18:14:09,374 [INFO]   [SAMPLE SUMMARY] full_caption=The video features an animated bear dressed as a superhero, soaring through the air over a bustling cityscape. The bear is wearing a red and blue cape with a yellow emblem on it, reminiscent of iconic superhero costumes. The city below is densely packed with tall buildings, roads filled with vehicles, and patches of greenery. The sky is clear with a few scattered clouds, suggesting a bright and sunny day. The bear appears to be flying at a high altitude, providing a bird's-eye view of the urban landscape. The overall scene combines elements of fantasy and adventure, creating a whimsical and imaginative atmosphere.
+2026-07-20 18:14:09,404 [INFO]   [SAMPLE SUMMARY] caption_length=621 chars, word_count=103
+2026-07-20 18:14:09,409 [INFO]   [SAMPLE SUMMARY] elapsed=1246.2s, output=outputs/moviegenBench-lite_baseline_aiter/sample_569/569.mp4
+2026-07-20 18:14:09,627 [INFO] [P-Flow] sample=578, flags=baseline
+2026-07-20 18:14:10,891 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 18:14:10,891 [INFO]   iter 1/1: The video features an animated turtle riding a skateboard do...
+2026-07-20 18:14:10,892 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 18:34:47,699 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 18:34:54,195 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 18:34:55,099 [INFO] [P-Flow] Done in 1245.5s → outputs/moviegenBench-lite_baseline_aiter/sample_578/578.mp4
+2026-07-20 18:34:55,100 [INFO]   [SAMPLE SUMMARY] sample_id=578
+2026-07-20 18:34:55,100 [INFO]   [SAMPLE SUMMARY] full_caption=The video features an animated turtle riding a skateboard down a paved road. The turtle has a colorful shell with vibrant patterns and is depicted in motion, suggesting it is gliding smoothly on the skateboard. The background shows a lush, green forested area with sunlight filtering through the trees, creating a serene and natural setting. The overall scene conveys a sense of whimsy and adventure as the turtle navigates the road with ease.
+2026-07-20 18:34:55,131 [INFO]   [SAMPLE SUMMARY] caption_length=443 chars, word_count=73
+2026-07-20 18:34:55,142 [INFO]   [SAMPLE SUMMARY] elapsed=1245.5s, output=outputs/moviegenBench-lite_baseline_aiter/sample_578/578.mp4
+2026-07-20 18:34:55,357 [INFO] [P-Flow] sample=591, flags=baseline
+2026-07-20 18:34:56,629 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 18:34:56,629 [INFO]   iter 1/1: The video depicts an underwater scene where a person is swim...
+2026-07-20 18:34:56,629 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 18:55:33,204 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 18:55:39,712 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 18:55:40,580 [INFO] [P-Flow] Done in 1245.2s → outputs/moviegenBench-lite_baseline_aiter/sample_591/591.mp4
+2026-07-20 18:55:40,580 [INFO]   [SAMPLE SUMMARY] sample_id=591
+2026-07-20 18:55:40,580 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts an underwater scene where a person is swimming gracefully through clear blue water. Surrounding the swimmer are numerous colorful fish, including species with vibrant yellow and black patterns, as well as others with more subdued colors. The swimmer appears to be moving effortlessly, with arms outstretched and legs extended, suggesting a free-style swimming motion. The sunlight filters through the water from above, creating a serene and tranquil atmosphere. The overall setting conveys a sense of freedom and connection with nature, highlighting the beauty of marine life and the joy of being in the ocean.
+2026-07-20 18:55:40,584 [INFO]   [SAMPLE SUMMARY] caption_length=628 chars, word_count=97
+2026-07-20 18:55:40,589 [INFO]   [SAMPLE SUMMARY] elapsed=1245.2s, output=outputs/moviegenBench-lite_baseline_aiter/sample_591/591.mp4
+2026-07-20 18:55:40,809 [INFO] [P-Flow] sample=605, flags=baseline
+2026-07-20 18:55:41,862 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 18:55:41,863 [INFO]   iter 1/1: The video depicts a dramatic scene where a kite is on fire, ...
+2026-07-20 18:55:41,863 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 19:16:19,561 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 19:16:26,040 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 19:16:26,865 [INFO] [P-Flow] Done in 1246.1s → outputs/moviegenBench-lite_baseline_aiter/sample_605/605.mp4
+2026-07-20 19:16:26,865 [INFO]   [SAMPLE SUMMARY] sample_id=605
+2026-07-20 19:16:26,869 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a dramatic scene where a kite is on fire, soaring through a clear blue sky dotted with fluffy white clouds. The kite appears to be made of a dark material and is engulfed in flames, with bright orange and yellow flames and sparks flying off it. The kite is tethered by a string that trails behind it as it moves through the air. In the background, there are two individuals visible; one person is holding what seems to be a remote control or device, possibly used to operate the kite. The overall atmosphere is intense and visually striking, capturing the contrast between the serene sky and the fiery kite.
+2026-07-20 19:16:26,869 [INFO]   [SAMPLE SUMMARY] caption_length=625 chars, word_count=112
+2026-07-20 19:16:26,873 [INFO]   [SAMPLE SUMMARY] elapsed=1246.1s, output=outputs/moviegenBench-lite_baseline_aiter/sample_605/605.mp4
+2026-07-20 19:16:27,093 [INFO] [P-Flow] sample=612, flags=baseline
+2026-07-20 19:16:28,213 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 19:16:28,214 [INFO]   iter 1/1: The video depicts an individual engaged in the act of graffi...
+2026-07-20 19:16:28,214 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 19:29:57,723 [INFO] 日志将保存到: /mnt/workspace/xixihaha/P-Flow/outputs/moviegenBench-lite_baseline_aiter/run_log.txt
+2026-07-20 19:29:57,729 [INFO] GPU 0:  (191.7 GB)
+2026-07-20 19:29:57,729 [INFO]   Pinned to GPU 0
+2026-07-20 19:29:57,952 [INFO] [P-Flow] sample=612, flags=baseline
+2026-07-20 19:29:59,636 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 19:29:59,636 [INFO]   iter 1/1: The video depicts an individual engaged in the act of graffi...
+2026-07-20 19:29:59,637 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 19:29:59,641 [INFO] Loading Wan (t2v) from: /mnt/workspace/Wan2.1-T2V-14B-Diffusers
+2026-07-20 19:30:08,359 [INFO] import [module_aiter_enum] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_aiter_enum.so
+2026-07-20 19:33:20,744 [INFO]   Model loaded: 164.6GB free / 205.8GB total
+2026-07-20 19:33:20,747 [INFO]   GPU 0: 37.9GB allocated, 38.0GB reserved
+2026-07-20 19:33:20,747 [INFO]   [Memory] VAE decode patched with DiT CPU offload
+2026-07-20 19:33:30,502 [INFO] import [module_fmha_v3_fwd] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_fmha_v3_fwd.so
+2026-07-20 19:33:30,503 [WARNING] type hints mismatch, override to --> fmha_v3_fwd(q: torch.Tensor, k: torch.Tensor, v: torch.Tensor, dropout_p: float | typing.SupportsIndex, softmax_scale: float | typing.SupportsIndex, is_causal: bool, window_size_left: int | typing.SupportsIndex, window_size_right: int | typing.SupportsIndex, return_softmax_lse: bool, return_dropout_randval: bool, how_v3_bf16_cvt: int | typing.SupportsIndex, out: Optional[torch.Tensor] = None, bias: Optional[torch.Tensor] = None, alibi_slopes: Optional[torch.Tensor] = None, gen: Optional[torch.Generator] = None) -> List[torch.Tensor]
+2026-07-20 19:54:03,093 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 19:56:59,310 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 19:57:00,150 [INFO] [P-Flow] Done in 1622.2s → outputs/moviegenBench-lite_baseline_aiter/sample_612/612.mp4
+2026-07-20 19:57:00,150 [INFO]   [SAMPLE SUMMARY] sample_id=612
+2026-07-20 19:57:00,155 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts an individual engaged in the act of graffiti art on the side of a large aircraft. The person is wearing a dark hoodie, jeans, and sneakers, and appears to be using spray paint to create designs on the plane's surface. The aircraft has a sleek, modern design with visible markings and text, including what looks like a logo or emblem near the tail section. The sky in the background is clear and blue, suggesting that the scene takes place during the day under good weather conditions. The perspective of the video gives a dynamic feel, as if the viewer is looking up at the artist from below, emphasizing the scale of the aircraft and the height at which the artist is working. The overall atmosphere conveys a sense of creativity and urban artistry.
+2026-07-20 19:57:00,160 [INFO]   [SAMPLE SUMMARY] caption_length=768 chars, word_count=136
+2026-07-20 19:57:00,185 [INFO]   [SAMPLE SUMMARY] elapsed=1622.2s, output=outputs/moviegenBench-lite_baseline_aiter/sample_612/612.mp4
+2026-07-20 19:57:00,421 [INFO] [P-Flow] sample=627, flags=baseline
+2026-07-20 19:57:01,549 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 19:57:01,550 [INFO]   iter 1/1: The video depicts a person running on a treadmill set agains...
+2026-07-20 19:57:01,550 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 20:17:33,407 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 20:17:39,916 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 20:17:40,694 [INFO] [P-Flow] Done in 1240.3s → outputs/moviegenBench-lite_baseline_aiter/sample_627/627.mp4
+2026-07-20 20:17:40,694 [INFO]   [SAMPLE SUMMARY] sample_id=627
+2026-07-20 20:17:40,698 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a person running on a treadmill set against an imaginative and surreal backdrop. The scene is filled with oversized, colorful mushrooms and futuristic, abstract structures that resemble skyscrapers or towers. The sky transitions from a deep blue at the top to a warm orange near the horizon, suggesting either sunrise or sunset. There are also some flying objects that appear to be spacecraft or drones, adding to the otherworldly atmosphere. The overall setting blends elements of nature and science fiction, creating a dreamlike and fantastical environment.
+2026-07-20 20:17:40,702 [INFO]   [SAMPLE SUMMARY] caption_length=577 chars, word_count=89
+2026-07-20 20:17:40,707 [INFO]   [SAMPLE SUMMARY] elapsed=1240.3s, output=outputs/moviegenBench-lite_baseline_aiter/sample_627/627.mp4
+2026-07-20 20:17:40,935 [INFO] [P-Flow] sample=629, flags=baseline
+2026-07-20 20:17:42,207 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 20:17:42,208 [INFO]   iter 1/1: The video depicts a person in a swimming pool, illuminated b...
+2026-07-20 20:17:42,208 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 20:38:14,008 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 20:38:20,491 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 20:38:21,380 [INFO] [P-Flow] Done in 1240.4s → outputs/moviegenBench-lite_baseline_aiter/sample_629/629.mp4
+2026-07-20 20:38:21,380 [INFO]   [SAMPLE SUMMARY] sample_id=629
+2026-07-20 20:38:21,385 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a person in a swimming pool, illuminated by a dramatic and colorful lighting effect that shifts between shades of pink and blue. The individual is seen in various stages of movement, including standing at the edge of the pool, swimming underwater, and emerging from the water. The lighting creates a moody and atmospheric ambiance, highlighting the contours of the person's body and the ripples on the water's surface. The overall scene conveys a sense of tranquility and introspection.
+2026-07-20 20:38:21,389 [INFO]   [SAMPLE SUMMARY] caption_length=504 chars, word_count=81
+2026-07-20 20:38:21,395 [INFO]   [SAMPLE SUMMARY] elapsed=1240.4s, output=outputs/moviegenBench-lite_baseline_aiter/sample_629/629.mp4
+2026-07-20 20:38:21,617 [INFO] [P-Flow] sample=647, flags=baseline
+2026-07-20 20:38:22,687 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 20:38:22,688 [INFO]   iter 1/1: The video depicts a young man walking down a busy urban stre...
+2026-07-20 20:38:22,688 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 20:58:55,244 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 20:59:01,727 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 20:59:02,544 [INFO] [P-Flow] Done in 1240.9s → outputs/moviegenBench-lite_baseline_aiter/sample_647/647.mp4
+2026-07-20 20:59:02,544 [INFO]   [SAMPLE SUMMARY] sample_id=647
+2026-07-20 20:59:02,548 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a young man walking down a busy urban street while engrossed in his smartphone. He is dressed casually in a dark blue hoodie and jeans, holding the phone in both hands as he navigates through the crowd. The background shows a bustling city environment with other pedestrians, some of whom are also using their phones or walking purposefully. The architecture suggests a European-style building with classical columns and large windows. The lighting indicates it might be late afternoon or early evening, casting a warm glow over the scene. The overall atmosphere conveys a sense of everyday life in a modern city.
+2026-07-20 20:59:02,552 [INFO]   [SAMPLE SUMMARY] caption_length=631 chars, word_count=104
+2026-07-20 20:59:02,557 [INFO]   [SAMPLE SUMMARY] elapsed=1240.9s, output=outputs/moviegenBench-lite_baseline_aiter/sample_647/647.mp4
+2026-07-20 20:59:02,782 [INFO] [P-Flow] sample=657, flags=baseline
+2026-07-20 20:59:04,014 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 20:59:04,015 [INFO]   iter 1/1: The video depicts a futuristic spacecraft traveling through ...
+2026-07-20 20:59:04,015 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 21:19:35,871 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 21:19:42,352 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 21:19:43,149 [INFO] [P-Flow] Done in 1240.4s → outputs/moviegenBench-lite_baseline_aiter/sample_657/657.mp4
+2026-07-20 21:19:43,150 [INFO]   [SAMPLE SUMMARY] sample_id=657
+2026-07-20 21:19:43,150 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a futuristic spacecraft traveling through space. The craft is sleek and angular, with a design that suggests advanced technology. It emits a bright blue light from its rear, indicating propulsion or engine activity. The background is a starry expanse of space, enhancing the sense of speed and movement as the spacecraft moves swiftly across the screen. The lighting effects create a dynamic and energetic atmosphere, emphasizing the spacecraft's motion and the vastness of the universe around it. The overall aesthetic is modern and sci-fi, evoking themes of exploration and interstellar travel.
+2026-07-20 21:19:43,154 [INFO]   [SAMPLE SUMMARY] caption_length=614 chars, word_count=94
+2026-07-20 21:19:43,159 [INFO]   [SAMPLE SUMMARY] elapsed=1240.4s, output=outputs/moviegenBench-lite_baseline_aiter/sample_657/657.mp4
+2026-07-20 21:19:43,420 [INFO] [P-Flow] sample=661, flags=baseline
+2026-07-20 21:19:44,931 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 21:19:44,932 [INFO]   iter 1/1: The video captures a dynamic scene of a white speedboat glid...
+2026-07-20 21:19:44,932 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 21:40:16,745 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 21:40:23,206 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 21:40:24,282 [INFO] [P-Flow] Done in 1240.9s → outputs/moviegenBench-lite_baseline_aiter/sample_661/661.mp4
+2026-07-20 21:40:24,282 [INFO]   [SAMPLE SUMMARY] sample_id=661
+2026-07-20 21:40:24,282 [INFO]   [SAMPLE SUMMARY] full_caption=The video captures a dynamic scene of a white speedboat gliding across a calm body of water, likely a lake or river. The boat is moving at a high speed, as evidenced by the wake trailing behind it and the spray of water created by its motion. Two individuals are seated on the boat, wearing life jackets for safety, suggesting they are engaged in recreational boating. The backdrop features lush green hills covered with dense forests, indicating a serene and natural environment. The sky above is clear and bright, suggesting that the weather is sunny and favorable for outdoor activities. The overall atmosphere of the video conveys a sense of adventure and enjoyment in nature.
+2026-07-20 21:40:24,286 [INFO]   [SAMPLE SUMMARY] caption_length=680 chars, word_count=115
+2026-07-20 21:40:24,291 [INFO]   [SAMPLE SUMMARY] elapsed=1240.9s, output=outputs/moviegenBench-lite_baseline_aiter/sample_661/661.mp4
+2026-07-20 21:40:24,509 [INFO] [P-Flow] sample=663, flags=baseline
+2026-07-20 21:40:25,728 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 21:40:25,729 [INFO]   iter 1/1: The video depicts a serene forest scene with tall, dense tre...
+2026-07-20 21:40:25,729 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 22:00:57,771 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 22:01:04,247 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 22:01:04,944 [INFO] [P-Flow] Done in 1240.4s → outputs/moviegenBench-lite_baseline_aiter/sample_663/663.mp4
+2026-07-20 22:01:04,944 [INFO]   [SAMPLE SUMMARY] sample_id=663
+2026-07-20 22:01:04,949 [INFO]   [SAMPLE SUMMARY] full_caption=The video depicts a serene forest scene with tall, dense trees and lush green undergrowth. A drone is seen flying through the forest, moving from the background towards the foreground. The drone has multiple lights on its propellers, which are illuminated, adding a dynamic element to the otherwise tranquil setting. The lighting suggests it might be either early morning or late afternoon, as the sunlight filters through the canopy, creating a dappled effect on the forest floor. The overall atmosphere is peaceful and immersive, capturing the beauty of nature and the technology used to explore it.
+2026-07-20 22:01:04,953 [INFO]   [SAMPLE SUMMARY] caption_length=601 chars, word_count=96
+2026-07-20 22:01:04,962 [INFO]   [SAMPLE SUMMARY] elapsed=1240.4s, output=outputs/moviegenBench-lite_baseline_aiter/sample_663/663.mp4
+2026-07-20 22:01:05,186 [INFO] [P-Flow] sample=674, flags=baseline
+2026-07-20 22:01:06,704 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 22:01:06,704 [INFO]   iter 1/1: The video captures a skydiver in mid-air, performing a freef...
+2026-07-20 22:01:06,704 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 22:21:38,529 [INFO]   [Memory] DiT offloaded to CPU for VAE decode
+2026-07-20 22:21:45,000 [INFO]   [Memory] DiT restored to GPU
+2026-07-20 22:21:45,975 [INFO] [P-Flow] Done in 1240.8s → outputs/moviegenBench-lite_baseline_aiter/sample_674/674.mp4
+2026-07-20 22:21:45,975 [INFO]   [SAMPLE SUMMARY] sample_id=674
+2026-07-20 22:21:45,975 [INFO]   [SAMPLE SUMMARY] full_caption=The video captures a skydiver in mid-air, performing a freefall maneuver over a landscape of patchwork fields and greenery. The skydiver is wearing a helmet with a camera mounted on it, providing a first-person perspective of the descent. The individual is dressed in a blue jumpsuit and is equipped with a parachute harness. As the video progresses, the skydiver extends their arms and legs, showcasing the dynamic movement and control during the freefall. The background features a clear blue sky and a vast expanse of farmland below, with varying shades of green and brown indicating different types of crops or land use. The overall scene conveys a sense of adventure and freedom associated with skydiving.
+2026-07-20 22:21:45,980 [INFO]   [SAMPLE SUMMARY] caption_length=710 chars, word_count=115
+2026-07-20 22:21:45,984 [INFO]   [SAMPLE SUMMARY] elapsed=1240.8s, output=outputs/moviegenBench-lite_baseline_aiter/sample_674/674.mp4
+2026-07-20 22:21:46,202 [INFO] [P-Flow] sample=677, flags=baseline
+2026-07-20 22:21:47,632 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 22:21:47,632 [INFO]   iter 1/1: The video captures a snowboarder descending a snowy slope su...
+2026-07-20 22:21:47,633 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)

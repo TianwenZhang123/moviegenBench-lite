@@ -1,0 +1,17 @@
+{
+  "sample_id": 569,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video features an animated bear dressed as a superhero, soaring through the air over a bustling cityscape. The bear is wearing a red and blue cape with a yellow emblem on it, reminiscent of iconic superhero costumes. The city below is densely packed with tall buildings, roads filled with vehicles, and patches of greenery. The sky is clear with a few scattered clouds, suggesting a bright and sunny day. The bear appears to be flying at a high altitude, providing a bird's-eye view of the urban landscape. The overall scene combines elements of fantasy and adventure, creating a whimsical and imaginative atmosphere.",
+  "final_prompt": "The video features an animated bear dressed as a superhero, soaring through the air over a bustling cityscape. The bear is wearing a red and blue cape with a yellow emblem on it, reminiscent of iconic superhero costumes. The city below is densely packed with tall buildings, roads filled with vehicles, and patches of greenery. The sky is clear with a few scattered clouds, suggesting a bright and sunny day. The bear appears to be flying at a high altitude, providing a bird's-eye view of the urban landscape. The overall scene combines elements of fantasy and adventure, creating a whimsical and imaginative atmosphere.",
+  "iterations": 1,
+  "time_seconds": 1246.1984479427338,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_569/569.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video features an animated bear dressed as a superhero, soaring through the air over a bustling cityscape. The bear is wearing a red and blue cape with a yellow emblem on it, reminiscent of iconic superhero costumes. The city below is densely packed with tall buildings, roads filled with vehicles, and patches of greenery. The sky is clear with a few scattered clouds, suggesting a bright and sunny day. The bear appears to be flying at a high altitude, providing a bird's-eye view of the urban landscape. The overall scene combines elements of fantasy and adventure, creating a whimsical and imaginative atmosphere.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_569/iter_01.mp4"
+    }
+  ]
+}

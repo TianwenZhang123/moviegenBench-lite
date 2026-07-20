@@ -1,0 +1,17 @@
+{
+  "sample_id": 341,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video depicts a scene of two cars, one silver and one black, driving side by side on an urban street. The setting appears to be a city with tall buildings and traffic lights visible in the background. The cars are moving at a moderate speed, and the camera captures them from a side angle as they pass by. The environment suggests a typical day in a busy city area, with other vehicles and pedestrians in the distance. The lighting is natural daylight, indicating it might be midday or early afternoon. The overall atmosphere conveys a sense of everyday urban life.",
+  "final_prompt": "The video depicts a scene of two cars, one silver and one black, driving side by side on an urban street. The setting appears to be a city with tall buildings and traffic lights visible in the background. The cars are moving at a moderate speed, and the camera captures them from a side angle as they pass by. The environment suggests a typical day in a busy city area, with other vehicles and pedestrians in the distance. The lighting is natural daylight, indicating it might be midday or early afternoon. The overall atmosphere conveys a sense of everyday urban life.",
+  "iterations": 1,
+  "time_seconds": 1246.11248254776,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_341/341.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts a scene of two cars, one silver and one black, driving side by side on an urban street. The setting appears to be a city with tall buildings and traffic lights visible in the background. The cars are moving at a moderate speed, and the camera captures them from a side angle as they pass by. The environment suggests a typical day in a busy city area, with other vehicles and pedestrians in the distance. The lighting is natural daylight, indicating it might be midday or early afternoon. The overall atmosphere conveys a sense of everyday urban life.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_341/iter_01.mp4"
+    }
+  ]
+}

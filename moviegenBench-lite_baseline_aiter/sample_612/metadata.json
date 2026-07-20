@@ -1,0 +1,17 @@
+{
+  "sample_id": 612,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video depicts an individual engaged in the act of graffiti art on the side of a large aircraft. The person is wearing a dark hoodie, jeans, and sneakers, and appears to be using spray paint to create designs on the plane's surface. The aircraft has a sleek, modern design with visible markings and text, including what looks like a logo or emblem near the tail section. The sky in the background is clear and blue, suggesting that the scene takes place during the day under good weather conditions. The perspective of the video gives a dynamic feel, as if the viewer is looking up at the artist from below, emphasizing the scale of the aircraft and the height at which the artist is working. The overall atmosphere conveys a sense of creativity and urban artistry.",
+  "final_prompt": "The video depicts an individual engaged in the act of graffiti art on the side of a large aircraft. The person is wearing a dark hoodie, jeans, and sneakers, and appears to be using spray paint to create designs on the plane's surface. The aircraft has a sleek, modern design with visible markings and text, including what looks like a logo or emblem near the tail section. The sky in the background is clear and blue, suggesting that the scene takes place during the day under good weather conditions. The perspective of the video gives a dynamic feel, as if the viewer is looking up at the artist from below, emphasizing the scale of the aircraft and the height at which the artist is working. The overall atmosphere conveys a sense of creativity and urban artistry.",
+  "iterations": 1,
+  "time_seconds": 1622.1814458370209,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_612/612.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts an individual engaged in the act of graffiti art on the side of a large aircraft. The person is wearing a dark hoodie, jeans, and sneakers, and appears to be using spray paint to create designs on the plane's surface. The aircraft has a sleek, modern design with visible markings and text, including what looks like a logo or emblem near the tail section. The sky in the background is clear and blue, suggesting that the scene takes place during the day under good weather conditions. The perspective of the video gives a dynamic feel, as if the viewer is looking up at the artist from below, emphasizing the scale of the aircraft and the height at which the artist is working. The overall atmosphere conveys a sense of creativity and urban artistry.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_612/iter_01.mp4"
+    }
+  ]
+}

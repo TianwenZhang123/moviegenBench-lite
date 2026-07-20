@@ -1,0 +1,17 @@
+{
+  "sample_id": 406,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video features a series of frames showcasing a mannequin dressed in a vibrant and eclectic outfit, set against a black background. The mannequin is positioned in various dynamic poses, with its arms outstretched and its body slightly tilted, giving the impression of movement or dance. The outfit consists of multiple layers and pieces of clothing, including a red polka-dotted top, a plaid skirt, and a variety of colorful fabrics draped over the mannequin's form. The fabrics feature different patterns and colors, such as yellow, white, pink, and purple, creating a visually striking and playful ensemble. The overall aesthetic suggests a creative and artistic presentation, possibly for fashion or performance art.",
+  "final_prompt": "The video features a series of frames showcasing a mannequin dressed in a vibrant and eclectic outfit, set against a black background. The mannequin is positioned in various dynamic poses, with its arms outstretched and its body slightly tilted, giving the impression of movement or dance. The outfit consists of multiple layers and pieces of clothing, including a red polka-dotted top, a plaid skirt, and a variety of colorful fabrics draped over the mannequin's form. The fabrics feature different patterns and colors, such as yellow, white, pink, and purple, creating a visually striking and playful ensemble. The overall aesthetic suggests a creative and artistic presentation, possibly for fashion or performance art.",
+  "iterations": 1,
+  "time_seconds": 1245.7752792835236,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_406/406.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video features a series of frames showcasing a mannequin dressed in a vibrant and eclectic outfit, set against a black background. The mannequin is positioned in various dynamic poses, with its arms outstretched and its body slightly tilted, giving the impression of movement or dance. The outfit consists of multiple layers and pieces of clothing, including a red polka-dotted top, a plaid skirt, and a variety of colorful fabrics draped over the mannequin's form. The fabrics feature different patterns and colors, such as yellow, white, pink, and purple, creating a visually striking and playful ensemble. The overall aesthetic suggests a creative and artistic presentation, possibly for fashion or performance art.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_406/iter_01.mp4"
+    }
+  ]
+}

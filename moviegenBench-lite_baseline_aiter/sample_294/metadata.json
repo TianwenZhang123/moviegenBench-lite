@@ -1,0 +1,17 @@
+{
+  "sample_id": 294,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video features a young girl performing a dance routine in a simple, indoor setting with a plain background. She is wearing a bright yellow T-shirt and white pants, which contrast with her dark hair. The lighting is soft and even, highlighting her movements without creating harsh shadows.\n\nThroughout the sequence, she exhibits various dance moves, including arm gestures, leg movements, and spins. Her expressions convey enthusiasm and joy as she dances. The background remains static, ensuring that the focus stays on her dynamic performance. The overall atmosphere of the video is lively and energetic, capturing the essence of youthful dance and movement.",
+  "final_prompt": "The video features a young girl performing a dance routine in a simple, indoor setting with a plain background. She is wearing a bright yellow T-shirt and white pants, which contrast with her dark hair. The lighting is soft and even, highlighting her movements without creating harsh shadows.\n\nThroughout the sequence, she exhibits various dance moves, including arm gestures, leg movements, and spins. Her expressions convey enthusiasm and joy as she dances. The background remains static, ensuring that the focus stays on her dynamic performance. The overall atmosphere of the video is lively and energetic, capturing the essence of youthful dance and movement.",
+  "iterations": 1,
+  "time_seconds": 1245.7874736785889,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_294/294.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video features a young girl performing a dance routine in a simple, indoor setting with a plain background. She is wearing a bright yellow T-shirt and white pants, which contrast with her dark hair. The lighting is soft and even, highlighting her movements without creating harsh shadows.\n\nThroughout the sequence, she exhibits various dance moves, including arm gestures, leg movements, and spins. Her expressions convey enthusiasm and joy as she dances. The background remains static, ensuring that the focus stays on her dynamic performance. The overall atmosphere of the video is lively and energetic, capturing the essence of youthful dance and movement.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_294/iter_01.mp4"
+    }
+  ]
+}

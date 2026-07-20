@@ -1,0 +1,17 @@
+{
+  "sample_id": 347,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video captures a serene outdoor scene featuring a glass window or door with a clear reflection of the sky and clouds. Initially, the reflection shows a bright blue sky with scattered white clouds. As the video progresses, a bird appears to fly into the frame from the right side, seemingly drawn by the reflection. The bird's wings are spread wide as it approaches the glass, creating an illusion that it is flying through the reflection. The bird then lands on the glass surface, and its reflection becomes more prominent against the sky backdrop. The overall atmosphere is calm and peaceful, with the natural light enhancing the clarity of the scene.",
+  "final_prompt": "The video captures a serene outdoor scene featuring a glass window or door with a clear reflection of the sky and clouds. Initially, the reflection shows a bright blue sky with scattered white clouds. As the video progresses, a bird appears to fly into the frame from the right side, seemingly drawn by the reflection. The bird's wings are spread wide as it approaches the glass, creating an illusion that it is flying through the reflection. The bird then lands on the glass surface, and its reflection becomes more prominent against the sky backdrop. The overall atmosphere is calm and peaceful, with the natural light enhancing the clarity of the scene.",
+  "iterations": 1,
+  "time_seconds": 1245.1305270195007,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_347/347.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video captures a serene outdoor scene featuring a glass window or door with a clear reflection of the sky and clouds. Initially, the reflection shows a bright blue sky with scattered white clouds. As the video progresses, a bird appears to fly into the frame from the right side, seemingly drawn by the reflection. The bird's wings are spread wide as it approaches the glass, creating an illusion that it is flying through the reflection. The bird then lands on the glass surface, and its reflection becomes more prominent against the sky backdrop. The overall atmosphere is calm and peaceful, with the natural light enhancing the clarity of the scene.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_347/iter_01.mp4"
+    }
+  ]
+}

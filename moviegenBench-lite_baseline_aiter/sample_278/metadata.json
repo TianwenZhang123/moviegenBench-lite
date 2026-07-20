@@ -1,0 +1,17 @@
+{
+  "sample_id": 278,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video features a white rabbit against a dark, starry night sky with a full moon prominently displayed. The rabbit is positioned in the foreground, facing slightly to the right of the frame. It appears to be looking up at the moon, which is illuminated and casts a soft glow on the rabbit's fur. The background is a deep blue, suggesting it is nighttime, and there are small white specks scattered across the sky, resembling stars or falling snowflakes. The overall atmosphere is serene and whimsical, evoking a sense of wonder and tranquility.",
+  "final_prompt": "The video features a white rabbit against a dark, starry night sky with a full moon prominently displayed. The rabbit is positioned in the foreground, facing slightly to the right of the frame. It appears to be looking up at the moon, which is illuminated and casts a soft glow on the rabbit's fur. The background is a deep blue, suggesting it is nighttime, and there are small white specks scattered across the sky, resembling stars or falling snowflakes. The overall atmosphere is serene and whimsical, evoking a sense of wonder and tranquility.",
+  "iterations": 1,
+  "time_seconds": 1245.4452240467072,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_278/278.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video features a white rabbit against a dark, starry night sky with a full moon prominently displayed. The rabbit is positioned in the foreground, facing slightly to the right of the frame. It appears to be looking up at the moon, which is illuminated and casts a soft glow on the rabbit's fur. The background is a deep blue, suggesting it is nighttime, and there are small white specks scattered across the sky, resembling stars or falling snowflakes. The overall atmosphere is serene and whimsical, evoking a sense of wonder and tranquility.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_278/iter_01.mp4"
+    }
+  ]
+}

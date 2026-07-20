@@ -1,0 +1,17 @@
+{
+  "sample_id": 657,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video depicts a futuristic spacecraft traveling through space. The craft is sleek and angular, with a design that suggests advanced technology. It emits a bright blue light from its rear, indicating propulsion or engine activity. The background is a starry expanse of space, enhancing the sense of speed and movement as the spacecraft moves swiftly across the screen. The lighting effects create a dynamic and energetic atmosphere, emphasizing the spacecraft's motion and the vastness of the universe around it. The overall aesthetic is modern and sci-fi, evoking themes of exploration and interstellar travel.",
+  "final_prompt": "The video depicts a futuristic spacecraft traveling through space. The craft is sleek and angular, with a design that suggests advanced technology. It emits a bright blue light from its rear, indicating propulsion or engine activity. The background is a starry expanse of space, enhancing the sense of speed and movement as the spacecraft moves swiftly across the screen. The lighting effects create a dynamic and energetic atmosphere, emphasizing the spacecraft's motion and the vastness of the universe around it. The overall aesthetic is modern and sci-fi, evoking themes of exploration and interstellar travel.",
+  "iterations": 1,
+  "time_seconds": 1240.362782239914,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_657/657.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts a futuristic spacecraft traveling through space. The craft is sleek and angular, with a design that suggests advanced technology. It emits a bright blue light from its rear, indicating propulsion or engine activity. The background is a starry expanse of space, enhancing the sense of speed and movement as the spacecraft moves swiftly across the screen. The lighting effects create a dynamic and energetic atmosphere, emphasizing the spacecraft's motion and the vastness of the universe around it. The overall aesthetic is modern and sci-fi, evoking themes of exploration and interstellar travel.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_657/iter_01.mp4"
+    }
+  ]
+}

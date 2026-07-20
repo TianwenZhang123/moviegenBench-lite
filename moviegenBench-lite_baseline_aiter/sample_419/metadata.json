@@ -1,0 +1,17 @@
+{
+  "sample_id": 419,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video depicts a dramatic and dynamic scene where a glass bowl is being shattered. Initially, the bowl appears intact but is shown from an angle that highlights its circular shape and transparency. As the sequence progresses, the bowl begins to shatter dramatically, with pieces of glass flying outward in all directions. The shattering is captured in slow motion, emphasizing the force and the resulting debris. The background is a neutral gray, which contrasts sharply with the clear glass and the scattered shards, making the action stand out vividly. The overall effect is one of intense energy and sudden destruction.",
+  "final_prompt": "The video depicts a dramatic and dynamic scene where a glass bowl is being shattered. Initially, the bowl appears intact but is shown from an angle that highlights its circular shape and transparency. As the sequence progresses, the bowl begins to shatter dramatically, with pieces of glass flying outward in all directions. The shattering is captured in slow motion, emphasizing the force and the resulting debris. The background is a neutral gray, which contrasts sharply with the clear glass and the scattered shards, making the action stand out vividly. The overall effect is one of intense energy and sudden destruction.",
+  "iterations": 1,
+  "time_seconds": 1245.6205451488495,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_419/419.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts a dramatic and dynamic scene where a glass bowl is being shattered. Initially, the bowl appears intact but is shown from an angle that highlights its circular shape and transparency. As the sequence progresses, the bowl begins to shatter dramatically, with pieces of glass flying outward in all directions. The shattering is captured in slow motion, emphasizing the force and the resulting debris. The background is a neutral gray, which contrasts sharply with the clear glass and the scattered shards, making the action stand out vividly. The overall effect is one of intense energy and sudden destruction.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_419/iter_01.mp4"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+2026-07-20 01:53:56,084 [INFO] 日志将保存到: /mnt/workspace/xixihaha/P-Flow/outputs/moviegenBench-lite_baseline_aiter/run_log.txt
+2026-07-20 01:53:56,104 [INFO] GPU 0:  (191.7 GB)
+2026-07-20 01:53:56,104 [INFO]   Pinned to GPU 0
+2026-07-20 01:53:56,120 [INFO] [P-Flow] sample=7, flags=baseline
+2026-07-20 01:53:57,082 [INFO]   [Noise Decision Summary] feature_inject=OFF, svd_blend=DISABLED, eta_temporal=NONE
+2026-07-20 01:53:57,082 [INFO]   iter 1/1: The video depicts a close-up view of a cup filled with dark ...
+2026-07-20 01:53:57,082 [INFO]   [_get_latents] 返回 None → diffusers 纯随机噪声 (eta_temporal=None, use_svd=False)
+2026-07-20 01:53:57,083 [INFO] Loading Wan (t2v) from: /mnt/workspace/Wan2.1-T2V-14B-Diffusers
+2026-07-20 01:54:01,228 [INFO] import [module_aiter_enum] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_aiter_enum.so
+2026-07-20 01:54:07,518 [INFO]   Model loaded: 164.6GB free / 205.8GB total
+2026-07-20 01:54:07,520 [INFO]   GPU 0: 37.9GB allocated, 38.0GB reserved
+2026-07-20 01:54:07,525 [INFO]   [Memory] VAE decode patched with DiT CPU offload
+2026-07-20 01:54:11,166 [INFO] import [module_fmha_v3_fwd] under /usr/local/lib/python3.12/dist-packages/aiter/jit/module_fmha_v3_fwd.so
+2026-07-20 01:54:11,167 [WARNING] type hints mismatch, override to --> fmha_v3_fwd(q: torch.Tensor, k: torch.Tensor, v: torch.Tensor, dropout_p: float | typing.SupportsIndex, softmax_scale: float | typing.SupportsIndex, is_causal: bool, window_size_left: int | typing.SupportsIndex, window_size_right: int | typing.SupportsIndex, return_softmax_lse: bool, return_dropout_randval: bool, how_v3_bf16_cvt: int | typing.SupportsIndex, out: Optional[torch.Tensor] = None, bias: Optional[torch.Tensor] = None, alibi_slopes: Optional[torch.Tensor] = None, gen: Optional[torch.Generator] = None) -> List[torch.Tensor]

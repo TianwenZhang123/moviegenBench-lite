@@ -1,0 +1,17 @@
+{
+  "sample_id": 168,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video captures a moment during a marathon or running event. A runner, wearing a black tank top and shorts with a race bib that reads \"19030,\" is crossing the finish line. The scene is set outdoors under a partly cloudy sky, with spectators lining both sides of the finish line cheering and clapping. The crowd appears enthusiastic, with some people raising their arms in celebration. Banners and flags from sponsors such as \"ICONS\" and \"OPPEL\" are visible along the finish line. The atmosphere is energetic and celebratory, highlighting the excitement of the event.",
+  "final_prompt": "The video captures a moment during a marathon or running event. A runner, wearing a black tank top and shorts with a race bib that reads \"19030,\" is crossing the finish line. The scene is set outdoors under a partly cloudy sky, with spectators lining both sides of the finish line cheering and clapping. The crowd appears enthusiastic, with some people raising their arms in celebration. Banners and flags from sponsors such as \"ICONS\" and \"OPPEL\" are visible along the finish line. The atmosphere is energetic and celebratory, highlighting the excitement of the event.",
+  "iterations": 1,
+  "time_seconds": 1245.3111007213593,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_168/168.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video captures a moment during a marathon or running event. A runner, wearing a black tank top and shorts with a race bib that reads \"19030,\" is crossing the finish line. The scene is set outdoors under a partly cloudy sky, with spectators lining both sides of the finish line cheering and clapping. The crowd appears enthusiastic, with some people raising their arms in celebration. Banners and flags from sponsors such as \"ICONS\" and \"OPPEL\" are visible along the finish line. The atmosphere is energetic and celebratory, highlighting the excitement of the event.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_168/iter_01.mp4"
+    }
+  ]
+}

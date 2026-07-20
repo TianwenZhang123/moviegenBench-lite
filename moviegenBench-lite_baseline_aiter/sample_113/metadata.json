@@ -1,0 +1,17 @@
+{
+  "sample_id": 113,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video depicts an aerial view of a dramatic scene where a large, fiery ring is emerging from the ocean. The ring appears to be composed of intense flames and glowing embers, creating a striking contrast against the dark blue water surrounding it. The waves around the ring are turbulent, with white foam forming as they crash against the fiery boundary. The overall effect is one of intense heat and energy, as if something powerful is erupting or being born from the depths of the sea. The scene is both mesmerizing and awe-inspiring, capturing a moment of raw natural power.",
+  "final_prompt": "The video depicts an aerial view of a dramatic scene where a large, fiery ring is emerging from the ocean. The ring appears to be composed of intense flames and glowing embers, creating a striking contrast against the dark blue water surrounding it. The waves around the ring are turbulent, with white foam forming as they crash against the fiery boundary. The overall effect is one of intense heat and energy, as if something powerful is erupting or being born from the depths of the sea. The scene is both mesmerizing and awe-inspiring, capturing a moment of raw natural power.",
+  "iterations": 1,
+  "time_seconds": 1245.4874012470245,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_113/113.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts an aerial view of a dramatic scene where a large, fiery ring is emerging from the ocean. The ring appears to be composed of intense flames and glowing embers, creating a striking contrast against the dark blue water surrounding it. The waves around the ring are turbulent, with white foam forming as they crash against the fiery boundary. The overall effect is one of intense heat and energy, as if something powerful is erupting or being born from the depths of the sea. The scene is both mesmerizing and awe-inspiring, capturing a moment of raw natural power.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_113/iter_01.mp4"
+    }
+  ]
+}

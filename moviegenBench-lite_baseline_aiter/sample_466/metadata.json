@@ -1,0 +1,17 @@
+{
+  "sample_id": 466,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video shows a close-up of a syringe being inserted into a clear glass tube filled with liquid. The syringe is green and has a needle that is partially submerged in the liquid. As the syringe is pushed down, it appears to be drawing or injecting liquid from/to the tube. Bubbles can be seen forming at the bottom of the tube as the liquid level changes. The background is plain white, which helps to focus attention on the action within the tube. The overall scene suggests a scientific or medical experiment involving the transfer of liquid.",
+  "final_prompt": "The video shows a close-up of a syringe being inserted into a clear glass tube filled with liquid. The syringe is green and has a needle that is partially submerged in the liquid. As the syringe is pushed down, it appears to be drawing or injecting liquid from/to the tube. Bubbles can be seen forming at the bottom of the tube as the liquid level changes. The background is plain white, which helps to focus attention on the action within the tube. The overall scene suggests a scientific or medical experiment involving the transfer of liquid.",
+  "iterations": 1,
+  "time_seconds": 1245.1392004489899,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_466/466.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video shows a close-up of a syringe being inserted into a clear glass tube filled with liquid. The syringe is green and has a needle that is partially submerged in the liquid. As the syringe is pushed down, it appears to be drawing or injecting liquid from/to the tube. Bubbles can be seen forming at the bottom of the tube as the liquid level changes. The background is plain white, which helps to focus attention on the action within the tube. The overall scene suggests a scientific or medical experiment involving the transfer of liquid.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_466/iter_01.mp4"
+    }
+  ]
+}
