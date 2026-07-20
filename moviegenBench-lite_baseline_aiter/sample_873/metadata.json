@@ -1,0 +1,17 @@
+{
+  "sample_id": 873,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video depicts an astronaut-like figure floating inside a blood vessel, surrounded by red blood cells. The astronaut is wearing a metallic suit with a helmet that has a reflective visor, and the suit appears to be equipped with various tools and gadgets on its chest and arms. The background is a vibrant red, representing the interior of a blood vessel, and the red blood cells are scattered around, some appearing larger than others. The scene gives a surreal and futuristic feel, blending elements of space exploration with medical imagery. The astronaut seems to be moving through the vessel, possibly exploring or conducting some form of maintenance or research within this unusual environment.",
+  "final_prompt": "The video depicts an astronaut-like figure floating inside a blood vessel, surrounded by red blood cells. The astronaut is wearing a metallic suit with a helmet that has a reflective visor, and the suit appears to be equipped with various tools and gadgets on its chest and arms. The background is a vibrant red, representing the interior of a blood vessel, and the red blood cells are scattered around, some appearing larger than others. The scene gives a surreal and futuristic feel, blending elements of space exploration with medical imagery. The astronaut seems to be moving through the vessel, possibly exploring or conducting some form of maintenance or research within this unusual environment.",
+  "iterations": 1,
+  "time_seconds": 1241.5420472621918,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_873/873.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts an astronaut-like figure floating inside a blood vessel, surrounded by red blood cells. The astronaut is wearing a metallic suit with a helmet that has a reflective visor, and the suit appears to be equipped with various tools and gadgets on its chest and arms. The background is a vibrant red, representing the interior of a blood vessel, and the red blood cells are scattered around, some appearing larger than others. The scene gives a surreal and futuristic feel, blending elements of space exploration with medical imagery. The astronaut seems to be moving through the vessel, possibly exploring or conducting some form of maintenance or research within this unusual environment.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_873/iter_01.mp4"
+    }
+  ]
+}

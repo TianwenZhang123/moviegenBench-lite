@@ -1,0 +1,17 @@
+{
+  "sample_id": 792,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video shows an aerial view of a long train traveling through a rural landscape. The train consists of numerous freight cars, some white and others dark-colored, moving along a single railway track that curves gently through the scene. Surrounding the railway are expansive green fields, likely farmland, with patches of trees scattered throughout. In the distance, there are small clusters of buildings, possibly farmhouses or barns, indicating a countryside setting. The sky is clear and bright, suggesting a sunny day. The overall atmosphere is serene and pastoral, with the train's movement adding a dynamic element to the otherwise tranquil environment.",
+  "final_prompt": "The video shows an aerial view of a long train traveling through a rural landscape. The train consists of numerous freight cars, some white and others dark-colored, moving along a single railway track that curves gently through the scene. Surrounding the railway are expansive green fields, likely farmland, with patches of trees scattered throughout. In the distance, there are small clusters of buildings, possibly farmhouses or barns, indicating a countryside setting. The sky is clear and bright, suggesting a sunny day. The overall atmosphere is serene and pastoral, with the train's movement adding a dynamic element to the otherwise tranquil environment.",
+  "iterations": 1,
+  "time_seconds": 1240.1366667747498,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_792/792.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video shows an aerial view of a long train traveling through a rural landscape. The train consists of numerous freight cars, some white and others dark-colored, moving along a single railway track that curves gently through the scene. Surrounding the railway are expansive green fields, likely farmland, with patches of trees scattered throughout. In the distance, there are small clusters of buildings, possibly farmhouses or barns, indicating a countryside setting. The sky is clear and bright, suggesting a sunny day. The overall atmosphere is serene and pastoral, with the train's movement adding a dynamic element to the otherwise tranquil environment.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_792/iter_01.mp4"
+    }
+  ]
+}
