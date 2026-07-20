@@ -1,0 +1,17 @@
+{
+  "sample_id": 679,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video captures a surfer riding a wave in a vibrant, tropical setting. The surfer, dressed in a black wetsuit, skillfully maneuvers a white surfboard along the crest of a large, turquoise wave. The wave is breaking to the left, creating a dynamic spray of water that adds to the sense of motion and energy. In the background, palm trees and a sandy beach are visible, suggesting a coastal location. Seagulls can be seen flying around, adding life to the scene. The overall atmosphere is lively and adventurous, showcasing the thrill of surfing in a picturesque environment.",
+  "final_prompt": "The video captures a surfer riding a wave in a vibrant, tropical setting. The surfer, dressed in a black wetsuit, skillfully maneuvers a white surfboard along the crest of a large, turquoise wave. The wave is breaking to the left, creating a dynamic spray of water that adds to the sense of motion and energy. In the background, palm trees and a sandy beach are visible, suggesting a coastal location. Seagulls can be seen flying around, adding life to the scene. The overall atmosphere is lively and adventurous, showcasing the thrill of surfing in a picturesque environment.",
+  "iterations": 1,
+  "time_seconds": 1239.6504142284393,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_679/679.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video captures a surfer riding a wave in a vibrant, tropical setting. The surfer, dressed in a black wetsuit, skillfully maneuvers a white surfboard along the crest of a large, turquoise wave. The wave is breaking to the left, creating a dynamic spray of water that adds to the sense of motion and energy. In the background, palm trees and a sandy beach are visible, suggesting a coastal location. Seagulls can be seen flying around, adding life to the scene. The overall atmosphere is lively and adventurous, showcasing the thrill of surfing in a picturesque environment.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_679/iter_01.mp4"
+    }
+  ]
+}

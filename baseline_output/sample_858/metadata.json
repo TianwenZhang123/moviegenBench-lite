@@ -1,0 +1,17 @@
+{
+  "sample_id": 858,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video depicts a person dressed in an elaborate, steampunk-style diving suit walking through a bustling street scene. The suit is detailed with metallic components, including a helmet with a large circular visor and various pipes and gauges attached to it. The individual is surrounded by people dressed in period attire, suggesting a historical or fantasy setting. The background features cobblestone streets, vintage carriages, and buildings that contribute to the overall atmosphere of a bygone era. The scene is lively, with other pedestrians moving about, adding to the dynamic environment.",
+  "final_prompt": "The video depicts a person dressed in an elaborate, steampunk-style diving suit walking through a bustling street scene. The suit is detailed with metallic components, including a helmet with a large circular visor and various pipes and gauges attached to it. The individual is surrounded by people dressed in period attire, suggesting a historical or fantasy setting. The background features cobblestone streets, vintage carriages, and buildings that contribute to the overall atmosphere of a bygone era. The scene is lively, with other pedestrians moving about, adding to the dynamic environment.",
+  "iterations": 1,
+  "time_seconds": 1240.3227488994598,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_858/858.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts a person dressed in an elaborate, steampunk-style diving suit walking through a bustling street scene. The suit is detailed with metallic components, including a helmet with a large circular visor and various pipes and gauges attached to it. The individual is surrounded by people dressed in period attire, suggesting a historical or fantasy setting. The background features cobblestone streets, vintage carriages, and buildings that contribute to the overall atmosphere of a bygone era. The scene is lively, with other pedestrians moving about, adding to the dynamic environment.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_858/iter_01.mp4"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sample_id": 800,
+  "experiment": "baseline",
+  "flags": [],
+  "initial_caption": "The video depicts a bustling outdoor market scene with a focus on a rusty, old truck parked near a fruit and vegetable stall. The truck is heavily loaded with green fruits, possibly limes or mangoes, in its open cargo area. The driver, wearing a blue shirt, is seated inside the truck, which has visible signs of wear and rust, indicating it has been used extensively over time.\n\nIn the background, there is a colorful canopy tent set up by the market stall, displaying an assortment of fresh produce such as oranges, leafy greens, and other vegetables. The market appears to be located in an urban setting, with buildings visible in the distance under a clear blue sky. The overall atmosphere suggests a lively and vibrant local marketplace.",
+  "final_prompt": "The video depicts a bustling outdoor market scene with a focus on a rusty, old truck parked near a fruit and vegetable stall. The truck is heavily loaded with green fruits, possibly limes or mangoes, in its open cargo area. The driver, wearing a blue shirt, is seated inside the truck, which has visible signs of wear and rust, indicating it has been used extensively over time.\n\nIn the background, there is a colorful canopy tent set up by the market stall, displaying an assortment of fresh produce such as oranges, leafy greens, and other vegetables. The market appears to be located in an urban setting, with buildings visible in the distance under a clear blue sky. The overall atmosphere suggests a lively and vibrant local marketplace.",
+  "iterations": 1,
+  "time_seconds": 1239.7312891483307,
+  "output": "outputs/moviegenBench-lite_baseline_aiter/sample_800/800.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts a bustling outdoor market scene with a focus on a rusty, old truck parked near a fruit and vegetable stall. The truck is heavily loaded with green fruits, possibly limes or mangoes, in its open cargo area. The driver, wearing a blue shirt, is seated inside the truck, which has visible signs of wear and rust, indicating it has been used extensively over time.\n\nIn the background, there is a colorful canopy tent set up by the market stall, displaying an assortment of fresh produce such as oranges, leafy greens, and other vegetables. The market appears to be located in an urban setting, with buildings visible in the distance under a clear blue sky. The overall atmosphere suggests a lively and vibrant local marketplace.",
+      "video_path": "outputs/moviegenBench-lite_baseline_aiter/sample_800/iter_01.mp4"
+    }
+  ]
+}
