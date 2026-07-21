@@ -1,0 +1,20 @@
+{
+  "sample_id": 850,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video captures a scenic drive along a winding mountain road. The road is bordered by lush greenery on one side and a stunning view of a deep blue lake on the other, with majestic mountains rising in the background under a clear blue sky dotted with a few clouds. A silver car is seen driving along the road, moving from left to right across the frame. The camera follows the car as it navigates the curves of the road, providing a dynamic perspective of the journey through this picturesque landscape. The overall atmosphere is serene and breathtaking, highlighting the beauty of nature and the thrill of a road trip.",
+  "final_prompt": "The video captures a scenic drive along a winding mountain road. The road is bordered by lush greenery on one side and a stunning view of a deep blue lake on the other, with majestic mountains rising in the background under a clear blue sky dotted with a few clouds. A silver car is seen driving along the road, moving from left to right across the frame. The camera follows the car as it navigates the curves of the road, providing a dynamic perspective of the journey through this picturesque landscape. The overall atmosphere is serene and breathtaking, highlighting the beauty of nature and the thrill of a road trip.",
+  "iterations": 1,
+  "time_seconds": 2309.444429397583,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_850/850.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video captures a scenic drive along a winding mountain road. The road is bordered by lush greenery on one side and a stunning view of a deep blue lake on the other, with majestic mountains rising in the background under a clear blue sky dotted with a few clouds. A silver car is seen driving along the road, moving from left to right across the frame. The camera follows the car as it navigates the curves of the road, providing a dynamic perspective of the journey through this picturesque landscape. The overall atmosphere is serene and breathtaking, highlighting the beauty of nature and the thrill of a road trip.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_850/iter_01.mp4"
+    }
+  ]
+}

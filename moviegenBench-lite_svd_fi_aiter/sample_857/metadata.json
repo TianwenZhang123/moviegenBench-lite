@@ -1,0 +1,20 @@
+{
+  "sample_id": 857,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video features a whimsical scene where multiple animated characters resembling Baby Yoda from the Star Wars series are riding on a roller coaster. The characters are seated in a row, each wearing a harness and looking excited as they experience the ride. The roller coaster track is wooden with metal supports, and the background shows a blurred view of an amusement park setting with lights and structures, suggesting motion and speed. The lighting changes subtly across the frames, indicating different times of day or lighting conditions, adding to the dynamic feel of the scene. The overall atmosphere is playful and fun, capturing the excitement of a thrilling amusement park experience.",
+  "final_prompt": "The video features a whimsical scene where multiple animated characters resembling Baby Yoda from the Star Wars series are riding on a roller coaster. The characters are seated in a row, each wearing a harness and looking excited as they experience the ride. The roller coaster track is wooden with metal supports, and the background shows a blurred view of an amusement park setting with lights and structures, suggesting motion and speed. The lighting changes subtly across the frames, indicating different times of day or lighting conditions, adding to the dynamic feel of the scene. The overall atmosphere is playful and fun, capturing the excitement of a thrilling amusement park experience.",
+  "iterations": 1,
+  "time_seconds": 2309.2319900989532,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_857/857.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video features a whimsical scene where multiple animated characters resembling Baby Yoda from the Star Wars series are riding on a roller coaster. The characters are seated in a row, each wearing a harness and looking excited as they experience the ride. The roller coaster track is wooden with metal supports, and the background shows a blurred view of an amusement park setting with lights and structures, suggesting motion and speed. The lighting changes subtly across the frames, indicating different times of day or lighting conditions, adding to the dynamic feel of the scene. The overall atmosphere is playful and fun, capturing the excitement of a thrilling amusement park experience.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_857/iter_01.mp4"
+    }
+  ]
+}

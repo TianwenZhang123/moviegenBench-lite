@@ -1,0 +1,20 @@
+{
+  "sample_id": 867,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video depicts a mesmerizing and dynamic scene of molten lava flowing and splashing across a dark, rocky surface. The lava is depicted with vibrant shades of red, orange, and yellow, glowing intensely as it moves. The surface of the lava is textured with intricate patterns, resembling the natural flow and cooling process of lava. Small droplets of lava can be seen splattering into the air, creating a sense of motion and energy. The overall atmosphere is one of raw power and natural beauty, capturing the intense heat and fluidity of lava in its natural state.",
+  "final_prompt": "The video depicts a mesmerizing and dynamic scene of molten lava flowing and splashing across a dark, rocky surface. The lava is depicted with vibrant shades of red, orange, and yellow, glowing intensely as it moves. The surface of the lava is textured with intricate patterns, resembling the natural flow and cooling process of lava. Small droplets of lava can be seen splattering into the air, creating a sense of motion and energy. The overall atmosphere is one of raw power and natural beauty, capturing the intense heat and fluidity of lava in its natural state.",
+  "iterations": 1,
+  "time_seconds": 2313.6733310222626,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_867/867.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts a mesmerizing and dynamic scene of molten lava flowing and splashing across a dark, rocky surface. The lava is depicted with vibrant shades of red, orange, and yellow, glowing intensely as it moves. The surface of the lava is textured with intricate patterns, resembling the natural flow and cooling process of lava. Small droplets of lava can be seen splattering into the air, creating a sense of motion and energy. The overall atmosphere is one of raw power and natural beauty, capturing the intense heat and fluidity of lava in its natural state.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_867/iter_01.mp4"
+    }
+  ]
+}

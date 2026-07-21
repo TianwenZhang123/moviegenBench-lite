@@ -1,0 +1,20 @@
+{
+  "sample_id": 852,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video captures a group of cyclists riding through a lush, green forest. The riders are wearing matching cycling jerseys with red, yellow, and blue colors, along with white helmets. They are riding on a narrow dirt path surrounded by dense trees and vibrant green foliage. The camera follows the cyclists from behind as they pedal forward, creating a sense of motion and speed. The sunlight filters through the leaves above, casting dappled shadows on the path below. The overall atmosphere is serene and adventurous, highlighting the beauty of nature and the thrill of cycling.",
+  "final_prompt": "The video captures a group of cyclists riding through a lush, green forest. The riders are wearing matching cycling jerseys with red, yellow, and blue colors, along with white helmets. They are riding on a narrow dirt path surrounded by dense trees and vibrant green foliage. The camera follows the cyclists from behind as they pedal forward, creating a sense of motion and speed. The sunlight filters through the leaves above, casting dappled shadows on the path below. The overall atmosphere is serene and adventurous, highlighting the beauty of nature and the thrill of cycling.",
+  "iterations": 1,
+  "time_seconds": 2312.763190984726,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_852/852.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video captures a group of cyclists riding through a lush, green forest. The riders are wearing matching cycling jerseys with red, yellow, and blue colors, along with white helmets. They are riding on a narrow dirt path surrounded by dense trees and vibrant green foliage. The camera follows the cyclists from behind as they pedal forward, creating a sense of motion and speed. The sunlight filters through the leaves above, casting dappled shadows on the path below. The overall atmosphere is serene and adventurous, highlighting the beauty of nature and the thrill of cycling.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_852/iter_01.mp4"
+    }
+  ]
+}

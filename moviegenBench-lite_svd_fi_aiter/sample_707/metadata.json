@@ -1,0 +1,20 @@
+{
+  "sample_id": 707,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video shows a close-up of a person's hands holding a yellow measuring tape against a dark background. The hands are manipulating the tape, extending it to reveal its full length and then retracting it back into its compact form. The measuring tape has black markings indicating measurements in centimeters or inches. The focus is on the tape and the hands, with no other objects or distractions visible in the frame. The lighting highlights the yellow color of the tape and the details of the markings.",
+  "final_prompt": "The video shows a close-up of a person's hands holding a yellow measuring tape against a dark background. The hands are manipulating the tape, extending it to reveal its full length and then retracting it back into its compact form. The measuring tape has black markings indicating measurements in centimeters or inches. The focus is on the tape and the hands, with no other objects or distractions visible in the frame. The lighting highlights the yellow color of the tape and the details of the markings.",
+  "iterations": 1,
+  "time_seconds": 2308.8718020915985,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_707/707.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video shows a close-up of a person's hands holding a yellow measuring tape against a dark background. The hands are manipulating the tape, extending it to reveal its full length and then retracting it back into its compact form. The measuring tape has black markings indicating measurements in centimeters or inches. The focus is on the tape and the hands, with no other objects or distractions visible in the frame. The lighting highlights the yellow color of the tape and the details of the markings.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_707/iter_01.mp4"
+    }
+  ]
+}
