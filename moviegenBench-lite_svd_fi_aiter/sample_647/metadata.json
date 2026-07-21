@@ -1,0 +1,20 @@
+{
+  "sample_id": 647,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video depicts a young man walking down a busy urban street while engrossed in his smartphone. He is dressed casually in a dark blue hoodie and jeans, holding the phone in both hands as he navigates through the crowd. The background shows a bustling city environment with other pedestrians, some of whom are also using their phones or walking purposefully. The architecture suggests a European-style building with classical columns and large windows. The lighting indicates it might be late afternoon or early evening, casting a warm glow over the scene. The overall atmosphere conveys a sense of everyday life in a modern city.",
+  "final_prompt": "The video depicts a young man walking down a busy urban street while engrossed in his smartphone. He is dressed casually in a dark blue hoodie and jeans, holding the phone in both hands as he navigates through the crowd. The background shows a bustling city environment with other pedestrians, some of whom are also using their phones or walking purposefully. The architecture suggests a European-style building with classical columns and large windows. The lighting indicates it might be late afternoon or early evening, casting a warm glow over the scene. The overall atmosphere conveys a sense of everyday life in a modern city.",
+  "iterations": 1,
+  "time_seconds": 2296.3198459148407,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_647/647.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts a young man walking down a busy urban street while engrossed in his smartphone. He is dressed casually in a dark blue hoodie and jeans, holding the phone in both hands as he navigates through the crowd. The background shows a bustling city environment with other pedestrians, some of whom are also using their phones or walking purposefully. The architecture suggests a European-style building with classical columns and large windows. The lighting indicates it might be late afternoon or early evening, casting a warm glow over the scene. The overall atmosphere conveys a sense of everyday life in a modern city.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_647/iter_01.mp4"
+    }
+  ]
+}

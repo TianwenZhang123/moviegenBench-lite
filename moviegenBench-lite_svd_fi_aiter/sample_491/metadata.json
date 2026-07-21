@@ -1,0 +1,20 @@
+{
+  "sample_id": 491,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video depicts a futuristic cityscape at night, illuminated by vibrant neon lights in shades of blue, pink, and purple. The scene is dominated by towering skyscrapers with intricate lighting patterns that give them a digital, almost cyberpunk aesthetic. At the center of the image, there is a hovering vehicle, resembling a flying car or a futuristic aircraft, with a sleek design and glowing blue lights. The vehicle hovers above the buildings, suggesting advanced technology and a future where transportation is not limited to the ground. The overall atmosphere is one of high-tech urbanism, blending elements of science fiction with a modern, high-energy city environment.",
+  "final_prompt": "The video depicts a futuristic cityscape at night, illuminated by vibrant neon lights in shades of blue, pink, and purple. The scene is dominated by towering skyscrapers with intricate lighting patterns that give them a digital, almost cyberpunk aesthetic. At the center of the image, there is a hovering vehicle, resembling a flying car or a futuristic aircraft, with a sleek design and glowing blue lights. The vehicle hovers above the buildings, suggesting advanced technology and a future where transportation is not limited to the ground. The overall atmosphere is one of high-tech urbanism, blending elements of science fiction with a modern, high-energy city environment.",
+  "iterations": 1,
+  "time_seconds": 2766.5892100334167,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_491/491.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts a futuristic cityscape at night, illuminated by vibrant neon lights in shades of blue, pink, and purple. The scene is dominated by towering skyscrapers with intricate lighting patterns that give them a digital, almost cyberpunk aesthetic. At the center of the image, there is a hovering vehicle, resembling a flying car or a futuristic aircraft, with a sleek design and glowing blue lights. The vehicle hovers above the buildings, suggesting advanced technology and a future where transportation is not limited to the ground. The overall atmosphere is one of high-tech urbanism, blending elements of science fiction with a modern, high-energy city environment.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_491/iter_01.mp4"
+    }
+  ]
+}

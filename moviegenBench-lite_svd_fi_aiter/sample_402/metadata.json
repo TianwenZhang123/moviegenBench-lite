@@ -1,0 +1,20 @@
+{
+  "sample_id": 402,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video features a series of animated scenes set against a backdrop of ancient ruins under a bright blue sky with scattered clouds. The ruins appear to be made of stone and have a classical architectural style, with columns and broken walls. In the foreground, there are two adorable puppies, one with light brown fur and the other with white fur, both wearing harnesses. They are seen exploring the ruins, moving from one part of the structure to another. The puppies exhibit playful behavior, with one of them even jumping onto a ledge. The overall atmosphere is whimsical and charming, blending historical elements with a touch of lightheartedness.",
+  "final_prompt": "The video features a series of animated scenes set against a backdrop of ancient ruins under a bright blue sky with scattered clouds. The ruins appear to be made of stone and have a classical architectural style, with columns and broken walls. In the foreground, there are two adorable puppies, one with light brown fur and the other with white fur, both wearing harnesses. They are seen exploring the ruins, moving from one part of the structure to another. The puppies exhibit playful behavior, with one of them even jumping onto a ledge. The overall atmosphere is whimsical and charming, blending historical elements with a touch of lightheartedness.",
+  "iterations": 1,
+  "time_seconds": 2311.4885215759277,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_402/402.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video features a series of animated scenes set against a backdrop of ancient ruins under a bright blue sky with scattered clouds. The ruins appear to be made of stone and have a classical architectural style, with columns and broken walls. In the foreground, there are two adorable puppies, one with light brown fur and the other with white fur, both wearing harnesses. They are seen exploring the ruins, moving from one part of the structure to another. The puppies exhibit playful behavior, with one of them even jumping onto a ledge. The overall atmosphere is whimsical and charming, blending historical elements with a touch of lightheartedness.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_402/iter_01.mp4"
+    }
+  ]
+}

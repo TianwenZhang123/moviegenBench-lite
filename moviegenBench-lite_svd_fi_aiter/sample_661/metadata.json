@@ -1,0 +1,20 @@
+{
+  "sample_id": 661,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video captures a dynamic scene of a white speedboat gliding across a calm body of water, likely a lake or river. The boat is moving at a high speed, as evidenced by the wake trailing behind it and the spray of water created by its motion. Two individuals are seated on the boat, wearing life jackets for safety, suggesting they are engaged in recreational boating. The backdrop features lush green hills covered with dense forests, indicating a serene and natural environment. The sky above is clear and bright, suggesting that the weather is sunny and favorable for outdoor activities. The overall atmosphere of the video conveys a sense of adventure and enjoyment in nature.",
+  "final_prompt": "The video captures a dynamic scene of a white speedboat gliding across a calm body of water, likely a lake or river. The boat is moving at a high speed, as evidenced by the wake trailing behind it and the spray of water created by its motion. Two individuals are seated on the boat, wearing life jackets for safety, suggesting they are engaged in recreational boating. The backdrop features lush green hills covered with dense forests, indicating a serene and natural environment. The sky above is clear and bright, suggesting that the weather is sunny and favorable for outdoor activities. The overall atmosphere of the video conveys a sense of adventure and enjoyment in nature.",
+  "iterations": 1,
+  "time_seconds": 2296.9914422035217,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_661/661.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video captures a dynamic scene of a white speedboat gliding across a calm body of water, likely a lake or river. The boat is moving at a high speed, as evidenced by the wake trailing behind it and the spray of water created by its motion. Two individuals are seated on the boat, wearing life jackets for safety, suggesting they are engaged in recreational boating. The backdrop features lush green hills covered with dense forests, indicating a serene and natural environment. The sky above is clear and bright, suggesting that the weather is sunny and favorable for outdoor activities. The overall atmosphere of the video conveys a sense of adventure and enjoyment in nature.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_661/iter_01.mp4"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sample_id": 569,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video features an animated bear dressed as a superhero, soaring through the air over a bustling cityscape. The bear is wearing a red and blue cape with a yellow emblem on it, reminiscent of iconic superhero costumes. The city below is densely packed with tall buildings, roads filled with vehicles, and patches of greenery. The sky is clear with a few scattered clouds, suggesting a bright and sunny day. The bear appears to be flying at a high altitude, providing a bird's-eye view of the urban landscape. The overall scene combines elements of fantasy and adventure, creating a whimsical and imaginative atmosphere.",
+  "final_prompt": "The video features an animated bear dressed as a superhero, soaring through the air over a bustling cityscape. The bear is wearing a red and blue cape with a yellow emblem on it, reminiscent of iconic superhero costumes. The city below is densely packed with tall buildings, roads filled with vehicles, and patches of greenery. The sky is clear with a few scattered clouds, suggesting a bright and sunny day. The bear appears to be flying at a high altitude, providing a bird's-eye view of the urban landscape. The overall scene combines elements of fantasy and adventure, creating a whimsical and imaginative atmosphere.",
+  "iterations": 1,
+  "time_seconds": 2309.143520593643,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_569/569.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video features an animated bear dressed as a superhero, soaring through the air over a bustling cityscape. The bear is wearing a red and blue cape with a yellow emblem on it, reminiscent of iconic superhero costumes. The city below is densely packed with tall buildings, roads filled with vehicles, and patches of greenery. The sky is clear with a few scattered clouds, suggesting a bright and sunny day. The bear appears to be flying at a high altitude, providing a bird's-eye view of the urban landscape. The overall scene combines elements of fantasy and adventure, creating a whimsical and imaginative atmosphere.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_569/iter_01.mp4"
+    }
+  ]
+}

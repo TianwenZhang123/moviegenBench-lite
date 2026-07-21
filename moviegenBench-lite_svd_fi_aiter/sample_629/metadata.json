@@ -1,0 +1,20 @@
+{
+  "sample_id": 629,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video depicts a person in a swimming pool, illuminated by a dramatic and colorful lighting effect that shifts between shades of pink and blue. The individual is seen in various stages of movement, including standing at the edge of the pool, swimming underwater, and emerging from the water. The lighting creates a moody and atmospheric ambiance, highlighting the contours of the person's body and the ripples on the water's surface. The overall scene conveys a sense of tranquility and introspection.",
+  "final_prompt": "The video depicts a person in a swimming pool, illuminated by a dramatic and colorful lighting effect that shifts between shades of pink and blue. The individual is seen in various stages of movement, including standing at the edge of the pool, swimming underwater, and emerging from the water. The lighting creates a moody and atmospheric ambiance, highlighting the contours of the person's body and the ripples on the water's surface. The overall scene conveys a sense of tranquility and introspection.",
+  "iterations": 1,
+  "time_seconds": 2297.4500172138214,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_629/629.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts a person in a swimming pool, illuminated by a dramatic and colorful lighting effect that shifts between shades of pink and blue. The individual is seen in various stages of movement, including standing at the edge of the pool, swimming underwater, and emerging from the water. The lighting creates a moody and atmospheric ambiance, highlighting the contours of the person's body and the ripples on the water's surface. The overall scene conveys a sense of tranquility and introspection.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_629/iter_01.mp4"
+    }
+  ]
+}

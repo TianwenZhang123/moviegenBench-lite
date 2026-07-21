@@ -1,0 +1,20 @@
+{
+  "sample_id": 578,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video features an animated turtle riding a skateboard down a paved road. The turtle has a colorful shell with vibrant patterns and is depicted in motion, suggesting it is gliding smoothly on the skateboard. The background shows a lush, green forested area with sunlight filtering through the trees, creating a serene and natural setting. The overall scene conveys a sense of whimsy and adventure as the turtle navigates the road with ease.",
+  "final_prompt": "The video features an animated turtle riding a skateboard down a paved road. The turtle has a colorful shell with vibrant patterns and is depicted in motion, suggesting it is gliding smoothly on the skateboard. The background shows a lush, green forested area with sunlight filtering through the trees, creating a serene and natural setting. The overall scene conveys a sense of whimsy and adventure as the turtle navigates the road with ease.",
+  "iterations": 1,
+  "time_seconds": 2308.323000907898,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_578/578.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video features an animated turtle riding a skateboard down a paved road. The turtle has a colorful shell with vibrant patterns and is depicted in motion, suggesting it is gliding smoothly on the skateboard. The background shows a lush, green forested area with sunlight filtering through the trees, creating a serene and natural setting. The overall scene conveys a sense of whimsy and adventure as the turtle navigates the road with ease.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_578/iter_01.mp4"
+    }
+  ]
+}

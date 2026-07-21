@@ -1,0 +1,20 @@
+{
+  "sample_id": 627,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video depicts a person running on a treadmill set against an imaginative and surreal backdrop. The scene is filled with oversized, colorful mushrooms and futuristic, abstract structures that resemble skyscrapers or towers. The sky transitions from a deep blue at the top to a warm orange near the horizon, suggesting either sunrise or sunset. There are also some flying objects that appear to be spacecraft or drones, adding to the otherworldly atmosphere. The overall setting blends elements of nature and science fiction, creating a dreamlike and fantastical environment.",
+  "final_prompt": "The video depicts a person running on a treadmill set against an imaginative and surreal backdrop. The scene is filled with oversized, colorful mushrooms and futuristic, abstract structures that resemble skyscrapers or towers. The sky transitions from a deep blue at the top to a warm orange near the horizon, suggesting either sunrise or sunset. There are also some flying objects that appear to be spacecraft or drones, adding to the otherworldly atmosphere. The overall setting blends elements of nature and science fiction, creating a dreamlike and fantastical environment.",
+  "iterations": 1,
+  "time_seconds": 2297.2857851982117,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_627/627.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts a person running on a treadmill set against an imaginative and surreal backdrop. The scene is filled with oversized, colorful mushrooms and futuristic, abstract structures that resemble skyscrapers or towers. The sky transitions from a deep blue at the top to a warm orange near the horizon, suggesting either sunrise or sunset. There are also some flying objects that appear to be spacecraft or drones, adding to the otherworldly atmosphere. The overall setting blends elements of nature and science fiction, creating a dreamlike and fantastical environment.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_627/iter_01.mp4"
+    }
+  ]
+}

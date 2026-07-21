@@ -1,0 +1,20 @@
+{
+  "sample_id": 344,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video depicts a dramatic and intense scene of an asteroid approaching Earth. The first frame shows the asteroid in space, with a fiery trail behind it, indicating that it is moving at high speed and possibly on a collision course with the planet. The Earth is visible in the background, with its surface partially illuminated by sunlight, suggesting either sunrise or sunset.\n\nIn the second frame, the camera zooms in closer to the asteroid, providing a more detailed view of its rough, textured surface. The fiery trail continues to be prominent, emphasizing the asteroid's rapid movement and the potential danger it poses.\n\nThe third frame captures the moment of impact as the asteroid collides with Earth. A massive explosion occurs upon contact, with bright flames and smoke billowing out from the point of impact. The Earth's atmosphere is visibly disrupted, and the scene conveys a sense of catastrophic destruction. The dark background of space contrasts sharply with the bright fire, highlighting the intensity of the event.",
+  "final_prompt": "The video depicts a dramatic and intense scene of an asteroid approaching Earth. The first frame shows the asteroid in space, with a fiery trail behind it, indicating that it is moving at high speed and possibly on a collision course with the planet. The Earth is visible in the background, with its surface partially illuminated by sunlight, suggesting either sunrise or sunset.\n\nIn the second frame, the camera zooms in closer to the asteroid, providing a more detailed view of its rough, textured surface. The fiery trail continues to be prominent, emphasizing the asteroid's rapid movement and the potential danger it poses.\n\nThe third frame captures the moment of impact as the asteroid collides with Earth. A massive explosion occurs upon contact, with bright flames and smoke billowing out from the point of impact. The Earth's atmosphere is visibly disrupted, and the scene conveys a sense of catastrophic destruction. The dark background of space contrasts sharply with the bright fire, highlighting the intensity of the event.",
+  "iterations": 1,
+  "time_seconds": 2306.8168165683746,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_344/344.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts a dramatic and intense scene of an asteroid approaching Earth. The first frame shows the asteroid in space, with a fiery trail behind it, indicating that it is moving at high speed and possibly on a collision course with the planet. The Earth is visible in the background, with its surface partially illuminated by sunlight, suggesting either sunrise or sunset.\n\nIn the second frame, the camera zooms in closer to the asteroid, providing a more detailed view of its rough, textured surface. The fiery trail continues to be prominent, emphasizing the asteroid's rapid movement and the potential danger it poses.\n\nThe third frame captures the moment of impact as the asteroid collides with Earth. A massive explosion occurs upon contact, with bright flames and smoke billowing out from the point of impact. The Earth's atmosphere is visibly disrupted, and the scene conveys a sense of catastrophic destruction. The dark background of space contrasts sharply with the bright fire, highlighting the intensity of the event.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_344/iter_01.mp4"
+    }
+  ]
+}

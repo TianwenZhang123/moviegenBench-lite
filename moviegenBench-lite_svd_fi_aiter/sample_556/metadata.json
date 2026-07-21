@@ -1,0 +1,20 @@
+{
+  "sample_id": 556,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video features a creative and surreal scene where a famous painting of a woman, reminiscent of Leonardo da Vinci's \"Mona Lisa,\" is superimposed onto a snowy landscape. The background depicts a serene winter park with snow-covered trees, benches, and a clear blue sky. Snowflakes gently fall around the painting, enhancing the wintry atmosphere.\n\nIn the foreground, there is an animated character dressed in traditional winter attire, holding a plate with food, seemingly interacting with the snowy environment. The character appears to be engaged in a playful or whimsical activity, adding a dynamic element to the otherwise still and tranquil setting. The overall composition blends historical art with modern, animated elements, creating a unique and imaginative visual narrative.",
+  "final_prompt": "The video features a creative and surreal scene where a famous painting of a woman, reminiscent of Leonardo da Vinci's \"Mona Lisa,\" is superimposed onto a snowy landscape. The background depicts a serene winter park with snow-covered trees, benches, and a clear blue sky. Snowflakes gently fall around the painting, enhancing the wintry atmosphere.\n\nIn the foreground, there is an animated character dressed in traditional winter attire, holding a plate with food, seemingly interacting with the snowy environment. The character appears to be engaged in a playful or whimsical activity, adding a dynamic element to the otherwise still and tranquil setting. The overall composition blends historical art with modern, animated elements, creating a unique and imaginative visual narrative.",
+  "iterations": 1,
+  "time_seconds": 2739.05278468132,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_556/556.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video features a creative and surreal scene where a famous painting of a woman, reminiscent of Leonardo da Vinci's \"Mona Lisa,\" is superimposed onto a snowy landscape. The background depicts a serene winter park with snow-covered trees, benches, and a clear blue sky. Snowflakes gently fall around the painting, enhancing the wintry atmosphere.\n\nIn the foreground, there is an animated character dressed in traditional winter attire, holding a plate with food, seemingly interacting with the snowy environment. The character appears to be engaged in a playful or whimsical activity, adding a dynamic element to the otherwise still and tranquil setting. The overall composition blends historical art with modern, animated elements, creating a unique and imaginative visual narrative.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_556/iter_01.mp4"
+    }
+  ]
+}
