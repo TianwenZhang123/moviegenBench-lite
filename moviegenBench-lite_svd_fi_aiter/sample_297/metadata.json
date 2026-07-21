@@ -1,0 +1,20 @@
+{
+  "sample_id": 297,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video features a character with a striking, otherworldly appearance, set against an urban backdrop that appears to be a dimly lit parking garage or alleyway. The character is clad in a sleek, black, form-fitting suit with metallic accents and a flowing cape. Their head is adorned with a helmet that has a menacing, purple hue and features sharp, pointed ears and glowing red eyes, giving them a fierce and intimidating look.\n\nThe character's movements are dynamic and purposeful, suggesting they are either running or preparing for action. The environment around them is bathed in cool blue and purple lighting, which enhances the futuristic and somewhat dystopian atmosphere of the scene. The character's posture and the way they carry themselves convey confidence and readiness, as if they are on a mission or about to engage in some form of confrontation. The overall aesthetic is reminiscent of science fiction or fantasy genres, with elements of high-tech armor and a mysterious, powerful presence.",
+  "final_prompt": "The video features a character with a striking, otherworldly appearance, set against an urban backdrop that appears to be a dimly lit parking garage or alleyway. The character is clad in a sleek, black, form-fitting suit with metallic accents and a flowing cape. Their head is adorned with a helmet that has a menacing, purple hue and features sharp, pointed ears and glowing red eyes, giving them a fierce and intimidating look.\n\nThe character's movements are dynamic and purposeful, suggesting they are either running or preparing for action. The environment around them is bathed in cool blue and purple lighting, which enhances the futuristic and somewhat dystopian atmosphere of the scene. The character's posture and the way they carry themselves convey confidence and readiness, as if they are on a mission or about to engage in some form of confrontation. The overall aesthetic is reminiscent of science fiction or fantasy genres, with elements of high-tech armor and a mysterious, powerful presence.",
+  "iterations": 1,
+  "time_seconds": 2739.7379710674286,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_297/297.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video features a character with a striking, otherworldly appearance, set against an urban backdrop that appears to be a dimly lit parking garage or alleyway. The character is clad in a sleek, black, form-fitting suit with metallic accents and a flowing cape. Their head is adorned with a helmet that has a menacing, purple hue and features sharp, pointed ears and glowing red eyes, giving them a fierce and intimidating look.\n\nThe character's movements are dynamic and purposeful, suggesting they are either running or preparing for action. The environment around them is bathed in cool blue and purple lighting, which enhances the futuristic and somewhat dystopian atmosphere of the scene. The character's posture and the way they carry themselves convey confidence and readiness, as if they are on a mission or about to engage in some form of confrontation. The overall aesthetic is reminiscent of science fiction or fantasy genres, with elements of high-tech armor and a mysterious, powerful presence.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_297/iter_01.mp4"
+    }
+  ]
+}

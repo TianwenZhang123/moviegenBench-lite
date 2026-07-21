@@ -1,0 +1,20 @@
+{
+  "sample_id": 73,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video depicts an expansive, empty warehouse with high ceilings and large windows allowing natural light to flood in. The floor is clean and marked with yellow lines, suggesting it might be used for storage or industrial purposes. As the camera moves forward, the focus shifts from the empty space to a vibrant, lush garden that gradually fills the center of the frame. The garden is teeming with a variety of green plants, flowers, and foliage, creating a stark contrast against the industrial backdrop. The plants appear healthy and well-maintained, adding a touch of nature and tranquility to the otherwise stark environment. The transition from the barren warehouse to the thriving garden symbolizes growth, transformation, or the potential for nature to reclaim even the most urban spaces.",
+  "final_prompt": "The video depicts an expansive, empty warehouse with high ceilings and large windows allowing natural light to flood in. The floor is clean and marked with yellow lines, suggesting it might be used for storage or industrial purposes. As the camera moves forward, the focus shifts from the empty space to a vibrant, lush garden that gradually fills the center of the frame. The garden is teeming with a variety of green plants, flowers, and foliage, creating a stark contrast against the industrial backdrop. The plants appear healthy and well-maintained, adding a touch of nature and tranquility to the otherwise stark environment. The transition from the barren warehouse to the thriving garden symbolizes growth, transformation, or the potential for nature to reclaim even the most urban spaces.",
+  "iterations": 1,
+  "time_seconds": 2707.346855401993,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_73/73.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts an expansive, empty warehouse with high ceilings and large windows allowing natural light to flood in. The floor is clean and marked with yellow lines, suggesting it might be used for storage or industrial purposes. As the camera moves forward, the focus shifts from the empty space to a vibrant, lush garden that gradually fills the center of the frame. The garden is teeming with a variety of green plants, flowers, and foliage, creating a stark contrast against the industrial backdrop. The plants appear healthy and well-maintained, adding a touch of nature and tranquility to the otherwise stark environment. The transition from the barren warehouse to the thriving garden symbolizes growth, transformation, or the potential for nature to reclaim even the most urban spaces.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_73/iter_01.mp4"
+    }
+  ]
+}

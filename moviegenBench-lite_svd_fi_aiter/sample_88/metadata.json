@@ -1,0 +1,20 @@
+{
+  "sample_id": 88,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video depicts a narrow alleyway between old, weathered buildings under a stormy sky. The scene is chaotic and intense, with large waves of water crashing through the alley, creating a sense of urgency and danger. The water appears dirty and turbulent, suggesting it might be a flood or a sudden surge of water. Debris, including pieces of wood and other objects, is scattered along the sides of the alley, adding to the disarray. The sky is filled with dark, ominous clouds, enhancing the dramatic and foreboding atmosphere of the scene. The overall mood is one of destruction and the overwhelming power of nature.",
+  "final_prompt": "The video depicts a narrow alleyway between old, weathered buildings under a stormy sky. The scene is chaotic and intense, with large waves of water crashing through the alley, creating a sense of urgency and danger. The water appears dirty and turbulent, suggesting it might be a flood or a sudden surge of water. Debris, including pieces of wood and other objects, is scattered along the sides of the alley, adding to the disarray. The sky is filled with dark, ominous clouds, enhancing the dramatic and foreboding atmosphere of the scene. The overall mood is one of destruction and the overwhelming power of nature.",
+  "iterations": 1,
+  "time_seconds": 2308.515213251114,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_88/88.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts a narrow alleyway between old, weathered buildings under a stormy sky. The scene is chaotic and intense, with large waves of water crashing through the alley, creating a sense of urgency and danger. The water appears dirty and turbulent, suggesting it might be a flood or a sudden surge of water. Debris, including pieces of wood and other objects, is scattered along the sides of the alley, adding to the disarray. The sky is filled with dark, ominous clouds, enhancing the dramatic and foreboding atmosphere of the scene. The overall mood is one of destruction and the overwhelming power of nature.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_88/iter_01.mp4"
+    }
+  ]
+}

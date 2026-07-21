@@ -1,0 +1,20 @@
+{
+  "sample_id": 244,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video features a close-up of an individual's face, focusing on their eyes and part of their nose and mouth. The lighting is dramatic, with a warm, reddish hue illuminating the person's skin, creating a strong contrast against the darker background. The background appears to be out of focus, with horizontal lines suggesting a possible digital or technological theme. The person's eyes are wide open, and they seem to be looking directly at the camera, giving the impression of intense focus or concentration. The overall mood of the video is intense and somewhat mysterious due to the lighting and the direct gaze of the subject.",
+  "final_prompt": "The video features a close-up of an individual's face, focusing on their eyes and part of their nose and mouth. The lighting is dramatic, with a warm, reddish hue illuminating the person's skin, creating a strong contrast against the darker background. The background appears to be out of focus, with horizontal lines suggesting a possible digital or technological theme. The person's eyes are wide open, and they seem to be looking directly at the camera, giving the impression of intense focus or concentration. The overall mood of the video is intense and somewhat mysterious due to the lighting and the direct gaze of the subject.",
+  "iterations": 1,
+  "time_seconds": 2300.977478981018,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_244/244.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video features a close-up of an individual's face, focusing on their eyes and part of their nose and mouth. The lighting is dramatic, with a warm, reddish hue illuminating the person's skin, creating a strong contrast against the darker background. The background appears to be out of focus, with horizontal lines suggesting a possible digital or technological theme. The person's eyes are wide open, and they seem to be looking directly at the camera, giving the impression of intense focus or concentration. The overall mood of the video is intense and somewhat mysterious due to the lighting and the direct gaze of the subject.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_244/iter_01.mp4"
+    }
+  ]
+}

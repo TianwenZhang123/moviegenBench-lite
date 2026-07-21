@@ -1,0 +1,20 @@
+{
+  "sample_id": 280,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video depicts two individuals walking down a city street on a sunny day. The person on the left is wearing a blue shirt and jeans, while the person on the right is dressed in a yellow dress. They are walking side by side, with their backs to the camera, heading towards the horizon. The street is lined with tall buildings featuring various storefronts, including one with a sign that reads \"Siegel.\" The sky is clear with a few scattered clouds, and the overall atmosphere suggests a calm and pleasant urban environment. As they walk, the perspective shifts slightly, giving a sense of movement and depth as if the viewer is following them down the street.",
+  "final_prompt": "The video depicts two individuals walking down a city street on a sunny day. The person on the left is wearing a blue shirt and jeans, while the person on the right is dressed in a yellow dress. They are walking side by side, with their backs to the camera, heading towards the horizon. The street is lined with tall buildings featuring various storefronts, including one with a sign that reads \"Siegel.\" The sky is clear with a few scattered clouds, and the overall atmosphere suggests a calm and pleasant urban environment. As they walk, the perspective shifts slightly, giving a sense of movement and depth as if the viewer is following them down the street.",
+  "iterations": 1,
+  "time_seconds": 2303.266681432724,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_280/280.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts two individuals walking down a city street on a sunny day. The person on the left is wearing a blue shirt and jeans, while the person on the right is dressed in a yellow dress. They are walking side by side, with their backs to the camera, heading towards the horizon. The street is lined with tall buildings featuring various storefronts, including one with a sign that reads \"Siegel.\" The sky is clear with a few scattered clouds, and the overall atmosphere suggests a calm and pleasant urban environment. As they walk, the perspective shifts slightly, giving a sense of movement and depth as if the viewer is following them down the street.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_280/iter_01.mp4"
+    }
+  ]
+}

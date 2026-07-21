@@ -1,0 +1,20 @@
+{
+  "sample_id": 156,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video depicts two individuals performing a synchronized underwater routine in a swimming pool. They are wearing black swim trunks and appear to be executing a series of coordinated movements, including arm gestures and body positions that suggest a dance or artistic performance. The lighting is dim, with reflections on the water's surface creating a serene atmosphere. The background shows an empty spectator area with rows of yellow seats, indicating that this might be a practice session or a performance without an audience. The overall scene conveys a sense of grace and precision in their movements.",
+  "final_prompt": "The video depicts two individuals performing a synchronized underwater routine in a swimming pool. They are wearing black swim trunks and appear to be executing a series of coordinated movements, including arm gestures and body positions that suggest a dance or artistic performance. The lighting is dim, with reflections on the water's surface creating a serene atmosphere. The background shows an empty spectator area with rows of yellow seats, indicating that this might be a practice session or a performance without an audience. The overall scene conveys a sense of grace and precision in their movements.",
+  "iterations": 1,
+  "time_seconds": 2312.42449593544,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_156/156.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video depicts two individuals performing a synchronized underwater routine in a swimming pool. They are wearing black swim trunks and appear to be executing a series of coordinated movements, including arm gestures and body positions that suggest a dance or artistic performance. The lighting is dim, with reflections on the water's surface creating a serene atmosphere. The background shows an empty spectator area with rows of yellow seats, indicating that this might be a practice session or a performance without an audience. The overall scene conveys a sense of grace and precision in their movements.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_156/iter_01.mp4"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sample_id": 111,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "The video captures an aerial view of a lush, dense forest teeming with greenery. The sunlight filters through the canopy, casting dappled shadows on the ground below and creating a vibrant interplay of light and dark. At the center of the frames, a drone is seen flying low over the treetops. The drone appears to be equipped with a camera or sensor, suggesting it might be used for surveillance, mapping, or capturing aerial footage. The surrounding environment is rich with various types of trees, including palm trees, indicating a tropical or subtropical setting. The overall atmosphere is serene and natural, emphasizing the beauty and complexity of the forest ecosystem.",
+  "final_prompt": "The video captures an aerial view of a lush, dense forest teeming with greenery. The sunlight filters through the canopy, casting dappled shadows on the ground below and creating a vibrant interplay of light and dark. At the center of the frames, a drone is seen flying low over the treetops. The drone appears to be equipped with a camera or sensor, suggesting it might be used for surveillance, mapping, or capturing aerial footage. The surrounding environment is rich with various types of trees, including palm trees, indicating a tropical or subtropical setting. The overall atmosphere is serene and natural, emphasizing the beauty and complexity of the forest ecosystem.",
+  "iterations": 1,
+  "time_seconds": 2309.7755756378174,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter/sample_111/111.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "The video captures an aerial view of a lush, dense forest teeming with greenery. The sunlight filters through the canopy, casting dappled shadows on the ground below and creating a vibrant interplay of light and dark. At the center of the frames, a drone is seen flying low over the treetops. The drone appears to be equipped with a camera or sensor, suggesting it might be used for surveillance, mapping, or capturing aerial footage. The surrounding environment is rich with various types of trees, including palm trees, indicating a tropical or subtropical setting. The overall atmosphere is serene and natural, emphasizing the beauty and complexity of the forest ecosystem.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter/sample_111/iter_01.mp4"
+    }
+  ]
+}
