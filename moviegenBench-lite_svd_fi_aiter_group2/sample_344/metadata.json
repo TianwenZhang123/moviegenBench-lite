@@ -1,0 +1,20 @@
+{
+  "sample_id": 344,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "A character with striking otherworldly appearance against an urban backdrop of dimly lit parking garage or alleyway, clad in sleek black form-fitting suit with metallic accents and flowing cape, helmet with menacing purple hue, sharp pointed ears and glowing red eyes giving fierce intimidating look, dynamic purposeful movements suggesting running or preparing for action, cool blue and purple lighting enhancing futuristic dystopian atmosphere, posture conveying confidence and readiness as if on a mission or about to engage in confrontation, science fiction or fantasy aesthetic with high-tech armor elements and mysterious powerful presence.",
+  "final_prompt": "A character with striking otherworldly appearance against an urban backdrop of dimly lit parking garage or alleyway, clad in sleek black form-fitting suit with metallic accents and flowing cape, helmet with menacing purple hue, sharp pointed ears and glowing red eyes giving fierce intimidating look, dynamic purposeful movements suggesting running or preparing for action, cool blue and purple lighting enhancing futuristic dystopian atmosphere, posture conveying confidence and readiness as if on a mission or about to engage in confrontation, science fiction or fantasy aesthetic with high-tech armor elements and mysterious powerful presence.",
+  "iterations": 1,
+  "time_seconds": 2309.1069910526276,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_344/344.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "A character with striking otherworldly appearance against an urban backdrop of dimly lit parking garage or alleyway, clad in sleek black form-fitting suit with metallic accents and flowing cape, helmet with menacing purple hue, sharp pointed ears and glowing red eyes giving fierce intimidating look, dynamic purposeful movements suggesting running or preparing for action, cool blue and purple lighting enhancing futuristic dystopian atmosphere, posture conveying confidence and readiness as if on a mission or about to engage in confrontation, science fiction or fantasy aesthetic with high-tech armor elements and mysterious powerful presence.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_344/iter_01.mp4"
+    }
+  ]
+}

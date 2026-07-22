@@ -1,0 +1,20 @@
+{
+  "sample_id": 419,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "First-person perspective of someone walking up a carpeted staircase, wearing blue sneakers and dark shorts, beige carpet with dark wooden edges, light-colored walls on either side, metallic railing with ornate design on the right, camera angle shifting slightly as the person ascends to show more staircase and wall behind, natural lighting from source outside the frame possibly a window, calm and steady atmosphere with no other people or significant movement.",
+  "final_prompt": "First-person perspective of someone walking up a carpeted staircase, wearing blue sneakers and dark shorts, beige carpet with dark wooden edges, light-colored walls on either side, metallic railing with ornate design on the right, camera angle shifting slightly as the person ascends to show more staircase and wall behind, natural lighting from source outside the frame possibly a window, calm and steady atmosphere with no other people or significant movement.",
+  "iterations": 1,
+  "time_seconds": 2708.0697758197784,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_419/419.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "First-person perspective of someone walking up a carpeted staircase, wearing blue sneakers and dark shorts, beige carpet with dark wooden edges, light-colored walls on either side, metallic railing with ornate design on the right, camera angle shifting slightly as the person ascends to show more staircase and wall behind, natural lighting from source outside the frame possibly a window, calm and steady atmosphere with no other people or significant movement.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_419/iter_01.mp4"
+    }
+  ]
+}

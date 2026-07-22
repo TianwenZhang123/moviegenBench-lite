@@ -1,0 +1,20 @@
+{
+  "sample_id": 466,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "A futuristic cityscape at night illuminated by vibrant neon lights in shades of blue, pink, and purple, towering skyscrapers with intricate lighting patterns giving digital cyberpunk aesthetic, hovering vehicle resembling flying car or futuristic aircraft with sleek design and glowing blue lights at the center, vehicle hovering above buildings suggesting advanced technology and future where transportation is not limited to ground, high-tech urbanism blending science fiction with modern high-energy city environment.",
+  "final_prompt": "A futuristic cityscape at night illuminated by vibrant neon lights in shades of blue, pink, and purple, towering skyscrapers with intricate lighting patterns giving digital cyberpunk aesthetic, hovering vehicle resembling flying car or futuristic aircraft with sleek design and glowing blue lights at the center, vehicle hovering above buildings suggesting advanced technology and future where transportation is not limited to ground, high-tech urbanism blending science fiction with modern high-energy city environment.",
+  "iterations": 1,
+  "time_seconds": 2301.7569737434387,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_466/466.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "A futuristic cityscape at night illuminated by vibrant neon lights in shades of blue, pink, and purple, towering skyscrapers with intricate lighting patterns giving digital cyberpunk aesthetic, hovering vehicle resembling flying car or futuristic aircraft with sleek design and glowing blue lights at the center, vehicle hovering above buildings suggesting advanced technology and future where transportation is not limited to ground, high-tech urbanism blending science fiction with modern high-energy city environment.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_466/iter_01.mp4"
+    }
+  ]
+}

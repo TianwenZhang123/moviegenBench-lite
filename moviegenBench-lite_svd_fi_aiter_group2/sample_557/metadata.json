@@ -1,0 +1,20 @@
+{
+  "sample_id": 557,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "two individuals running joyfully through a narrow alleyway during a rainstorm, person on the left wearing a teal t-shirt and denim shorts, person on the right dressed in a red dress, both barefoot with hair blown by the wind, alley lined with trash bins, closed shutters, and hanging wires, wet ground with water splashes, playful carefree moment amidst the rain",
+  "final_prompt": "two individuals running joyfully through a narrow alleyway during a rainstorm, person on the left wearing a teal t-shirt and denim shorts, person on the right dressed in a red dress, both barefoot with hair blown by the wind, alley lined with trash bins, closed shutters, and hanging wires, wet ground with water splashes, playful carefree moment amidst the rain",
+  "iterations": 1,
+  "time_seconds": 2302.3643128871918,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_557/557.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "two individuals running joyfully through a narrow alleyway during a rainstorm, person on the left wearing a teal t-shirt and denim shorts, person on the right dressed in a red dress, both barefoot with hair blown by the wind, alley lined with trash bins, closed shutters, and hanging wires, wet ground with water splashes, playful carefree moment amidst the rain",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_557/iter_01.mp4"
+    }
+  ]
+}

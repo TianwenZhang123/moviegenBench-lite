@@ -1,0 +1,20 @@
+{
+  "sample_id": 591,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "person swimming gracefully through clear blue water surrounded by numerous colorful fish, vibrant yellow and black patterns and more subdued colors among the species, swimmer moving effortlessly with arms outstretched and legs extended in free-style motion, sunlight filtering through the water from above, serene tranquil atmosphere conveying freedom and connection with nature",
+  "final_prompt": "person swimming gracefully through clear blue water surrounded by numerous colorful fish, vibrant yellow and black patterns and more subdued colors among the species, swimmer moving effortlessly with arms outstretched and legs extended in free-style motion, sunlight filtering through the water from above, serene tranquil atmosphere conveying freedom and connection with nature",
+  "iterations": 1,
+  "time_seconds": 2305.2459948062897,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_591/591.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "person swimming gracefully through clear blue water surrounded by numerous colorful fish, vibrant yellow and black patterns and more subdued colors among the species, swimmer moving effortlessly with arms outstretched and legs extended in free-style motion, sunlight filtering through the water from above, serene tranquil atmosphere conveying freedom and connection with nature",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_591/iter_01.mp4"
+    }
+  ]
+}

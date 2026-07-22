@@ -1,0 +1,20 @@
+{
+  "sample_id": 431,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "A dramatic volcanic eruption set against lush green mountains and a body of water, large plume of dark smoke and ash rising into the sky accompanied by bright blue lightning bolts striking through the cloud, smoke becoming denser and more voluminous expanding upwards and outwards, surrounding landscape bathed in dim light suggesting early morning or late evening adding to ominous atmosphere, calm ocean in the background contrasting sharply with intense volcanic activity, natural power and awe-inspiring force.",
+  "final_prompt": "A dramatic volcanic eruption set against lush green mountains and a body of water, large plume of dark smoke and ash rising into the sky accompanied by bright blue lightning bolts striking through the cloud, smoke becoming denser and more voluminous expanding upwards and outwards, surrounding landscape bathed in dim light suggesting early morning or late evening adding to ominous atmosphere, calm ocean in the background contrasting sharply with intense volcanic activity, natural power and awe-inspiring force.",
+  "iterations": 1,
+  "time_seconds": 2304.82808303833,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_431/431.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "A dramatic volcanic eruption set against lush green mountains and a body of water, large plume of dark smoke and ash rising into the sky accompanied by bright blue lightning bolts striking through the cloud, smoke becoming denser and more voluminous expanding upwards and outwards, surrounding landscape bathed in dim light suggesting early morning or late evening adding to ominous atmosphere, calm ocean in the background contrasting sharply with intense volcanic activity, natural power and awe-inspiring force.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_431/iter_01.mp4"
+    }
+  ]
+}

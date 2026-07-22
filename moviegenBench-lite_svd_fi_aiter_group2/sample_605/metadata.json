@@ -1,0 +1,20 @@
+{
+  "sample_id": 605,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "kite engulfed in bright orange and yellow flames with sparks flying off it, soaring through a clear blue sky dotted with fluffy white clouds, dark material tethered by a string trailing behind, two individuals in the background with one holding a remote control or device, intense visually striking atmosphere capturing contrast between serene sky and fiery kite",
+  "final_prompt": "kite engulfed in bright orange and yellow flames with sparks flying off it, soaring through a clear blue sky dotted with fluffy white clouds, dark material tethered by a string trailing behind, two individuals in the background with one holding a remote control or device, intense visually striking atmosphere capturing contrast between serene sky and fiery kite",
+  "iterations": 1,
+  "time_seconds": 2301.014873981476,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_605/605.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "kite engulfed in bright orange and yellow flames with sparks flying off it, soaring through a clear blue sky dotted with fluffy white clouds, dark material tethered by a string trailing behind, two individuals in the background with one holding a remote control or device, intense visually striking atmosphere capturing contrast between serene sky and fiery kite",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_605/iter_01.mp4"
+    }
+  ]
+}

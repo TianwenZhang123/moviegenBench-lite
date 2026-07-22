@@ -1,0 +1,20 @@
+{
+  "sample_id": 283,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "An asteroid in space with a fiery trail behind it, moving at high speed and possibly on a collision course with Earth, Earth visible in the background with surface partially illuminated by sunlight suggesting sunrise or sunset. The camera zooms in closer to the asteroid, detailed view of its rough textured surface, fiery trail prominent emphasizing rapid movement and potential danger. The third frame captures the moment of impact as the asteroid collides with Earth, massive explosion with bright flames and smoke billowing from the point of impact, Earth's atmosphere visibly disrupted, catastrophic destruction, dark space background contrasting sharply with bright fire highlighting event intensity.",
+  "final_prompt": "An asteroid in space with a fiery trail behind it, moving at high speed and possibly on a collision course with Earth, Earth visible in the background with surface partially illuminated by sunlight suggesting sunrise or sunset. The camera zooms in closer to the asteroid, detailed view of its rough textured surface, fiery trail prominent emphasizing rapid movement and potential danger. The third frame captures the moment of impact as the asteroid collides with Earth, massive explosion with bright flames and smoke billowing from the point of impact, Earth's atmosphere visibly disrupted, catastrophic destruction, dark space background contrasting sharply with bright fire highlighting event intensity.",
+  "iterations": 1,
+  "time_seconds": 2714.2249891757965,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_283/283.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "An asteroid in space with a fiery trail behind it, moving at high speed and possibly on a collision course with Earth, Earth visible in the background with surface partially illuminated by sunlight suggesting sunrise or sunset. The camera zooms in closer to the asteroid, detailed view of its rough textured surface, fiery trail prominent emphasizing rapid movement and potential danger. The third frame captures the moment of impact as the asteroid collides with Earth, massive explosion with bright flames and smoke billowing from the point of impact, Earth's atmosphere visibly disrupted, catastrophic destruction, dark space background contrasting sharply with bright fire highlighting event intensity.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_283/iter_01.mp4"
+    }
+  ]
+}

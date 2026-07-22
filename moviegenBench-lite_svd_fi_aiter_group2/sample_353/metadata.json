@@ -1,0 +1,20 @@
+{
+  "sample_id": 353,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "A serene outdoor scene featuring a glass window or door with clear reflection of sky and clouds, initially showing bright blue sky with scattered white clouds, a bird flying into the frame from the right side seemingly drawn by the reflection, wings spread wide as it approaches the glass creating illusion of flying through the reflection, then landing on the glass surface with reflection becoming more prominent against sky backdrop, calm and peaceful atmosphere with natural light enhancing scene clarity.",
+  "final_prompt": "A serene outdoor scene featuring a glass window or door with clear reflection of sky and clouds, initially showing bright blue sky with scattered white clouds, a bird flying into the frame from the right side seemingly drawn by the reflection, wings spread wide as it approaches the glass creating illusion of flying through the reflection, then landing on the glass surface with reflection becoming more prominent against sky backdrop, calm and peaceful atmosphere with natural light enhancing scene clarity.",
+  "iterations": 1,
+  "time_seconds": 2308.665286064148,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_353/353.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "A serene outdoor scene featuring a glass window or door with clear reflection of sky and clouds, initially showing bright blue sky with scattered white clouds, a bird flying into the frame from the right side seemingly drawn by the reflection, wings spread wide as it approaches the glass creating illusion of flying through the reflection, then landing on the glass surface with reflection becoming more prominent against sky backdrop, calm and peaceful atmosphere with natural light enhancing scene clarity.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group2/sample_353/iter_01.mp4"
+    }
+  ]
+}
