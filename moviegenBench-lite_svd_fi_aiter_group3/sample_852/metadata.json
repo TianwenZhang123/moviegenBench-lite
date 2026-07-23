@@ -1,0 +1,20 @@
+{
+  "sample_id": 852,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "scenic drive along a winding mountain road bordered by lush greenery on one side and deep blue lake on the other, majestic mountains rising in the background under clear blue sky dotted with few clouds, silver car moving from left to right across the frame, camera following the car as it navigates curves providing dynamic perspective, serene breathtaking atmosphere highlighting beauty of nature and thrill of road trip",
+  "final_prompt": "scenic drive along a winding mountain road bordered by lush greenery on one side and deep blue lake on the other, majestic mountains rising in the background under clear blue sky dotted with few clouds, silver car moving from left to right across the frame, camera following the car as it navigates curves providing dynamic perspective, serene breathtaking atmosphere highlighting beauty of nature and thrill of road trip",
+  "iterations": 1,
+  "time_seconds": 2308.6930782794952,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_852/852.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "scenic drive along a winding mountain road bordered by lush greenery on one side and deep blue lake on the other, majestic mountains rising in the background under clear blue sky dotted with few clouds, silver car moving from left to right across the frame, camera following the car as it navigates curves providing dynamic perspective, serene breathtaking atmosphere highlighting beauty of nature and thrill of road trip",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_852/iter_01.mp4"
+    }
+  ]
+}

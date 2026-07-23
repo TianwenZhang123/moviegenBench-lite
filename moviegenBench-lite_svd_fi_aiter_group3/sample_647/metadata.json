@@ -1,0 +1,20 @@
+{
+  "sample_id": 647,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "young man walking down a busy urban street engrossed in his smartphone, dressed casually in a dark blue hoodie and jeans holding the phone in both hands, bustling city environment with other pedestrians, European-style building with classical columns and large windows in the background, warm glow suggesting late afternoon or early evening, everyday life in a modern city",
+  "final_prompt": "young man walking down a busy urban street engrossed in his smartphone, dressed casually in a dark blue hoodie and jeans holding the phone in both hands, bustling city environment with other pedestrians, European-style building with classical columns and large windows in the background, warm glow suggesting late afternoon or early evening, everyday life in a modern city",
+  "iterations": 1,
+  "time_seconds": 2704.8865303993225,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_647/647.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "young man walking down a busy urban street engrossed in his smartphone, dressed casually in a dark blue hoodie and jeans holding the phone in both hands, bustling city environment with other pedestrians, European-style building with classical columns and large windows in the background, warm glow suggesting late afternoon or early evening, everyday life in a modern city",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_647/iter_01.mp4"
+    }
+  ]
+}

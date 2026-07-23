@@ -1,0 +1,20 @@
+{
+  "sample_id": 677,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "skydiver in mid-air performing a freefall maneuver over patchwork fields and greenery, helmet with camera mounted providing first-person perspective, blue jumpsuit and parachute harness, extending arms and legs showcasing dynamic movement and control, clear blue sky and vast expanse of farmland below with varying shades of green and brown, sense of adventure and freedom",
+  "final_prompt": "skydiver in mid-air performing a freefall maneuver over patchwork fields and greenery, helmet with camera mounted providing first-person perspective, blue jumpsuit and parachute harness, extending arms and legs showcasing dynamic movement and control, clear blue sky and vast expanse of farmland below with varying shades of green and brown, sense of adventure and freedom",
+  "iterations": 1,
+  "time_seconds": 2306.3817961215973,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_677/677.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "skydiver in mid-air performing a freefall maneuver over patchwork fields and greenery, helmet with camera mounted providing first-person perspective, blue jumpsuit and parachute harness, extending arms and legs showcasing dynamic movement and control, clear blue sky and vast expanse of farmland below with varying shades of green and brown, sense of adventure and freedom",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_677/iter_01.mp4"
+    }
+  ]
+}

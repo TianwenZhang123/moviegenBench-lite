@@ -1,0 +1,20 @@
+{
+  "sample_id": 850,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "young child with curly hair running through a lush green field under a clear blue sky, dressed in a yellow dress with pattern complementing vibrant surroundings, laughing and smiling widely, serene landscape with scattered wildflowers and a few birds flying overhead, peaceful carefree atmosphere capturing childhood innocence and beauty of nature",
+  "final_prompt": "young child with curly hair running through a lush green field under a clear blue sky, dressed in a yellow dress with pattern complementing vibrant surroundings, laughing and smiling widely, serene landscape with scattered wildflowers and a few birds flying overhead, peaceful carefree atmosphere capturing childhood innocence and beauty of nature",
+  "iterations": 1,
+  "time_seconds": 2309.218091726303,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_850/850.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "young child with curly hair running through a lush green field under a clear blue sky, dressed in a yellow dress with pattern complementing vibrant surroundings, laughing and smiling widely, serene landscape with scattered wildflowers and a few birds flying overhead, peaceful carefree atmosphere capturing childhood innocence and beauty of nature",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_850/iter_01.mp4"
+    }
+  ]
+}

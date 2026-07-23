@@ -1,0 +1,20 @@
+{
+  "sample_id": 780,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "spherical object being filled with vibrant teal-colored liquid, liquid poured into the top creating ripples and splashes as it fills up, plain light beige background contrasting with bright teal hue, liquid flowing smoothly with bubbles forming as it rises, camera angle remaining consistent from above as sphere gradually fills to the brim",
+  "final_prompt": "spherical object being filled with vibrant teal-colored liquid, liquid poured into the top creating ripples and splashes as it fills up, plain light beige background contrasting with bright teal hue, liquid flowing smoothly with bubbles forming as it rises, camera angle remaining consistent from above as sphere gradually fills to the brim",
+  "iterations": 1,
+  "time_seconds": 2305.4115011692047,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_780/780.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "spherical object being filled with vibrant teal-colored liquid, liquid poured into the top creating ripples and splashes as it fills up, plain light beige background contrasting with bright teal hue, liquid flowing smoothly with bubbles forming as it rises, camera angle remaining consistent from above as sphere gradually fills to the brim",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_780/iter_01.mp4"
+    }
+  ]
+}

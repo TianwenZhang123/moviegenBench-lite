@@ -1,0 +1,20 @@
+{
+  "sample_id": 674,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "drone flying through a serene forest with tall dense trees and lush green undergrowth, moving from background towards foreground with multiple illuminated lights on its propellers, sunlight filtering through the canopy creating dappled effect on the forest floor, peaceful immersive atmosphere capturing beauty of nature and exploration technology",
+  "final_prompt": "drone flying through a serene forest with tall dense trees and lush green undergrowth, moving from background towards foreground with multiple illuminated lights on its propellers, sunlight filtering through the canopy creating dappled effect on the forest floor, peaceful immersive atmosphere capturing beauty of nature and exploration technology",
+  "iterations": 1,
+  "time_seconds": 2308.5038573741913,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_674/674.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "drone flying through a serene forest with tall dense trees and lush green undergrowth, moving from background towards foreground with multiple illuminated lights on its propellers, sunlight filtering through the canopy creating dappled effect on the forest floor, peaceful immersive atmosphere capturing beauty of nature and exploration technology",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_674/iter_01.mp4"
+    }
+  ]
+}

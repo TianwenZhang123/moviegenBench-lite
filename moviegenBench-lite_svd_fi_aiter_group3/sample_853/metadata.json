@@ -1,0 +1,20 @@
+{
+  "sample_id": 853,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "group of cyclists wearing matching jerseys with red, yellow, and blue colors along with white helmets, riding on a narrow dirt path through lush green forest, dense trees and vibrant green foliage surrounding the path, camera following from behind as they pedal forward creating sense of motion and speed, sunlight filtering through leaves casting dappled shadows, serene adventurous atmosphere highlighting beauty of nature and thrill of cycling",
+  "final_prompt": "group of cyclists wearing matching jerseys with red, yellow, and blue colors along with white helmets, riding on a narrow dirt path through lush green forest, dense trees and vibrant green foliage surrounding the path, camera following from behind as they pedal forward creating sense of motion and speed, sunlight filtering through leaves casting dappled shadows, serene adventurous atmosphere highlighting beauty of nature and thrill of cycling",
+  "iterations": 1,
+  "time_seconds": 3263.7937667369843,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_853/853.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "group of cyclists wearing matching jerseys with red, yellow, and blue colors along with white helmets, riding on a narrow dirt path through lush green forest, dense trees and vibrant green foliage surrounding the path, camera following from behind as they pedal forward creating sense of motion and speed, sunlight filtering through leaves casting dappled shadows, serene adventurous atmosphere highlighting beauty of nature and thrill of cycling",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_853/iter_01.mp4"
+    }
+  ]
+}

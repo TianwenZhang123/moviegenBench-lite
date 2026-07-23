@@ -1,0 +1,20 @@
+{
+  "sample_id": 862,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "person dressed in elaborate steampunk-style diving suit with metallic components, large circular visor helmet, and various pipes and gauges, walking through bustling street scene surrounded by people in period attire, cobblestone streets, vintage carriages, and historical buildings contributing to bygone era atmosphere, lively dynamic environment with other pedestrians moving about",
+  "final_prompt": "person dressed in elaborate steampunk-style diving suit with metallic components, large circular visor helmet, and various pipes and gauges, walking through bustling street scene surrounded by people in period attire, cobblestone streets, vintage carriages, and historical buildings contributing to bygone era atmosphere, lively dynamic environment with other pedestrians moving about",
+  "iterations": 1,
+  "time_seconds": 2307.25186920166,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_862/862.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "person dressed in elaborate steampunk-style diving suit with metallic components, large circular visor helmet, and various pipes and gauges, walking through bustling street scene surrounded by people in period attire, cobblestone streets, vintage carriages, and historical buildings contributing to bygone era atmosphere, lively dynamic environment with other pedestrians moving about",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_862/iter_01.mp4"
+    }
+  ]
+}

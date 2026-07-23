@@ -1,0 +1,20 @@
+{
+  "sample_id": 729,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "close-up of person's hands holding a yellow measuring tape against a dark background, manipulating the tape to extend and retract revealing full length and compact form, black markings indicating measurements in centimeters or inches, focus on tape and hands with no other objects, lighting highlighting yellow color and marking details",
+  "final_prompt": "close-up of person's hands holding a yellow measuring tape against a dark background, manipulating the tape to extend and retract revealing full length and compact form, black markings indicating measurements in centimeters or inches, focus on tape and hands with no other objects, lighting highlighting yellow color and marking details",
+  "iterations": 1,
+  "time_seconds": 2305.2878427505493,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_729/729.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "close-up of person's hands holding a yellow measuring tape against a dark background, manipulating the tape to extend and retract revealing full length and compact form, black markings indicating measurements in centimeters or inches, focus on tape and hands with no other objects, lighting highlighting yellow color and marking details",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_729/iter_01.mp4"
+    }
+  ]
+}

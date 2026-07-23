@@ -1,0 +1,20 @@
+{
+  "sample_id": 661,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "futuristic spacecraft with sleek angular design suggesting advanced technology, emitting bright blue light from its rear indicating propulsion or engine activity, starry expanse of space background enhancing sense of speed and movement, dynamic energetic atmosphere emphasizing motion and vastness of the universe, modern sci-fi aesthetic evoking exploration and interstellar travel",
+  "final_prompt": "futuristic spacecraft with sleek angular design suggesting advanced technology, emitting bright blue light from its rear indicating propulsion or engine activity, starry expanse of space background enhancing sense of speed and movement, dynamic energetic atmosphere emphasizing motion and vastness of the universe, modern sci-fi aesthetic evoking exploration and interstellar travel",
+  "iterations": 1,
+  "time_seconds": 2306.157236814499,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_661/661.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "futuristic spacecraft with sleek angular design suggesting advanced technology, emitting bright blue light from its rear indicating propulsion or engine activity, starry expanse of space background enhancing sense of speed and movement, dynamic energetic atmosphere emphasizing motion and vastness of the universe, modern sci-fi aesthetic evoking exploration and interstellar travel",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_661/iter_01.mp4"
+    }
+  ]
+}

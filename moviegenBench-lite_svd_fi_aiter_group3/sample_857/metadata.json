@@ -1,0 +1,20 @@
+{
+  "sample_id": 857,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "steam locomotive emitting plume of white steam as it travels through snowy landscape, moving along tracks surrounded by thick layers of snow, dense forest in the background and open snow-covered fields stretching into the distance, sunlight casting long shadows indicating early morning or late afternoon, serene picturesque atmosphere capturing beauty of winter day with train journeying through tranquil snow-covered environment",
+  "final_prompt": "steam locomotive emitting plume of white steam as it travels through snowy landscape, moving along tracks surrounded by thick layers of snow, dense forest in the background and open snow-covered fields stretching into the distance, sunlight casting long shadows indicating early morning or late afternoon, serene picturesque atmosphere capturing beauty of winter day with train journeying through tranquil snow-covered environment",
+  "iterations": 1,
+  "time_seconds": 2306.9145650863647,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_857/857.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "steam locomotive emitting plume of white steam as it travels through snowy landscape, moving along tracks surrounded by thick layers of snow, dense forest in the background and open snow-covered fields stretching into the distance, sunlight casting long shadows indicating early morning or late afternoon, serene picturesque atmosphere capturing beauty of winter day with train journeying through tranquil snow-covered environment",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_857/iter_01.mp4"
+    }
+  ]
+}

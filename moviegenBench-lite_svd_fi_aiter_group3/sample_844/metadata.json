@@ -1,0 +1,20 @@
+{
+  "sample_id": 844,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "vibrant picturesque garden scene with colorful bed of flowers in shades of pink, yellow, orange, and purple, decorative fountain with water flowing adding serene element, old-fashioned wooden car parked on path covered with fallen flower petals, vintage model with rustic charm, lush greenery including trees and bushes providing backdrop, bright cheerful ambiance suggesting sunny day in well-maintained garden or park",
+  "final_prompt": "vibrant picturesque garden scene with colorful bed of flowers in shades of pink, yellow, orange, and purple, decorative fountain with water flowing adding serene element, old-fashioned wooden car parked on path covered with fallen flower petals, vintage model with rustic charm, lush greenery including trees and bushes providing backdrop, bright cheerful ambiance suggesting sunny day in well-maintained garden or park",
+  "iterations": 1,
+  "time_seconds": 2307.753306388855,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_844/844.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "vibrant picturesque garden scene with colorful bed of flowers in shades of pink, yellow, orange, and purple, decorative fountain with water flowing adding serene element, old-fashioned wooden car parked on path covered with fallen flower petals, vintage model with rustic charm, lush greenery including trees and bushes providing backdrop, bright cheerful ambiance suggesting sunny day in well-maintained garden or park",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_844/iter_01.mp4"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sample_id": 800,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "aerial view of a long train consisting of numerous freight cars, some white and others dark-colored, traveling along a single railway track curving gently through rural landscape, expansive green fields and patches of trees surrounding the railway, small clusters of buildings in the distance possibly farmhouses or barns, clear bright sky suggesting sunny day, serene pastoral atmosphere with train movement adding dynamic element",
+  "final_prompt": "aerial view of a long train consisting of numerous freight cars, some white and others dark-colored, traveling along a single railway track curving gently through rural landscape, expansive green fields and patches of trees surrounding the railway, small clusters of buildings in the distance possibly farmhouses or barns, clear bright sky suggesting sunny day, serene pastoral atmosphere with train movement adding dynamic element",
+  "iterations": 1,
+  "time_seconds": 2307.670732021332,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_800/800.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "aerial view of a long train consisting of numerous freight cars, some white and others dark-colored, traveling along a single railway track curving gently through rural landscape, expansive green fields and patches of trees surrounding the railway, small clusters of buildings in the distance possibly farmhouses or barns, clear bright sky suggesting sunny day, serene pastoral atmosphere with train movement adding dynamic element",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_800/iter_01.mp4"
+    }
+  ]
+}

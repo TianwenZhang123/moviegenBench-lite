@@ -1,0 +1,20 @@
+{
+  "sample_id": 792,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "bustling urban intersection during late afternoon or early evening with long shadows cast by buildings and streetlights, variety of vehicles including yellow taxis, white vans, and black cars moving through the intersection, dense traffic with cars waiting at stoplights and navigating crosswalks, tall buildings with large digital billboards displaying advertisements, modern skyscrapers and older classical-style buildings with arched windows, sidewalks lined with trees, pedestrians walking along, warm glow of low sun casting over the scene, busy vibrant city environment typical of major metropolitan area",
+  "final_prompt": "bustling urban intersection during late afternoon or early evening with long shadows cast by buildings and streetlights, variety of vehicles including yellow taxis, white vans, and black cars moving through the intersection, dense traffic with cars waiting at stoplights and navigating crosswalks, tall buildings with large digital billboards displaying advertisements, modern skyscrapers and older classical-style buildings with arched windows, sidewalks lined with trees, pedestrians walking along, warm glow of low sun casting over the scene, busy vibrant city environment typical of major metropolitan area",
+  "iterations": 1,
+  "time_seconds": 2720.193532705307,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_792/792.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "bustling urban intersection during late afternoon or early evening with long shadows cast by buildings and streetlights, variety of vehicles including yellow taxis, white vans, and black cars moving through the intersection, dense traffic with cars waiting at stoplights and navigating crosswalks, tall buildings with large digital billboards displaying advertisements, modern skyscrapers and older classical-style buildings with arched windows, sidewalks lined with trees, pedestrians walking along, warm glow of low sun casting over the scene, busy vibrant city environment typical of major metropolitan area",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group3/sample_792/iter_01.mp4"
+    }
+  ]
+}
