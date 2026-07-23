@@ -1,0 +1,15 @@
+{
+  "completed": [
+    "1"
+  ],
+  "failed": [],
+  "tasks": {
+    "1": {
+      "prompt": "A small glass cup sits on a wooden table near a sunny window. The camera slowly pushes in toward the cup. Warm sunlight shines through the glass and creates soft shadows on the table. A few green leaves move gently in the background. The scene is calm, simple, realistic, and clean.",
+      "video_id": "task_7oArUiK7NkKVNHHvPAzA4t2CYdkCGUZQ",
+      "output": "test_5s_video\\1.mp4",
+      "size": 415934,
+      "timestamp": "2026-07-23T13:42:00.401217"
+    }
+  }
+}
