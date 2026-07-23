@@ -1,0 +1,20 @@
+{
+  "sample_id": 17,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "A white SUV driving on a dusty, unpaved road through a forested area, roof racks carrying luggage or gear suggesting a journey or adventure, kicking up a cloud of dust behind indicating terrain dryness and travel speed, tall pine trees and scenic view of distant mountains under clear blue sky surrounding the vehicle, sense of exploration and outdoor adventure.",
+  "final_prompt": "A white SUV driving on a dusty, unpaved road through a forested area, roof racks carrying luggage or gear suggesting a journey or adventure, kicking up a cloud of dust behind indicating terrain dryness and travel speed, tall pine trees and scenic view of distant mountains under clear blue sky surrounding the vehicle, sense of exploration and outdoor adventure.",
+  "iterations": 1,
+  "time_seconds": 2306.9807698726654,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_17/17.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "A white SUV driving on a dusty, unpaved road through a forested area, roof racks carrying luggage or gear suggesting a journey or adventure, kicking up a cloud of dust behind indicating terrain dryness and travel speed, tall pine trees and scenic view of distant mountains under clear blue sky surrounding the vehicle, sense of exploration and outdoor adventure.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_17/iter_01.mp4"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sample_id": 146,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "A serene outdoor scene with a black cat and a mouse in a grassy field under a bright partly cloudy sky, cat initially walking across the field with tail raised appearing in pursuit of the mouse, then stopping and sitting on the ground facing the camera with focused expression, mouse running away towards a small hole in the ground, peaceful setting with green grass dotted with white flowers suggesting a sunny day, calm and natural mood capturing interaction between the two animals.",
+  "final_prompt": "A serene outdoor scene with a black cat and a mouse in a grassy field under a bright partly cloudy sky, cat initially walking across the field with tail raised appearing in pursuit of the mouse, then stopping and sitting on the ground facing the camera with focused expression, mouse running away towards a small hole in the ground, peaceful setting with green grass dotted with white flowers suggesting a sunny day, calm and natural mood capturing interaction between the two animals.",
+  "iterations": 1,
+  "time_seconds": 2302.8888511657715,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_146/146.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "A serene outdoor scene with a black cat and a mouse in a grassy field under a bright partly cloudy sky, cat initially walking across the field with tail raised appearing in pursuit of the mouse, then stopping and sitting on the ground facing the camera with focused expression, mouse running away towards a small hole in the ground, peaceful setting with green grass dotted with white flowers suggesting a sunny day, calm and natural mood capturing interaction between the two animals.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_146/iter_01.mp4"
+    }
+  ]
+}

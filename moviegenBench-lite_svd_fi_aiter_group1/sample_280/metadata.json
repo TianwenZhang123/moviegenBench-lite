@@ -1,0 +1,20 @@
+{
+  "sample_id": 280,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "Two individuals walking down a city street on a sunny day, person on the left wearing blue shirt and jeans, person on the right in yellow dress, walking side by side with backs to the camera heading towards the horizon, street lined with tall buildings featuring various storefronts including one with a sign reading \"Siegel\", clear sky with scattered clouds suggesting calm pleasant urban environment, perspective shifting slightly giving sense of movement and depth as if viewer is following them.",
+  "final_prompt": "Two individuals walking down a city street on a sunny day, person on the left wearing blue shirt and jeans, person on the right in yellow dress, walking side by side with backs to the camera heading towards the horizon, street lined with tall buildings featuring various storefronts including one with a sign reading \"Siegel\", clear sky with scattered clouds suggesting calm pleasant urban environment, perspective shifting slightly giving sense of movement and depth as if viewer is following them.",
+  "iterations": 1,
+  "time_seconds": 2313.9227316379547,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_280/280.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "Two individuals walking down a city street on a sunny day, person on the left wearing blue shirt and jeans, person on the right in yellow dress, walking side by side with backs to the camera heading towards the horizon, street lined with tall buildings featuring various storefronts including one with a sign reading \"Siegel\", clear sky with scattered clouds suggesting calm pleasant urban environment, perspective shifting slightly giving sense of movement and depth as if viewer is following them.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_280/iter_01.mp4"
+    }
+  ]
+}

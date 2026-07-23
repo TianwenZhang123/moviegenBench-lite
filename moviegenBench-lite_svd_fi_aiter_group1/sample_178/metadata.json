@@ -1,0 +1,20 @@
+{
+  "sample_id": 178,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "A ferret with distinctive black and white coat and bushy tail running across a wooden floor indoors, small dog possibly a pug in motion in the background slightly blurred, toys scattered on the floor including red plush toy and yellow ball, natural light from a nearby window casting shadows of the animals, playful and dynamic atmosphere capturing energetic nature of both ferret and dog.",
+  "final_prompt": "A ferret with distinctive black and white coat and bushy tail running across a wooden floor indoors, small dog possibly a pug in motion in the background slightly blurred, toys scattered on the floor including red plush toy and yellow ball, natural light from a nearby window casting shadows of the animals, playful and dynamic atmosphere capturing energetic nature of both ferret and dog.",
+  "iterations": 1,
+  "time_seconds": 2320.37250995636,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_178/178.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "A ferret with distinctive black and white coat and bushy tail running across a wooden floor indoors, small dog possibly a pug in motion in the background slightly blurred, toys scattered on the floor including red plush toy and yellow ball, natural light from a nearby window casting shadows of the animals, playful and dynamic atmosphere capturing energetic nature of both ferret and dog.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_178/iter_01.mp4"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sample_id": 32,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "Two adorable golden retriever puppies playing joyfully in a snowy landscape, late afternoon warm soft light casting long shadows on the snow, fluffy golden fur, energetically moving through snow with paws kicking up small clouds, tails wagging and expressions conveying excitement and happiness, serene winter setting with snow-covered ground and bare trees in the background, picturesque and cozy atmosphere.",
+  "final_prompt": "Two adorable golden retriever puppies playing joyfully in a snowy landscape, late afternoon warm soft light casting long shadows on the snow, fluffy golden fur, energetically moving through snow with paws kicking up small clouds, tails wagging and expressions conveying excitement and happiness, serene winter setting with snow-covered ground and bare trees in the background, picturesque and cozy atmosphere.",
+  "iterations": 1,
+  "time_seconds": 2306.299157142639,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_32/32.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "Two adorable golden retriever puppies playing joyfully in a snowy landscape, late afternoon warm soft light casting long shadows on the snow, fluffy golden fur, energetically moving through snow with paws kicking up small clouds, tails wagging and expressions conveying excitement and happiness, serene winter setting with snow-covered ground and bare trees in the background, picturesque and cozy atmosphere.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_32/iter_01.mp4"
+    }
+  ]
+}

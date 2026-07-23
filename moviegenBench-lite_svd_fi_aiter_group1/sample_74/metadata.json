@@ -1,0 +1,20 @@
+{
+  "sample_id": 74,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "A vibrant street or alleyway adorned with red lanterns, suggesting a cultural festival like Chinese New Year, colorful lights and bokeh effect creating a warm festive atmosphere. The focus shifts to a close-up of a dynamic flame, likely from a torch or firework, with bright orange and yellow hues indicating movement and intensity, out-of-focus background emphasizing the flame as central element. Energy and festivity conveyed through light, color, and motion.",
+  "final_prompt": "A vibrant street or alleyway adorned with red lanterns, suggesting a cultural festival like Chinese New Year, colorful lights and bokeh effect creating a warm festive atmosphere. The focus shifts to a close-up of a dynamic flame, likely from a torch or firework, with bright orange and yellow hues indicating movement and intensity, out-of-focus background emphasizing the flame as central element. Energy and festivity conveyed through light, color, and motion.",
+  "iterations": 1,
+  "time_seconds": 2310.2010946273804,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_74/74.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "A vibrant street or alleyway adorned with red lanterns, suggesting a cultural festival like Chinese New Year, colorful lights and bokeh effect creating a warm festive atmosphere. The focus shifts to a close-up of a dynamic flame, likely from a torch or firework, with bright orange and yellow hues indicating movement and intensity, out-of-focus background emphasizing the flame as central element. Energy and festivity conveyed through light, color, and motion.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_74/iter_01.mp4"
+    }
+  ]
+}

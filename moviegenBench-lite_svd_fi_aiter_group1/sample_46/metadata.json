@@ -1,0 +1,20 @@
+{
+  "sample_id": 46,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "Close-up of a green syringe being inserted into a clear glass tube filled with liquid, needle partially submerged, syringe being pushed down appearing to draw or inject liquid, bubbles forming at the bottom of the tube as liquid level changes, plain white background focusing attention on the action within the tube, scientific or medical experiment involving transfer of liquid.",
+  "final_prompt": "Close-up of a green syringe being inserted into a clear glass tube filled with liquid, needle partially submerged, syringe being pushed down appearing to draw or inject liquid, bubbles forming at the bottom of the tube as liquid level changes, plain white background focusing attention on the action within the tube, scientific or medical experiment involving transfer of liquid.",
+  "iterations": 1,
+  "time_seconds": 2307.161374807358,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_46/46.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "Close-up of a green syringe being inserted into a clear glass tube filled with liquid, needle partially submerged, syringe being pushed down appearing to draw or inject liquid, bubbles forming at the bottom of the tube as liquid level changes, plain white background focusing attention on the action within the tube, scientific or medical experiment involving transfer of liquid.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_46/iter_01.mp4"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sample_id": 33,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "A person running against a plain light-colored background, wearing white tank top and black shorts highlighting athletic build, soft even lighting casting minimal shadows and emphasizing movement, jogging at steady pace with arms swinging naturally, atmosphere focused on physical activity and simplicity of setting.",
+  "final_prompt": "A person running against a plain light-colored background, wearing white tank top and black shorts highlighting athletic build, soft even lighting casting minimal shadows and emphasizing movement, jogging at steady pace with arms swinging naturally, atmosphere focused on physical activity and simplicity of setting.",
+  "iterations": 1,
+  "time_seconds": 2307.666919231415,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_33/33.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "A person running against a plain light-colored background, wearing white tank top and black shorts highlighting athletic build, soft even lighting casting minimal shadows and emphasizing movement, jogging at steady pace with arms swinging naturally, atmosphere focused on physical activity and simplicity of setting.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_33/iter_01.mp4"
+    }
+  ]
+}

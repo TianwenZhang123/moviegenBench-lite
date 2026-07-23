@@ -1,0 +1,20 @@
+{
+  "sample_id": 70,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "A person in a white blouse with long dark hair standing inside a train or subway car, blurred background and window framing the scene, artificial lights illuminating the vehicle interior suggesting evening or night, cityscape with various lights and signs visible through the window indicating an urban environment, blurred motion of the background suggesting the train is in motion, sense of movement and travel.",
+  "final_prompt": "A person in a white blouse with long dark hair standing inside a train or subway car, blurred background and window framing the scene, artificial lights illuminating the vehicle interior suggesting evening or night, cityscape with various lights and signs visible through the window indicating an urban environment, blurred motion of the background suggesting the train is in motion, sense of movement and travel.",
+  "iterations": 1,
+  "time_seconds": 2306.936969280243,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_70/70.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "A person in a white blouse with long dark hair standing inside a train or subway car, blurred background and window framing the scene, artificial lights illuminating the vehicle interior suggesting evening or night, cityscape with various lights and signs visible through the window indicating an urban environment, blurred motion of the background suggesting the train is in motion, sense of movement and travel.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_70/iter_01.mp4"
+    }
+  ]
+}

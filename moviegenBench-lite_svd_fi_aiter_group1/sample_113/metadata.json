@@ -1,0 +1,20 @@
+{
+  "sample_id": 113,
+  "experiment": "pflow_SVD_feature_inject",
+  "flags": [
+    "SVD(α=0.001)",
+    "feature_inject(λ=0.05, layers=mid:10, sched=middle_peak, mode=attention, adaptive(temp=5.0))"
+  ],
+  "initial_caption": "Aerial view of a large fiery ring emerging from the ocean, composed of intense flames and glowing embers creating striking contrast against dark blue water, turbulent waves with white foam crashing against the fiery boundary, intense heat and energy as if something powerful is erupting from the sea depths, mesmerizing and awe-inspiring scene capturing raw natural power.",
+  "final_prompt": "Aerial view of a large fiery ring emerging from the ocean, composed of intense flames and glowing embers creating striking contrast against dark blue water, turbulent waves with white foam crashing against the fiery boundary, intense heat and energy as if something powerful is erupting from the sea depths, mesmerizing and awe-inspiring scene capturing raw natural power.",
+  "iterations": 1,
+  "time_seconds": 2301.51127910614,
+  "output": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_113/113.mp4",
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "prompt": "Aerial view of a large fiery ring emerging from the ocean, composed of intense flames and glowing embers creating striking contrast against dark blue water, turbulent waves with white foam crashing against the fiery boundary, intense heat and energy as if something powerful is erupting from the sea depths, mesmerizing and awe-inspiring scene capturing raw natural power.",
+      "video_path": "outputs/moviegenBench-lite_svd_fi_aiter_group1/sample_113/iter_01.mp4"
+    }
+  ]
+}
